@@ -1,3 +1,14 @@
+/*Importamos las fuentes que vamos a usar*/
+@font-face {
+    font-family:'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+}
 div {
-    
+    background-color: rgb(209, 204, 204);
+   
+}
+#Titulo {
+text-align: center;
+font-family:'Quicksand';
+
 }
