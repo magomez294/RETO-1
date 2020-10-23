@@ -3,7 +3,10 @@
     font-family:'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
-div {
+#Enlace_Covid {
+    text-decoration: none;
+}
+#Covid {
     background-color: rgb(209, 204, 204); 
     border-top: 3px solid rgb(209, 204, 204);
     border-width: 5px solid rgb(209, 204, 204);
@@ -78,4 +81,15 @@ color: black;
     font-family: 'Quicksand';
     font-size: 20px;
     color: black;
+}
+#Logo_pagina {
+    width: 150px;
+    height: 130px;
+    margin: 10px;
+    float: left;
+}
+#Imagen_central {
+    width: 500px;
+    height: 175px;
+    margin-left: 280px;
 }
