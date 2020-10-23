@@ -3,9 +3,13 @@
     font-family:'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
+
+/*CSS Apartado Covid*/
+
 #Enlace_Covid {
     text-decoration: none;
 }
+
 #Covid {
     background-color: rgb(209, 204, 204); 
     border-top: 3px solid rgb(209, 204, 204);
@@ -15,6 +19,7 @@
     margin-left: -10px;
     margin-right: -10px; 
 }
+
 #Titulo {
 text-align: center;
 font-family:'Quicksand';
@@ -26,6 +31,7 @@ color: black;
     float: left;
     margin-left: 30px;
 }
+
 #Texto_Distancia {
     float: left;
     margin-left: 35px;
@@ -35,11 +41,13 @@ color: black;
     border-right: 2px solid black;
     color: black;
 }
+
 #Coche {
     float: left;
     margin-left: 5px;
     margin-right: 5px;
 }
+
 #Texto_Coche {
     float: left;
     margin-left: 5px;
@@ -49,11 +57,13 @@ color: black;
     border-right: 2px solid black;
     color: black;
 }
+
 #Tecnico {
     float: left;
     margin-left: 5px;
     margin-right: 5px;
 }
+
 #Texto_Tecnico {
     float: left;
     margin-left: 5px;
@@ -63,11 +73,13 @@ color: black;
     border-right: 2px solid black;
     color: black;
 }
+
 #Mampara {
     float: left;
     margin-left: 5px;
     margin-right: 5px; 
 }
+
 #Texto_Mampara {
     float: left;
     margin-left: 5px;
@@ -76,20 +88,40 @@ color: black;
     padding: 10px;
     color: black;
 }
+
 #Final {
     text-align: center;
     font-family: 'Quicksand';
     font-size: 20px;
     color: black;
 }
-#Logo_pagina {
+/*CSS Cabecera*/
+#Header {
+    width: 100%;
+    
+}
+#Logo{
     width: 150px;
     height: 130px;
-    margin: 10px;
-    float: left;
 }
-#Imagen_central {
+
+#Imagen{
     width: 500px;
-    height: 175px;
-    margin-left: 280px;
+    height: 250px;
 }
+
+#Insta{
+    width: 65px;
+    height: 60px;
+}
+
+#Facebook{
+    width: 60px;
+    height: 55px;
+}
+
+#Twitter{
+    width: 60px;
+    height: 55px;
+}
+
