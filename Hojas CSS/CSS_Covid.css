@@ -1,0 +1,40 @@
+/*Importamos las fuentes que vamos a usar*/
+@font-face {
+    font-family:'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+}
+
+#Stop {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+#Titulo {
+    text-align: center;
+    color: #595959;
+    font-family: 'Quicksand';
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Quicksand';
+    color: red;
+}
+
+.Apartados {
+    float: left;
+}
+
+.Apartados2 {
+    clear: left;
+    float:left;
+}
+
+span {
+    font-weight: bold;
+}
