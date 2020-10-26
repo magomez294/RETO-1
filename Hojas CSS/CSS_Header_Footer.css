@@ -95,19 +95,33 @@ color: black;
     font-size: 20px;
     color: black;
 }
+
 /*CSS Cabecera*/
 #Header {
-    width: 100%;
-    
+    width: auto;
+    height: auto;
 }
+
+#Redes {
+    float: right;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
 #Logo{
     width: 150px;
     height: 130px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 #Imagen{
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 225px;
+    float: left;
+    margin-left: 225px;
+    margin-right: 100px;
 }
 
 #Insta{
@@ -125,3 +139,71 @@ color: black;
     height: 55px;
 }
 
+/*CSS Nav*/
+* {
+    padding: 0px;
+}
+#nav {
+    margin: auto;
+    text-align: center;
+    clear: both;
+    width: auto;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.desplegable li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.desplegable li a:hover {
+    background-color: rgb(124, 120, 120);
+}
+
+
+.desplegable > li {
+    float: left;
+    
+}
+
+.desplegable li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.desplegable li:hover > ul {
+    display: block;
+}
+
+
+/*CSS footer*/
+#Copyright{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+#Pie{
+   
+    background-color: rgb(209, 204, 204); 
+    border-top: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-bottom: 3px solid rgb(209, 204, 204);
+    border-left: 4px solid rgb(209, 204, 204);
+    border-right: 4px solid rgb(209, 204, 204);
+}
+
+#Aviso {
+    text-align: center;
+    font-family: sans-serif;
+}
