@@ -1,0 +1,59 @@
+/*Importamos las fuentes que vamos a usar*/
+@font-face {
+    font-family:'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+}
+
+
+/*CSS Section*/
+#Titulo_Mot {
+    text-align: center;
+}
+#Motivos {
+    margin-top: 100px;
+    font-family: cursive;
+    text-align: left;
+    
+}
+.List_Motiv{
+    text-align: justify;
+    padding-bottom: 8px;
+}
+.List_Motiv::before {
+    content: "\2022";
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+}
+
+#Recuadro {
+    border: 5px solid black;
+    padding-top: 15px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    
+}
+#Residuos {
+    text-decoration: none;
+    color: black;
+}
+
+#Video {
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+

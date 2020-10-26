@@ -100,6 +100,7 @@ color: black;
 #Header {
     width: auto;
     height: auto;
+    
 }
 
 #Redes {
@@ -143,17 +144,14 @@ color: black;
 * {
     padding: 0px;
 }
-#nav {
-    margin: auto;
+
+ul {
+    list-style: none;
     text-align: center;
-    clear: both;
-    width: auto;
-    font-family: sans-serif;
-    padding: 0px;
 }
 
-ul, ol {
-    list-style: none;
+#dos {
+ width: 25%;
 }
 
 .desplegable li a {
@@ -162,16 +160,15 @@ ul, ol {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+
 }
 
 .desplegable li a:hover {
     background-color: rgb(124, 120, 120);
 }
-
-
 .desplegable > li {
     float: left;
-    
+    width: 25%;
 }
 
 .desplegable li ul {
@@ -184,6 +181,9 @@ ul, ol {
     display: block;
 }
 
+.submenu {
+    text-align: left;
+}
 
 /*CSS footer*/
 #Copyright{
