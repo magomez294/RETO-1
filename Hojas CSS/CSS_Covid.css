@@ -4,6 +4,7 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
 
+/*css de la foto del stop*/
 #Stop {
     display: block;
     margin: auto;
@@ -14,27 +15,41 @@ h1 {
     font-family: 'Quicksand';
 }
 
-#Titulo {
+.Titulo {
     text-align: center;
     color: #595959;
     font-family: 'Quicksand';
 }
 
-h2 {
+.Subtitulo {
     text-align: center;
     font-family: 'Quicksand';
     color: red;
 }
 
+.Cliente {
+    display: flex;
+    align-items: center;
+}
+/*Segunda imagen y texto de cada grupo */
 .Apartados {
-    float: left;
+    clear: right;
+    display: inline-block;
+    margin: auto;
 }
 
+/*Primera imagen y texto de cada grupo*/
 .Apartados2 {
-    clear: left;
-    float:left;
+    display: block;
+    margin: auto;
 }
 
 span {
     font-weight: bold;
+}
+
+/*Cuando solo hay una imagen y un texto*/
+.Apartados3 {
+    clear: right;
+    clear: left;
 }
