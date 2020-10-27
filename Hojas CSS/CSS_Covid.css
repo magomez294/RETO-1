@@ -31,13 +31,13 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 /*Segunda imagen y texto de cada grupo */
 .Apartados {
     clear: right;
     display: inline-block;
     margin: auto;
 }
-
 
 /*Primera imagen y texto de cada grupo*/
 .Apartados2 {
