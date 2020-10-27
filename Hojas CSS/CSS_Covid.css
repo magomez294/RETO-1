@@ -4,29 +4,33 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
 
-/*css de la foto del stop*/
+/* Foto de stop covid*/
 #Stop {
     display: block;
     margin: auto;
 }
 
+/* El primer texto de la página*/
 h1 {
     text-align: center;
     font-family: 'Quicksand';
 }
 
-.Titulo {
-    text-align: center;
-    color: #595959;
-    font-family: 'Quicksand';
-}
-
+/* Los textos que aparecen más pequeños*/
 .Subtitulo {
     text-align: center;
     font-family: 'Quicksand';
-    color: red;
+    color: #595959;
 }
 
+/* Los textos que aparecen más grandes*/
+.Titulo {
+    text-align: center;
+    color: red;
+    font-family: 'Quicksand';
+}
+
+/* Cada grupo de imagenes*/
 .Cliente {
     display: flex;
     align-items: center;
@@ -45,16 +49,17 @@ h1 {
     margin: auto;
 }
 
+/* Para que las fotos del coche aparezcan todas seguidas*/
 .foto {
     display: inline;
     margin: auto;
 }
+
+/* Para poner la letra en negrita*/
 span {
     font-weight: bold;
 }
 
-/*Cuando solo hay una imagen y un texto*/
-.Apartados3 {
-    clear: right;
-    clear: left;
+#Inicio {
+    padding-left: initial;
 }
