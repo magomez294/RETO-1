@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+
+#p1{
+    background-color: lightgrey; 
+    padding: 5px;   
+}
+#texto{
+    width: 60%;
+    position:block;
+    margin: 0 auto;
+}
+
+
+#cajas{
+    width: 90%;
+    margin: 0 auto;
+}
+#p2_3{
+    display: inline-block;
+    width: 40%;
+    padding: 40px;
+}
+
+#imagen{
+    display: block;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 30%;
+}
