@@ -1,0 +1,33 @@
+/*Importamos las fuentes a usar*/
+
+@font-face {
+    font-family: 'Titulo';
+    src: url(../Fuentes/AbrilFatface/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cuerpo artículo';
+    src: url(../Fuentes/Josefin_Slab/JosefinSlab-Light.ttf);
+}
+
+
+/*CSS Artículos*/
+
+#Titulo {
+    font-family: 'Titulo';
+    font-size: 30px;
+    text-align: center;
+}
+
+.Fechas {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 20px;
+    padding: -2px;
+}
+
+.Subtítulos {
+    font-family: 'Titulo';
+    font-size: 18px;
+    margin-left: 20px;
+}
