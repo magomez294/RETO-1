@@ -30,9 +30,12 @@ h2{
 #imagen{
     display: block;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 img{
     width: 30%;
+}
+img:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
 }
