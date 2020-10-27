@@ -1,8 +1,10 @@
 /*Importamos las fuentes que vamos a usar*/
+
 @font-face {
-    font-family:'Quicksand';
+    font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
+
 
 /*CSS Apartado Covid*/
 
@@ -11,20 +13,20 @@
 }
 
 #Covid {
-    background-color: rgb(209, 204, 204); 
+    background-color: rgb(209, 204, 204);
     border-top: 3px solid rgb(209, 204, 204);
     border-width: 5px solid rgb(209, 204, 204);
     border-bottom: 6px solid black;
     margin-top: -10px;
     margin-left: -10px;
-    margin-right: -10px; 
+    margin-right: -10px;
 }
 
 #Titulo {
-text-align: center;
-font-family:'Quicksand';
-font-size: 25px;
-color: black;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    color: black;
 }
 
 #Distancia {
@@ -67,7 +69,7 @@ color: black;
 #Texto_Tecnico {
     float: left;
     margin-left: 5px;
-    margin-right: 5px; 
+    margin-right: 5px;
     font-family: cursive;
     padding: 10px;
     border-right: 2px solid black;
@@ -77,7 +79,7 @@ color: black;
 #Mampara {
     float: left;
     margin-left: 5px;
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 
 #Texto_Mampara {
@@ -96,11 +98,12 @@ color: black;
     color: black;
 }
 
+
 /*CSS Cabecera*/
+
 #Header {
     width: auto;
     height: auto;
-    
 }
 
 #Redes {
@@ -109,7 +112,7 @@ color: black;
     margin-right: 20px;
 }
 
-#Logo{
+#Logo {
     width: 150px;
     height: 130px;
     float: left;
@@ -117,7 +120,7 @@ color: black;
     margin-top: 30px;
 }
 
-#Imagen{
+#Imagen {
     width: 600px;
     height: 225px;
     float: left;
@@ -125,22 +128,24 @@ color: black;
     margin-right: 100px;
 }
 
-#Insta{
+#Insta {
     width: 65px;
     height: 60px;
 }
 
-#Facebook{
+#Facebook {
     width: 60px;
     height: 55px;
 }
 
-#Twitter{
+#Twitter {
     width: 60px;
     height: 55px;
 }
+
 
 /*CSS Nav*/
+
 * {
     padding: 0px;
 }
@@ -151,7 +156,7 @@ ul {
 }
 
 #dos {
- width: 25%;
+    width: 25%;
 }
 
 .desplegable li a {
@@ -160,13 +165,13 @@ ul {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-
 }
 
 .desplegable li a:hover {
     background-color: rgb(124, 120, 120);
 }
-.desplegable > li {
+
+.desplegable>li {
     float: left;
     width: 25%;
 }
@@ -177,7 +182,7 @@ ul {
     min-width: 140px;
 }
 
-.desplegable li:hover > ul {
+.desplegable li:hover>ul {
     display: block;
 }
 
@@ -185,15 +190,17 @@ ul {
     text-align: left;
 }
 
+
 /*CSS footer*/
-#Copyright{
+
+#Copyright {
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
 }
-#Pie{
-   
-    background-color: rgb(209, 204, 204); 
+
+#Pie {
+    background-color: rgb(209, 204, 204);
     border-top: 3px solid black;
     margin-left: auto;
     margin-right: auto;

@@ -31,13 +31,13 @@
 }
 
 #Recuadro {
-    border: 5px solid black;
     padding-top: 15px;
     margin: auto;
     width: auto;
     height: auto;
     padding-bottom: 50px;
     padding-left: 20px;
+    background-color: rgba(228, 228, 228, 0.849);
 }
 
 #Residuos {
@@ -60,9 +60,9 @@
 .content-all {
     width: 210px;
     margin: auto;
-    perspective: 800px;
+    perspective: 700px;
     position: relative;
-    margin-top: 200px;
+    margin-top: auto;
 }
 
 .content-carrousel {
@@ -148,4 +148,17 @@
     to {
         transform: rotateY(360deg);
     }
+}
+
+
+/*CSS Caja opiniones*/
+
+#Clientes {
+    margin: 180px;
+}
+
+#Opinión {
+    color: red;
+    margin-top: 200px;
+    text-align: center;
 }
