@@ -1,0 +1,15 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapa {
+    height: 400px;
+    width: 50%;
+}
+#mapa2{    
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
