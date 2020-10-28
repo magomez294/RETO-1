@@ -4,19 +4,21 @@
     font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
-.contenedor{
-	position: relative;
-	display: inline-block;
-	text-aling: center;
+
+body {
+	background-image: url(../Imagenes/bosque-coniferas.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
 }
-.texto-encima{
-	position: absolute;
-	top: 10px;
-	left: 10px;
+
+.contenedor {
+	color: white;
+	font-family: 'Quicksand';
+	padding: 3%;
 }
-.centrado{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+
+.centrado {
+	text-align: center;
 }
