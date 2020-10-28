@@ -1,9 +1,4 @@
-/*Formulario*/
-#form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /*Tamaño del mapa*/
 #mapa {
@@ -14,12 +9,17 @@
 /*Para que el mapa se centre en el medio*/
 #mapa2{    
 	margin-right: auto;
-	margin-left: auto;
 	text-align: center;
 }
 
+.opcion {
+    clear: right;
+    display: inline-block;
+    margin: auto;    
+    background-color: rgb(122, 211, 129);
+}
 
-#Inicio {
-    padding-left: initial;
-    width:100%;
+.form {
+    display: flex;
+    align-items: center;
 }
