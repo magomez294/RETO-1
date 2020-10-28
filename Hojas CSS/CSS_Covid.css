@@ -17,18 +17,18 @@ h1 {
     font-family: 'Quicksand';
 }
 
-/* Los textos que aparecen más pequeños*/
-.Subtitulo {
-    text-align: center;
-    font-family: 'Quicksand';
-    color: #595959;
-}
-
 /* Los textos que aparecen más grandes*/
 .Titulo {
     text-align: center;
     color: red;
     font-family: 'Quicksand';
+}
+
+/* Los textos que aparecen más pequeños*/
+.Subtitulo {
+    text-align: center;
+    font-family: 'Quicksand';
+    color: #595959;
 }
 
 /* Cada grupo de imagenes*/
