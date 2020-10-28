@@ -1,15 +1,25 @@
+/*Formulario*/
 #form {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*Tamaño del mapa*/
 #mapa {
     height: 400px;
     width: 50%;
 }
+
+/*Para que el mapa se centre en el medio*/
 #mapa2{    
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+}
+
+
+#Inicio {
+    padding-left: initial;
+    width:100%;
 }
