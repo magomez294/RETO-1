@@ -1,0 +1,22 @@
+/*Importamos las fuentes que vamos a usar*/
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+}
+.contenedor{
+	position: relative;
+	display: inline-block;
+	text-aling: center;
+}
+.texto-encima{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.centrado{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
