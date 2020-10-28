@@ -10,13 +10,17 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
   }
-
-.contenedor {
-	color: white;
+#Heading1{
+	color: #FFFFFF;
 	font-family: 'Quicksand';
-	padding: 3%;
+	text-align: center;
+	padding-top: 3%;
 }
 
-.centrado {
+#wb_Text1{
+	color: #EEE;
+	font-family: 'Quicksand';
 	text-align: center;
+	font-size:21px;
+	line-height:25.5px;
 }
