@@ -5,6 +5,10 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
 
+body {
+    margin: auto;
+}
+
 
 /*CSS Apartado Covid*/
 
@@ -100,46 +104,31 @@
 
 /*CSS Cabecera*/
 
-#Header {
-    width: auto;
-    height: auto;
-}
-
-#Redes {
-    float: right;
-    margin-top: 60px;
-    margin-right: 20px;
-}
+#Cabecera {}
 
 #Logo {
-    width: 150px;
-    height: 130px;
-    float: left;
-    margin-left: 20px;
-    margin-top: 30px;
+    width: 20%;
+    height: 20%;
 }
 
 #Imagen {
-    width: 600px;
-    height: 225px;
-    float: left;
-    margin-left: 225px;
-    margin-right: 100px;
+    width: 250px;
+    height: 100px;
 }
 
 #Insta {
-    width: 65px;
-    height: 60px;
+    width: 130%;
+    height: 130%;
 }
 
 #Facebook {
-    width: 60px;
-    height: 55px;
+    width: 130%;
+    height: 130%;
 }
 
 #Twitter {
-    width: 60px;
-    height: 55px;
+    width: 130%;
+    height: 130%;
 }
 
 
