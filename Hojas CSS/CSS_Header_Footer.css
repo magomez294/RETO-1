@@ -21,15 +21,17 @@ body {
     border-top: 3px solid rgb(209, 204, 204);
     border-width: 5px solid rgb(209, 204, 204);
     border-bottom: 6px solid black;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Titulo {
     text-align: center;
     font-family: 'Quicksand';
+    font-size: 20px;
     color: black;
+    margin-top: 1%;
 }
 
 #Distancia {
@@ -99,6 +101,7 @@ body {
     font-family: 'Quicksand';
     font-size: 20px;
     color: black;
+    margin-bottom: 1%;
 }
 
 
@@ -159,10 +162,6 @@ body {
 ul {
     list-style: none;
     text-align: center;
-}
-
-#dos {
-    width: 25%;
 }
 
 .desplegable li a {

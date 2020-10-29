@@ -5,53 +5,9 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
 
-
-/*CSS Section Motivos para elegirnos*/
-
-#Titulo_Mot {
-    text-align: center;
-}
-
-#Motivos {
-    margin-top: 200px;
-    font-family: cursive;
-    text-align: left;
-}
-
-.List_Motiv {
-    text-align: justify;
-    padding-bottom: 8px;
-}
-
-.List_Motiv::before {
-    content: "\2022";
-    padding-right: 5px;
-    padding-left: 5px;
-    color: black;
-}
-
-#Recuadro {
-    padding-top: 15px;
-    margin: auto;
-    width: auto;
-    height: auto;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    background-color: rgba(228, 228, 228, 0.849);
-}
-
-#Residuos {
-    text-decoration: none;
-    color: black;
-}
-
-#Video {
-    width: 300px;
-    height: 300px;
-    float: right;
-    padding-left: 60px;
-    padding-right: 40px;
-    padding-bottom: 20px;
+#Index {
+    background-image: url(../Imagenes/Fondo\ Index.jpg);
+    background-size: cover;
 }
 
 
@@ -59,9 +15,9 @@
 
 .content-all {
     width: 210px;
+    padding-top: 8%;
     margin: auto;
     perspective: 700px;
-    position: relative;
     margin-top: auto;
 }
 
@@ -154,11 +110,68 @@
 /*CSS Caja opiniones*/
 
 #Clientes {
-    margin: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Rectangulo {
+    width: auto;
+    height: auto;
 }
 
 #Opinión {
     color: red;
-    margin-top: 200px;
+    margin-top: auto;
     text-align: center;
+}
+
+
+/*CSS Section Motivos para elegirnos*/
+
+#Titulo_Mot {
+    text-align: center;
+}
+
+#Motivos {
+    margin-top: 200px;
+    font-family: cursive;
+    text-align: left;
+}
+
+.List_Motiv {
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+.List_Motiv::before {
+    content: "\2022";
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+}
+
+#Recuadro {
+    padding-top: 15px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-color: rgba(228, 228, 228, 0.849);
+}
+
+#Residuos {
+    text-decoration: none;
+    color: black;
+}
+
+#Video {
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 20px;
 }
