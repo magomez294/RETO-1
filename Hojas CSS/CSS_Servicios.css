@@ -30,12 +30,14 @@ ul.paginado {
 }
 
 #titPrincipal{
-  text-align: justify;
-  color: darkred;
+  text-align: center;
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 #titulo{
-  color: red;
+  color: darkred;
 }
 
 .parrafo{
@@ -73,4 +75,33 @@ body{
   height: 40%;
   width: 40%;
   margin: 0 auto;
+}
+
+
+#tabla{
+  margin: 0 20px 0 20px;
+}
+.tltTabla{
+  font-size: 25px;
+  color: darkred;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imgTabla{
+  width: 60%;
+  display: block;
+  margin: auto;
+  transition: transform .2s; 
+}
+.imgTabla:hover {
+  transform: scale(1.7); 
+}
+
+.tdTabla{
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: justify;
+  vertical-align: top;
 }
