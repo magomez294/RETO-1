@@ -16,9 +16,8 @@
 .content-all {
     width: 210px;
     padding-top: 8%;
-    margin: auto;
-    perspective: 700px;
     margin-top: auto;
+    perspective: 700px;
 }
 
 .content-carrousel {
@@ -107,28 +106,63 @@
 }
 
 
-/*CSS Caja opiniones*/
+/*CSS Section Opinion*/
+
+#caja {
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    height: auto;
+    background-color: rgba(228, 228, 228, 0.849);
+}
+
+#encabezado {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#tit_Opinion {
+    padding-bottom: 1%;
+    color: red;
+}
+
+
+/*CSS Caja opiniones
 
 #Clientes {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    background-color: rgba(228, 228, 228, 0.849);
+    margin-top: 25%;
+    align-items: center;
 }
 
 #Rectangulo {
+    padding-top: 5px;
     width: auto;
     height: auto;
+    clear: right;
+    display: inline-block;
+    margin: auto;
 }
 
-#Opinión {
+#Tit_Opinión {
     color: red;
     margin-top: auto;
     text-align: center;
 }
 
+#Agradecimiento {
+    text-align: center;
+}
 
-/*CSS Section Motivos para elegirnos*/
+#Opiniones {
+    display: flex;
+    margin: auto;
+}
+
+
+CSS Section Motivos para elegirnos
 
 #Titulo_Mot {
     text-align: center;
@@ -174,4 +208,4 @@
     padding-left: 60px;
     padding-right: 40px;
     padding-bottom: 20px;
-}
+}*/
