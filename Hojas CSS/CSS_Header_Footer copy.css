@@ -113,11 +113,10 @@ body {
 }
 
 #Redes {
-    width: 10%;
+    width: 20%;
     height: 15%;
     text-align: right;
     padding-right: 2%;
-    background-color: red;
 }
 
 #td_logo {
@@ -125,12 +124,10 @@ body {
     height: 15%;
     text-align: left;
     padding-left: 2%;
-
 }
 
 #Logo {
     width: 95%;
-    object-fit: contain;
 }
 
 #Imagen {
@@ -141,21 +138,18 @@ body {
 }
 
 #Insta {
-    width: 45%;
-    height: 45%;
-    object-fit: contain;
+    width: 25%;
+    height: 25%;
 }
 
 #Facebook {
-    width: 45%;
-    height: 45%;
-    object-fit: contain;
+    width: 25%;
+    height: 25%;
 }
 
 #Twitter {
-    width: 45%;
-    height: 45%;
-    object-fit: contain;
+    width: 25%;
+    height: 25%;
 }
 
 

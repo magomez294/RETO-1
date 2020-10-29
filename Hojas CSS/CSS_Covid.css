@@ -63,6 +63,22 @@ h1 {
     display: flex;
     align-items: center;
     margin-bottom: 1.5%;
+
+}
+
+/*Cuadro donde va a ir la imagen*/
+#Imagen_logo {
+    background-color: red;
+    /* margin:-7% 0 0 -1%; */
+    /* margin:20%;     */
+}
+
+/*Imagen para ir a la página principal*/
+#Logo_coche {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid #fff; */
+    object-fit: contain;
 }
 
 /*Segunda imagen y texto de cada grupo */
