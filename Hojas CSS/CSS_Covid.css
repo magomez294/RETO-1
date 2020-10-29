@@ -4,13 +4,40 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
 
+/*Caja donde está la primera imagen con su texto*/
+#Inicio {
+    padding-left: initial;
+    margin-bottom: 1.5%;
+    padding: 1.5%;
+}
+
 /* Foto de stop covid*/
 #Stop {
-    padding-top: 3%;
     display: block;
     margin: auto;
 }
 
+/*Fondo circular del primer grupo*/
+#Fondo_titulo{
+    background-color: lightblue;
+    border-radius: 50%;
+    margin: 4% 20% 3% 20%;
+    padding: 1% 0 2% 2%;
+}
+
+/*Cuadrado que contiene todos los elementos de la seccion proteccion vehiculo*/
+#Proteccion_vehiculo {
+    background-color: cadetblue;
+    margin: 0 3% 4% 3%;
+    padding: 1% 0.5% 2% 0.5%;
+}
+
+/*Cuadrado que contiene todos los elementos de la seccion proteccion de tecnicos e higiene de las instalaciones*/
+#Proteccion_tecnicos {
+    background-color: darkslategray;
+    margin: 0 3% 6% 3%;
+    padding: 0 0.5% 2% 0.5%;
+}
 /* El primer texto de la página*/
 h1 {
     text-align: center;
@@ -35,25 +62,35 @@ h1 {
 .Cliente {
     display: flex;
     align-items: center;
+    margin-bottom: 1.5%;
 }
 
 /*Segunda imagen y texto de cada grupo */
 .Apartados {
-    clear: right;
     display: inline-block;
     margin: auto;
+    padding: 1.5%;
 }
 
 /*Primera imagen y texto de cada grupo*/
 .Apartados2 {
     display: block;
     margin: auto;
+    padding: 1.5%;
+}
+
+/*Titulos que están entre las imagenes*/
+.Apartados_titulo {
+    display: block;
+    margin: auto;
+    padding: 1.5% 2% 1.5% 2%;
 }
 
 /* Para que las fotos del coche aparezcan todas seguidas*/
 .foto {
     display: inline;
     margin: auto;
+    padding: 1.5%;
 }
 
 /* Para poner la letra en negrita*/
@@ -61,6 +98,3 @@ span {
     font-weight: bold;
 }
 
-#Inicio {
-    padding-left: initial;
-}
