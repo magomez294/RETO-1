@@ -170,7 +170,9 @@ ul {
     list-style: none;
     text-align: center;
 }
-
+#coche_boton {
+    background: white;
+}
 .desplegable li a {
     color: white;
     text-decoration: none;
@@ -181,7 +183,7 @@ ul {
 }
 
 .desplegable li a:hover {
-    background-color: rgb(124, 120, 120);
+    background-color: rgb(250, 244, 244);
     border-style: inset;
 }
 
@@ -189,6 +191,7 @@ ul {
     float: left;
     width: 20%;
 }
+
 
 #Logo_coche {
     width: 75%;
