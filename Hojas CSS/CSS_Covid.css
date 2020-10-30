@@ -1,7 +1,7 @@
 /*Importamos las fuentes que vamos a usar*/
 @font-face {
     font-family:'Quicksand';
-    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+    src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf);
 }
 
 /*Caja donde está la primera imagen con su texto*/
@@ -21,20 +21,20 @@
 #Fondo_titulo{
     background-color: lightblue;
     border-radius: 50%;
-    margin: 4% 20% 3% 20%;
+    margin: 10% 20% 3% 20%;
     padding: 1% 0 2% 2%;
 }
 
 /*Cuadrado que contiene todos los elementos de la seccion proteccion vehiculo*/
 #Proteccion_vehiculo {
-    background-color: cadetblue;
+    background-color:rgb(127, 192, 214);
     margin: 0 3% 4% 3%;
     padding: 1% 0.5% 2% 0.5%;
 }
 
 /*Cuadrado que contiene todos los elementos de la seccion proteccion de tecnicos e higiene de las instalaciones*/
 #Proteccion_tecnicos {
-    background-color: darkslategray;
+    background-color:rgb(85, 155, 179);
     margin: 0 3% 6% 3%;
     padding: 0 0.5% 2% 0.5%;
 }
@@ -64,21 +64,6 @@ h1 {
     align-items: center;
     margin-bottom: 1.5%;
 
-}
-
-/*Cuadro donde va a ir la imagen*/
-#Imagen_logo {
-    background-color: red;
-    /* margin:-7% 0 0 -1%; */
-    /* margin:20%;     */
-}
-
-/*Imagen para ir a la página principal*/
-#Logo_coche {
-    width: 200px;
-    height: 200px;
-    /* border: 2px solid #fff; */
-    object-fit: contain;
 }
 
 /*Segunda imagen y texto de cada grupo */
@@ -113,4 +98,3 @@ h1 {
 span {
     font-weight: bold;
 }
-
