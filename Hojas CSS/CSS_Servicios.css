@@ -105,3 +105,24 @@ body{
   text-align: justify;
   vertical-align: top;
 }
+
+
+#flecha{
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.ir-arriba {
+  display: inline-block;
+  padding: 20px;
+  background: #024959;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 0;
+}
