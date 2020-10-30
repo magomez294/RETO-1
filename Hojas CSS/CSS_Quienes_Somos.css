@@ -3,8 +3,11 @@
 @font-face {
     font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+    src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 
 }
+
+/* Elementos básicos*/
 
 strong, b {  font-weight: 900; }
 
@@ -37,6 +40,7 @@ p{
     
      
 }
+
 #cabecera{
     background-color: lightgray;
     width: 80%;
@@ -50,24 +54,37 @@ p{
     background-color: lightgray;
     width: 80%;
     text-align: center;
-    -moz-text-decoration-color: black;
+    
 }
 
+
+/* para hacer las imagenes de los trabajadores redondas*/
+
+.imgRedonda {
+    width:150px;
+    height:150px;
+    border-radius:100px;
+    border:10px solid #666; 
+}
+
+.nombre{
+    color: red;
+}
+
+
   
-
-
 #cajas{
     width: 90%;
     margin: 0 auto;
 }
 #p2_3{
-    font-family: 'Quicksand';
+    font-family: 'Quicksand-bold';
     font-size: 20px;
     display: inline-block;
     width: 40%;
     padding: 40px;
 }
-
+/* Resto de imagenes */
 #imagen{
     display: block;
     align-items: center;
