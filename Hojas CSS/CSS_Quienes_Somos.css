@@ -1,20 +1,36 @@
+/*Importamos las fuentes que vamos a usar*/
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+
+}
+
+strong, b {  font-weight: 900; }
+
 h1{
+    font-family: 'Quicksand';
     text-align: center;
+    padding: 3em 0em 2em 0em;
 }
 h2{
+    font-family: 'Quicksand';
     text-align: center;
     color: red;
 }
 
-#p1{
-    background-color: lightgrey; 
-    padding: 5px;   
+p{
+    font-family: 'Quicksand-bold';
+    padding: 15px;
+    
+     
 }
-#texto{
-    width: 60%;
-    position:block;
-    margin: 0 auto;
+#cabecera{
+    background-color: lightgray;
+    width: 80%;
+    font-size: 20px;
 }
+  
 
 
 #cajas{
@@ -22,6 +38,7 @@ h2{
     margin: 0 auto;
 }
 #p2_3{
+    font-family: 'Quicksand';
     display: inline-block;
     width: 40%;
     padding: 40px;
@@ -30,7 +47,7 @@ h2{
 #imagen{
     display: block;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 .img2{

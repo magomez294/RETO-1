@@ -3,24 +3,190 @@
 @font-face {
     font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+
 }
 
-body{
-	background-image: url(../Imagenes/bosque.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-  }
-#Heading1{
-	color: #FFFFFF;
-	font-family: 'Quicksand';
-	text-align: center;
-	padding-top: 3%;
+
+
+
+/* Wrapper */
+
+.wrapper {
+	padding: 6em 0em 4em 0em;
 }
 
-#wb_Text1{
-	color: #EEE;
+	.wrapper.style1 {
+		padding: 0em;
+		background: #222222 url(../Imagenes/banner.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	.wrapper.style2 {
+		background: whitesmoke;
+		background-size: cover;
+	}
+
+		.wrapper.style2 .major {
+			text-align: left !important;
+		}
+
+			.wrapper.style2 .major h2 {
+				display: block;
+				margin-bottom: 0.70em;
+				letter-spacing: 1px;
+				line-height: 1.4em;
+				text-transform: uppercase;
+				font-size: 1.8em;
+				font-weight: 400;
+			}
+
+			.wrapper.style2 .major .byline {
+				letter-spacing: normal;
+				line-height: 1.6em;
+				text-transform: capitalize;
+				font-size: 1.4em;
+			}
+
+		.wrapper.style2 h3 {
+			display: block;
+			margin-bottom: 1em;
+			letter-spacing: 1px;
+			line-height: 1.4em;
+			text-transform: uppercase;
+			font-size: 1.6em;
+			font-weight: 400;
+		}
+
+	.wrapper.style3 {
+		padding-bottom: 6em;
+		background: #82b440;
+		text-align: center;
+		color: white;
+	}
+
+		.wrapper.style3 .container {
+			padding-left: 6em;
+			padding-right: 6em;
+		}
+
+		.wrapper.style3 p {
+			font-size: 1.6em;
+		}
+
+	
+/* Header */
+
+#header {
+	color: black;
+	height: 4em;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+	#header .container {
+		font-family: 'Quicksand';
+		position: relative;
+	}
+
+		header.major {
+		font-family: 'Quicksand';
+		padding-bottom: 3em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+		
+
+		header.major .byline {
+			font-family: 'Quicksand';
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			font-size: 1.4em;
+		}
+/* Banner */
+
+#banner{
+	color:black;
 	font-family: 'Quicksand';
 	text-align: center;
-	font-size:21px;
-	line-height:25.5px;
+	padding: 6em 0em 3em 0em;
+	text-transform: uppercase;
+}
+	#banner .container {
+		padding: 0em 8em;
+	}
+
+	#banner h2 {
+		display: inline-block;
+		padding: 0.50em 0.30em;
+		
+		font-size: 3em;
+		font-weight: 400;
+	}
+
+	#banner span, #banner p {
+		display: block;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		font-size: 1.6em;
+		font-weight: 300;
+	}
+
+	#banner span {
+		padding: 1em 0em;
+	}
+/* button*/
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	background: none;
+	border-radius: none;
+	border: 2px solid;
+	border-color: #82b440;
+	color: #82b440;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0.90em 1.2em;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+.button2 {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	background: none;
+	border-radius: none;
+	border: 2px solid;
+	border-color: white;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0.90em 1.2em;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
 }
