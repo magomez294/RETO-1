@@ -12,24 +12,47 @@ h1{
     font-family: 'Quicksand';
     text-align: center;
     padding: 3em 0em 2em 0em;
+    font-size: 25px;
 }
 h2{
     font-family: 'Quicksand';
+    font-size: 30px;
     text-align: center;
-    color: red;
+    color:black;
+    padding-left: 10px;
+    padding: 2em 0em 2em 0em;
+}
+h3{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    text-align: left;
+    color:red;
+    padding-left: 10px;
 }
 
 p{
     font-family: 'Quicksand-bold';
     padding: 15px;
+    font-size: 20px;
     
      
 }
 #cabecera{
     background-color: lightgray;
     width: 80%;
-    font-size: 20px;
+   
 }
+#equipo{
+    text-align: center;
+}
+
+.trabajadores{
+    background-color: lightgray;
+    width: 80%;
+    text-align: center;
+    -moz-text-decoration-color: black;
+}
+
   
 
 
@@ -39,6 +62,7 @@ p{
 }
 #p2_3{
     font-family: 'Quicksand';
+    font-size: 20px;
     display: inline-block;
     width: 40%;
     padding: 40px;
