@@ -6,8 +6,16 @@
 }
 
 #Index {
-    background-image: url(../Imagenes/Fondo\ Index.jpg);
+    background-color: blueviolet;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*Edición cuerpo sección*/
+
+#cuerpo {
+    position: relative;
 }
 
 
@@ -17,12 +25,12 @@
     width: 210px;
     padding-top: 8%;
     margin-top: auto;
+    position: sticky;
     perspective: 700px;
 }
 
 .content-carrousel {
     width: 100%;
-    position: absolute;
     animation: rotar 40s infinite linear;
     transform-style: preserve-3d;
 }
@@ -109,6 +117,8 @@
 /*CSS Section Opinion*/
 
 #caja {
+    position: absolute;
+    top: 100px;
     margin-top: 25%;
     margin-left: 25%;
     margin-right: 25%;
@@ -120,11 +130,34 @@
 #encabezado {
     text-align: center;
     padding-top: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #tit_Opinion {
     padding-bottom: 1%;
     color: red;
+}
+
+#comentarios {
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+}
+
+#comentario1 {
+    display: block;
+    margin: auto;
+    padding: 0 5% 0 5%;
+}
+
+#comentario2 {
+    display: block;
+    margin: auto;
+}
+
+#comentario3 {
+    display: inline-block;
+    margin: auto;
 }
 
 
