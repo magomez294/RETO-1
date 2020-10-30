@@ -6,7 +6,7 @@
 }
 
 #Index {
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.582);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -19,109 +19,14 @@
 }
 
 
-/*CSS Section Carrusel*/
-
-.content-all {
-    width: 210px;
-    padding-top: 8%;
-    margin-top: auto;
-    position: sticky;
-    perspective: 700px;
-}
-
-.content-carrousel {
-    width: 100%;
-    animation: rotar 40s infinite linear;
-    transform-style: preserve-3d;
-}
-
-.content-carrousel:hover {
-    animation-play-state: paused;
-    cursor: pointer;
-}
-
-.content-carrousel figure {
-    width: 100%;
-    height: 120px;
-    overflow: hidden;
-    position: absolute;
-    box-shadow: 0px 0px 20px 0px black;
-    transition: all 300ms;
-}
-
-.content-carrousel figure:hover {
-    box-shadow: 0px 0px 0px 0px black;
-    transition: all 300ms;
-}
-
-.content-carrousel figure:nth-child(1) {
-    transform: rotateY(0deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(2) {
-    transform: rotateY(40deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(3) {
-    transform: rotateY(80deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(4) {
-    transform: rotateY(120deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(5) {
-    transform: rotateY(160deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(6) {
-    transform: rotateY(200deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(7) {
-    transform: rotateY(240deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(8) {
-    transform: rotateY(280deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(9) {
-    transform: rotateY(320deg) translateZ(300px);
-}
-
-.content-carrousel figure:nth-child(10) {
-    transform: rotateY(360deg) translateZ(300px);
-}
-
-.content-carrousel img {
-    width: 100%;
-    transition: all 300ms;
-}
-
-.content-carrousel img:hover {
-    transform: scale(1.2);
-    transition: all 300ms;
-}
-
-@keyframes rotar {
-    from {
-        transform: rotateY(0deg);
-    }
-    to {
-        transform: rotateY(360deg);
-    }
-}
-
-
 /*CSS Section Opinion*/
 
 #caja {
     position: absolute;
     top: 100px;
     margin-top: 25%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     width: auto;
     height: auto;
     background-color: rgba(228, 228, 228, 0.849);
@@ -130,36 +35,150 @@
 #encabezado {
     text-align: center;
     padding-top: 2%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Quicksand';
 }
 
 #tit_Opinion {
-    padding-bottom: 1%;
+    padding-top: 0.5%;
     color: red;
+    padding-bottom: 3%;
 }
 
 #comentarios {
-    padding-top: 1%;
+    padding-top: 3%;
     display: flex;
     align-items: center;
+    margin-bottom: 4%;
 }
 
 #comentario1 {
+    text-align: center;
     display: block;
     margin: auto;
-    padding: 0 5% 0 5%;
+    padding: 0 2% 0 2%;
+    width: 33%;
 }
 
 #comentario2 {
     display: block;
     margin: auto;
+    padding: 0 2% 0 2%;
+    text-align: center;
+    width: 33%;
+    height: 20%;
 }
 
 #comentario3 {
     display: inline-block;
     margin: auto;
+    padding: 0 2% 0 2%;
+    text-align: center;
+    width: 33%;
+    height: 20%;
 }
 
+.valoracion {
+    width: 140px;
+    height: 30px;
+}
+
+
+/*CSS Motivos para elegirnos*/
+
+#recuadro {
+    position: absolute;
+    top: 150px;
+    margin: 50% 15% 30% 15%;
+    width: auto;
+    height: auto;
+    background-color: rgba(228, 228, 228, 0.849);
+}
+
+#todo {
+    display: flex;
+}
+
+#Titulo_Mot {
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: 1.5% 0 1% 0;
+}
+
+#div_list {
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.List_Motiv {
+    font-family: 'Quicksand';
+    text-align: left;
+    margin-left: 10%;
+    list-style: disc;
+}
+
+#Residuos {
+    text-decoration: none;
+    color: black;
+}
+
+#div_video {
+    width: 50%;
+}
+
+#video {
+    width: 75%;
+    float: right;
+    margin-right: 10%;
+}
+
+
+/*CSS Section Motivos para elegirnos
+
+#Titulo_Mot {
+    text-align: center;
+}
+
+#Motivos {
+    margin-top: 200px;
+    font-family: cursive;
+    text-align: left;
+}
+
+.List_Motiv {
+    text-align: justify;
+    padding-bottom: 8px;
+}
+
+.List_Motiv::before {
+    content: "\2022";
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+}
+
+#Recuadro {
+    padding-top: 15px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-color: rgba(228, 228, 228, 0.849);
+}
+
+#Residuos {
+    text-decoration: none;
+    color: black;
+}
+
+#Video {
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
 
 /*CSS Caja opiniones
 
