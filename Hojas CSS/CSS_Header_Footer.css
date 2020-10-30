@@ -5,6 +5,11 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf);
+}
+
 body {
     margin: auto;
 }
@@ -125,7 +130,6 @@ body {
     height: 15%;
     text-align: left;
     padding-left: 2%;
-
 }
 
 #Logo {
@@ -170,16 +174,18 @@ ul {
     list-style: none;
     text-align: center;
 }
+
 #coche_boton {
     background: white;
 }
+
 .desplegable li a {
     color: white;
     text-decoration: none;
     padding: 5% 5%;
     display: block;
     background-color: red;
-    border-style: outset ;
+    border-style: outset;
 }
 
 .desplegable li a:hover {
@@ -191,7 +197,6 @@ ul {
     float: left;
     width: 20%;
 }
-
 
 #Logo_coche {
     width: 75%;
@@ -219,25 +224,21 @@ ul {
 
 /*CSS footer*/
 
-#Copyright {
-    text-align: center;
-    font-family: sans-serif;
-    font-style: italic;
+#Pie {
+    position: sticky;
+    background-color: lightpink;
+    width: auto;
+    height: auto;
+    margin-top: 100%;
+    padding: 1% 0 1% 0;
+    font-family: 'Quicksand';
 }
 
-#Pie {
-    background-color: rgb(209, 204, 204);
-    border-top: 3px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    border-bottom: 3px solid rgb(209, 204, 204);
-    border-left: 4px solid rgb(209, 204, 204);
-    border-right: 4px solid rgb(209, 204, 204);
+#Copyright {
     text-align: center;
+    padding-bottom: 1%;
 }
 
 #Aviso {
     text-align: center;
-    font-family: sans-serif;
 }
