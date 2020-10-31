@@ -5,10 +5,11 @@
 }
 
 ul.paginado {
-    padding: 8px 16px;
+    
     list-style: none;
-    background-color: #eee;
+    
     font-family: 'Quicksand';
+    padding-top: 20%;
   }
   
   ul.paginado li {display: inline;}
@@ -36,7 +37,7 @@ ul.paginado {
   font-weight: bold;
 }
 
-#titulo{
+.titulo2{
   color: darkred;
 }
 
@@ -62,6 +63,7 @@ body{
 #fondo{
   background-color:  #eee;
   line-height : 27px;
+  margin-top: 20%;
 }
 
 .imgTexto{

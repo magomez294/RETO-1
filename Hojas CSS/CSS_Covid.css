@@ -47,7 +47,7 @@ h1 {
 /* Los textos que aparecen más grandes*/
 .Titulo {
     text-align: center;
-    color: red;
+    color: rgb(247, 0, 255);
     font-family: 'Quicksand';
 }
 
