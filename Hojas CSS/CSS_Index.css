@@ -12,14 +12,7 @@
 }
 
 
-/*Edición cuerpo sección*/
-
-
-
-
 /*CSS Section Opinion*/
-
-
 
 #encabezado {
     text-align: center;
@@ -41,29 +34,32 @@
 }
 
 #comentario1 {
+    font-family: 'Quicksand';
     text-align: center;
     display: block;
     margin: auto;
-    padding: 0 2% 0 2%;
-    width: 33%;
+    width: 300px;
+    height: 200px;
 }
 
 #comentario2 {
+    font-family: 'Quicksand';
     display: block;
     margin: auto;
     padding: 0 2% 0 2%;
     text-align: center;
-    width: 33%;
-    height: 20%;
+    width: 300px;
+    height: 200px;
 }
 
 #comentario3 {
+    font-family: 'Quicksand';
     display: inline-block;
     margin: auto;
     padding: 0 2% 0 2%;
     text-align: center;
-    width: 33%;
-    height: 20%;
+    width: 300px;
+    height: 200px;
 }
 
 .valoracion {
@@ -77,12 +73,13 @@
 
 
 #Titulo_Mot {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand-bold';
     text-align: center;
     margin: 1.5% 0 1% 0;
 }
 
 #div_list {
+    
     width: 50%;
     margin-bottom: 3%;
 }
@@ -92,6 +89,7 @@
     text-align: left;
     margin-left: 10%;
     list-style: disc;
+    
 }
 
 #Residuos {
