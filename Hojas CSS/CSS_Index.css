@@ -14,23 +14,12 @@
 
 /*Edición cuerpo sección*/
 
-#cuerpo {
-    position: relative;
-}
+
 
 
 /*CSS Section Opinion*/
 
-#caja {
-    position: absolute;
-    top: 10px;
-    margin-top: 25%;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: auto;
-    height: auto;
-    background-color: rgba(228, 228, 228, 0.849);
-}
+
 
 #encabezado {
     text-align: center;
@@ -85,18 +74,7 @@
 
 /*CSS Motivos para elegirnos*/
 
-#recuadro {
-    position: absolute;
-    top: 150px;
-    margin: 50% 15% 30% 15%;
-    width: auto;
-    height: auto;
-    background-color: rgba(228, 228, 228, 0.849);
-}
 
-#todo {
-    display: flex;
-}
 
 #Titulo_Mot {
     font-family: 'Quicksand';
@@ -123,12 +101,6 @@
 
 #div_video {
     width: 50%;
-}
-
-#video {
-    width: 75%;
-    float: right;
-    margin-right: 10%;
 }
 
 

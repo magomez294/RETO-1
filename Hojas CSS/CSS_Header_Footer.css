@@ -166,13 +166,13 @@ body {
 /*CSS Nav*/
 
 * {
-    padding: 0px;
+   
     margin: auto;
 }
 
 ul {
     list-style: none;
-    text-align: center;
+   
     
 }
 
@@ -184,6 +184,7 @@ ul {
 }
 
 .desplegable li a {
+    line-height: 50px;
     color:black;
     text-decoration: none;
     padding: 5% 5%;
