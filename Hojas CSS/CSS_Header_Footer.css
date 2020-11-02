@@ -12,6 +12,7 @@
 
 body {
     margin: auto;
+    font-family: 'Quicksand';
 }
 
 
@@ -110,57 +111,6 @@ body {
 }
 
 
-/*CSS Cabecera*/
-
-#Cabecera {
-    background-image: url(../Imagenes/fondo_metalico.jpg);
-    margin: auto;
-}
-
-#Redes {
-    width: 10%;
-    height: 15%;
-    text-align: right;
-    padding-right: 2%;
-    background-color: red;
-}
-
-#td_logo {
-    width: 20%;
-    height: 15%;
-    text-align: left;
-    padding-left: 2%;
-}
-
-#Logo {
-    width: 95%;
-    object-fit: contain;
-}
-
-#Imagen {
-    width: 100%;
-    height: 50%;
-    text-align: center;
-    object-fit: contain;
-}
-
-#Insta {
-    width: 45%;
-    height: 45%;
-    object-fit: contain;
-}
-
-#Facebook {
-    width: 45%;
-    height: 45%;
-    object-fit: contain;
-}
-
-#Twitter {
-    width: 45%;
-    height: 45%;
-    object-fit: contain;
-}
 
 
 /*CSS Nav*/
@@ -177,24 +127,28 @@ ul {
 }
 
 #coche_boton {
-    background: trans;
+    background: lightgray;
     outline: none;
+    line-height: 50px;
+    
+    
     
 
 }
 
 .desplegable li a {
+    text-align: center;
     line-height: 50px;
     color:black;
     text-decoration: none;
     padding: 5% 5%;
     display: block;
-    background-color:transparent;
+    background-color:lightgray;
   
 }
 
 .desplegable li a:hover {
-    background-color:white;
+    background-color:darkgray;
   
 }
 
@@ -204,7 +158,9 @@ ul {
 }
 
 #Logo_coche {
-    width: 60%;
+    margin-left: 0%;
+    vertical-align: middle;
+    width: 45%;
     height: 1%;
     object-fit: contain;
     background-size: cover;
@@ -232,7 +188,7 @@ ul {
 
 #Pie {
     position: sticky;
-    background-color: lightpink;
+    background-color: black;
     width: auto;
     height: auto;
     margin-top: 10px;
@@ -241,10 +197,12 @@ ul {
 }
 
 #Copyright {
+    color:white;
     text-align: center;
     padding-bottom: 1%;
 }
 
 #Aviso {
     text-align: center;
+    color:white;
 }
