@@ -10,24 +10,79 @@
     src: url(../Fuentes/Josefin_Slab/JosefinSlab-Light.ttf);
 }
 
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+    font-weight: 900;
+}
+
 
 /*CSS Artículos*/
 
-#Titulo {
+#fondo {
+    background-color: lightgray;
+    margin: 0 20% 0 20%;
+}
+
+#Titulo_art {
     font-family: 'Titulo';
     font-size: 30px;
     text-align: center;
+    padding: 8% 0 2% 0;
 }
 
 .Fechas {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     margin-left: 20px;
-    padding: -2px;
 }
 
 .Subtítulos {
     font-family: 'Titulo';
     font-size: 18px;
     margin-left: 20px;
+    padding-top: 2%;
+}
+
+.textos {
+    font-family: 'Cuerpo artículo';
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 5% 0 5%;
+}
+
+#textos_lista {
+    list-style: disc;
+    text-align: justify;
+    font-family: 'Cuerpo artículo';
+    margin: 2% 5% 0 5%;
+    font-size: 18px;
+}
+
+#aceite {
+    float: right;
+    width: 250px;
+    height: 200px;
+    margin: 2%;
+}
+
+#diesel {
+    float: left;
+    width: 250px;
+    height: 150px;
+    margin: 2% 2% 0 2%;
+}
+
+#bujias {
+    float: right;
+    width: 250px;
+    height: 200px;
+    margin: 2%;
+}
+
+#video_ruedas {
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin: 5% 2% 0 5%;
 }
