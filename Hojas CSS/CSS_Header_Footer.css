@@ -127,9 +127,7 @@ ul, li {
 
 ul {
     list-style: none;
-    background-size: cover;
-   
-    
+    width: 100%;    
 }
 
 #coche_boton {
@@ -138,25 +136,28 @@ ul {
     line-height: 50px;
 }
 
+.desplegable {
+    align-content: flex-start;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+}
 .desplegable li a {
     text-align: center;
-    line-height: 50px;
-    color:black;
+
     text-decoration: none;
-    padding: 5% 5%;
     display: block;
     background-color:lightgray;
-  
+}
+
+.desplegable li {
+    width:20%;
+    border-style: outset;
 }
 
 .desplegable li a:hover {
-    background-color:darkgray;
-  
-}
-
-.desplegable>li {
-    float: left;
-    width: 20%;
+    border-style: inset;
+    background-color: darkgray;
 }
 
 #Logo_coche {
@@ -169,16 +170,6 @@ ul {
     background-color:white;
     border-radius: 150%;
     padding-block-end: 0%;
-}
-
-.desplegable li ul {
-    display: none;
-    position: absolute;
-    min-width: 200px;
-}
-
-.desplegable li:hover>ul {
-    display: block;
 }
 
 .submenu {
