@@ -15,7 +15,12 @@ body {
     font-family: 'Quicksand';
 }
 
-
+  
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 /*CSS Apartado Covid*/
 
 #Enlace_Covid {
