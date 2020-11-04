@@ -3,10 +3,8 @@
 @font-face {
     font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+    src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
-
-
-
 
  /* slider*/
  .container{
@@ -16,7 +14,6 @@
     position: relative;
     box-sizing: inherit;
     display: block;
-
  }
 
  #img {
@@ -26,7 +23,6 @@
  #img2, #img3, #img4 {
     display:none;
 }
-
 
  /* Button Slider*/
 
@@ -155,11 +151,7 @@ button, input, select, textarea, optgroup {
     height: 30px;
 }
 
-
 /*CSS Motivos para elegirnos*/
-
-
-
 
 #Titulo_Mot {
     font-family: 'Quicksand-bold';
@@ -174,16 +166,14 @@ button, input, select, textarea, optgroup {
 #div_list {
     display: block;
     width: 50%;
-    margin-bottom: 3%;
-    
+    margin-bottom: 3%;   
 }
 
 .List_Motiv {
     font-family: 'Quicksand';
     text-align: left;
     margin-left: 10%;
-    list-style: disc;
-    
+    list-style: disc;  
 }
 
 #Residuos {
@@ -196,162 +186,29 @@ button, input, select, textarea, optgroup {
 * ,*::after, *::before{
     box-sizing:border-box;
    }
-   
+
    .div_video{
     display: block;
     width: 40%;
    }
-   
+
    .caja-video  {
     position:relative;
     background-color:black;
     width: 100%;
     padding-bottom:56.25%;
    }
-   
+
    .caja-video::before {
     position: absolute;
     content:'';
     display:block;
     padding-bottom:56.25%;
    }
-   
+
    .video{
     position:absolute;
     width: 100%;
     height: 100%;
    }
     
-
-
-
-
-/*CSS Section Motivos para elegirnos
-
-#Titulo_Mot {
-    text-align: center;
-}
-
-#Motivos {
-    margin-top: 200px;
-    font-family: cursive;
-    text-align: left;
-}
-
-.List_Motiv {
-    text-align: justify;
-    padding-bottom: 8px;
-}
-
-.List_Motiv::before {
-    content: "\2022";
-    padding-right: 5px;
-    padding-left: 5px;
-    color: black;
-}
-
-#Recuadro {
-    padding-top: 15px;
-    margin: auto;
-    width: auto;
-    height: auto;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    background-color: rgba(228, 228, 228, 0.849);
-}
-
-#Residuos {
-    text-decoration: none;
-    color: black;
-}
-
-#Video {
-    width: 300px;
-    height: 300px;
-    float: right;
-    padding-left: 60px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-}
-
-/*CSS Caja opiniones
-
-#Clientes {
-    display: flex;
-    background-color: rgba(228, 228, 228, 0.849);
-    margin-top: 25%;
-    align-items: center;
-}
-
-#Rectangulo {
-    padding-top: 5px;
-    width: auto;
-    height: auto;
-    clear: right;
-    display: inline-block;
-    margin: auto;
-}
-
-#Tit_Opinión {
-    color: red;
-    margin-top: auto;
-    text-align: center;
-}
-
-#Agradecimiento {
-    text-align: center;
-}
-
-#Opiniones {
-    display: flex;
-    margin: auto;
-}
-
-
-CSS Section Motivos para elegirnos
-
-#Titulo_Mot {
-    text-align: center;
-}
-
-#Motivos {
-    margin-top: 200px;
-    font-family: cursive;
-    text-align: left;
-}
-
-.List_Motiv {
-    text-align: justify;
-    padding-bottom: 8px;
-}
-
-.List_Motiv::before {
-    content: "\2022";
-    padding-right: 5px;
-    padding-left: 5px;
-    color: black;
-}
-
-#Recuadro {
-    padding-top: 15px;
-    margin: auto;
-    width: auto;
-    height: auto;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    background-color: rgba(228, 228, 228, 0.849);
-}
-
-#Residuos {
-    text-decoration: none;
-    color: black;
-}
-
-#Video {
-    width: 300px;
-    height: 300px;
-    float: right;
-    padding-left: 60px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-}*/

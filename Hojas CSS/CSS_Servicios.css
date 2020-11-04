@@ -1,12 +1,13 @@
+/*Importamos las fuentes que vamos a usar*/
 @font-face {
   font-family: 'Quicksand';
   src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
-  font-weight: 900;
+  src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf);
 }
 
 ul.paginado {
   list-style: none;
-  font-family: 'Quicksand';
+  font-family: 'Quicksand - bold';
   padding-top: 5%;
   background-color: white;
 }
@@ -47,6 +48,8 @@ ul.paginado li a {
   text-align: justify;
   font-size: 20px;
   margin: 0 20px 0 20px;
+  font-family: 'Quicksand - bold';
+  
 }
 
 #fondo{
