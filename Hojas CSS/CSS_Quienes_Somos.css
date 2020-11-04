@@ -9,8 +9,6 @@
 
 /* Elementos básicos*/
 
-strong, b {  font-weight: 900; }
-
 h1{
     font-family: 'Quicksand';
     text-align: center;
@@ -81,23 +79,35 @@ p{
 
 
   
-#cajas{
-    width: 90%;
-    margin: 0 auto;
+#comentarios {
+    padding: 10px,0px,10px,0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
 }
-#p2_3{
-    font-family: 'Quicksand-bold';
-    font-size: 20px;
-    display: inline-block;
-    width: 40%;
-    padding: 40px;
+
+#comentario1 {
+    font-family: 'Quicksand';
+    text-align: left;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+}
+
+#comentario2 {
+    font-family: 'Quicksand';
+    margin: auto;
+    text-align: left;
+    width: 500px;
+    height: 200px;
 }
 /* Resto de imagenes */
 #imagen{
+    padding-top: 10%;
     display: block;
     align-items: center;
     width: 60%;
-    margin: 0 auto;
+    
 }
 .img2{
     width: 30%;
