@@ -49,17 +49,8 @@ ul.paginado li a {
   margin: 0 20px 0 20px;
 }
 
-.lista{
-  text-align: justify;
-  font-size: 20px;
-  list-style: disc;
-  margin: 0 30px 0 30px;
-}
-
-
-
 #fondo{
-  background-color:  #eee;
+  background-color: lightgray;
   line-height : 27px;
   margin-top: 10%;
 }
@@ -106,23 +97,40 @@ ul.paginado li a {
   vertical-align: top;
 }
 
+/* Flecha */
 
-#flecha{
-  width: 100px;
-  margin: 0;
-  padding: 0;
-}
-
-.ir-arriba {
-  display: inline-block;
+.to-top{
+	color: black;
+	display:inline-block;
+	border-color: black;
+	text-decoration:none;
+  transition:all .3s ease-out;
   padding: 20px;
-  background: #024959;
   font-size: 20px;
-  color: #fff;
-  cursor: pointer;
   position: fixed;
   bottom: 20px;
   right: 20px;
   margin: 0;
-  padding: 0;
+  padding-top: 30px;
 }
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em black;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:red;
+	border-color: red;
+}
+
+
