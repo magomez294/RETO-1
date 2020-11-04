@@ -39,10 +39,44 @@ p{
   margin: 0 20px 0 20px; 
 }
 
+ul{
+  text-align: center;
+}
+
+#lista_secciones{
+  background-color: white;
+}
+
+.li_secciones{
+  background-color: white;
+  margin-top: 15px;
+  display:inline-block;
+  text-align: center;
+ 
+  
+ 
+}
+.li_secciones a{
+  font-family: 'Quicksand';
+  background-color: white;
+  margin-top: 100px;
+  color:black;
+  text-decoration: none;
+
+}
+
 .div_mecanica{
   background-color: lightgray;
   width: 80%;
   text-align: center;
+  margin-top: 10px;
+}
+
+.div_mantenimiento{
+  background-color: lightgray;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .titulo2{

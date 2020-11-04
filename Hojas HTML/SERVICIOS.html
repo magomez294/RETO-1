@@ -7,9 +7,9 @@
     <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico">
     <link rel="stylesheet" href="../Hojas CSS/CSS_Header_Footer.css">
     <link rel="stylesheet" href="../Hojas CSS/CSS_Servicios.css" type="text/css" />
+    <!-- Insertamos javascrip flecha-->
     <script src="../Scripts/arriba.js"></script>
 </head>
-
 <body>
     <header>
     <!--APARTADO COVID-->
@@ -41,8 +41,8 @@
                     <a href="INDEX.html"> <img id="Logo_coche" src="../Imagenes/Logo.png"></a>
                 </li>
                 <li class="botone"><a href="QUIENES_SOMOS.html">¿Quienes somos?</a></li>
-                <li class="botone"><a href="SERVICIOS.html">Servicios</a></li>
-                <li class="botone"><a href="COMPROMISO_SOCIAL.html">Compromiso Social</a></li>
+                <li class="botone"><a href="SERVICIOS.html">Guia básica</a></li>
+                <li class="botone"><a href="COMPROMISO_SOCIAL.html">Compromiso medioambiental</a></li>
                 <li class="botone"><a href="CONTACTO.html">Contacto</a></li>
             </ul>
         </nav>
@@ -52,12 +52,21 @@
     <a href="#" class="to-top">subir</a>
 
     <!-- Listado secciones-->
+    <div id="lista_secciones">
+        <ul>
+            <li class="li_secciones"><a href="#mecanica">Mecánica del automovil, </a></li>
+            <li class="li_secciones"><a href="#mantenimiento">Mantenimiento del automovil, </a></li>
+            <li class="li_secciones"><a href="#electricidad">Electricidad y electrónica, </a></li>
+            <li class="li_secciones"><a href="#aire">Funcionamiento del aire acondicionado del coche, </a></li>
+            <li class="li_secciones"><a href="#componentes">Componentes básicos del automovil, </a></li>
+        </ul>
+    </div>
  
      <!-- Seccion Mecanica -->
     <section>
         <h1><a name="mecanica">Mecanica del automóvil</a></h1>
         <div Class="div_mecanica">
-            <p class="parrafo">
+            <p>
                 En Rekord Autoak, sabemos lo importante que es mantener un vehículo en buen estado para prolongar su
                 vida útil y mejorar así tanto la seguridad del vehículo como la de su conductor y
                 pasajeros. Por este motivo, hemos reunido una gran variedad de artículos, además de una serie de
@@ -66,24 +75,24 @@
                 que coste medio podría significar la reparación de las mismas en el taller.
             </p>   
         <h2>Saber diagnosticar bien una avería es la clave</h2>
-            <p class="parrafo">
+            <p>
                 En mi opinión, la base fundamental de un buen mecánico en la actualidad es saber diagnosticar bien. Esto
                 va a hacer que ahorre muchísimo tiempo y que la solución sea la correcta.
             </p>
             <img src="../Imagenes/reparacion-bajos-coche.jpg" class="imgTexto">   
         <h2>Cómo debe ser un buen mecánico</h2>
-            <p class="parrafo">
+            <p>
                 Un buen mecánico tiene que ser un tipo muy completo. No vale con ser hábil con las manos (que también es
                 importante), hay que tener una mente analítica y una formación muy especializada.
                 Voy a enumerar las cualidades que deben definir a un buen mecánico y por qué:
             </p>
             <br>
-            <p class="parrafo">
+            <p>
                 <b>Dominar el idioma:</b> La diagnosis es fundamental para una correcta reparación, saber el idioma
                 en el
                 que te vas a comunicar con el coche es prioritario.
             </p>
-            <p class="parrafo">
+            <p>
                  <b>Saber interrogar:</b> Lo primero que debe hacer el mecánico es preguntar al cliente el motivo por
                 el que
                 trae el coche al taller.
@@ -93,7 +102,7 @@
                 Nada más decirnos lo que le ha sucedido debemos tener una idea de por dónde pueden ir los tiros y
                 hacer las preguntas que acoten al máximo el problema.
             </p>
-            <p class="parrafo">
+            <p>
                 <b>No tener miedo a estudiar:</b> Un mecánico en la actualidad tiene que estar dispuesto a invertir
                 muchas
                 horas en formarse y estar al día de las tecnologías que vayan surgiendo.
@@ -103,7 +112,7 @@
                 para facilitar la tarea, los ingenieros hacen manuales de taller para identificar los fallos, pero
                 un manual es como un mapa: si no sabes leerlo no sirve de nada.
             </p>
-            <p class="parrafo">
+            <p>
                 <b>Tener conocimientos de electrónica:</b> Antiguamente, a un mecánico le bastaba con saber lo que
                  era una
                 batería, una dinamo y un interruptor para dominar la mecánica y la electricidad de un coche. En la
@@ -113,14 +122,14 @@
                 También es necesario tener conocimientos sobre redes multiplexadas y sistemas CAN-BUS. Incluso la
                 fibra óptica está siendo empleada con cierta frecuencia.
             </p>
-            <p class="parrafo">
+            <p>
                 <b>Hacerse especialista:</b> A medida que los coches se están volviendo más complicados es más
                 difícil
                 poder cubrir todos los campos necesarios para repararlos. Debemos ser conscientes de que los coches
                 son diseñados por equipos de ingenieros especializados.
                 Llegar a comprender cómo funciona todo el coche y saber repararlo todo es inabarcable.
             </p>
-            <p class="parrafo">
+            <p>
                 <b>Ser millonario:</b> no es necesario si vas a trabajar en un taller de otro, pero si quieres abrir
                  tu
                 propio negocio deberás tener dinero suficiente como para no tener que trabajar. La herramienta es
@@ -131,44 +140,34 @@
     </section>
     <!-- Seccion Mantenimiento-->
     <section>
-            
-            <br />
-            <br />
-            <h1 id="titPrincipal"><a name="mantenimiento">Mantenimiento del automóvil</a></h1>
-            <br />
-            <div>
-                <p class="parrafo">
-                    Los talleres quieren poner su grano de arena para contribuir a la seguridad vial y minimizar el
-                    impacto medioambiental de los coches,
-                    pero los conductores podemos poner mucho de nuestra parte si cuidamos nuestros vehículos. Sobre
-                    todo, estos puntos:
-                </p>
+        <h1><a name="mantenimiento">Mantenimiento del automóvil</a></h1>
+        <div class="div_mantenimiento">
+            <p>
+                Los talleres quieren poner su grano de arena para contribuir a la seguridad vial y minimizar el
+                impacto medioambiental de los coches,
+                pero los conductores podemos poner mucho de nuestra parte si cuidamos nuestros vehículos. Sobre
+                todo, estos puntos:
+            </p>
+            <img src="../Imagenes/revision_coche.jpg" class="imgTexto">
+            <p>
+                <b>Amortiguadores:</b> Los amortiguadores proporcionan confort en la conducción y representan una
+                garantía de seguridad
+                ya que ayudan a controlar el vehículo a altas velocidades y en situaciones de riesgo. De hecho, se
+                le considera uno de los
+                tres componentes esenciales del llamado “triángulo de la seguridad”, junto a los neumáticos y los
+                frenos.
                 <br />
-            </div>
-            <div class="imgParrafo">
-                <img src="../Imagenes/revision_coche.jpg" class="imgTexto">
-            </div>
-            <br />
-            
-                <p class="parrafo">
-                    <b>Amortiguadores:</b> Los amortiguadores proporcionan confort en la conducción y representan una
-                    garantía de seguridad
-                    ya que ayudan a controlar el vehículo a altas velocidades y en situaciones de riesgo. De hecho, se
-                    le considera uno de los
-                    tres componentes esenciales del llamado “triángulo de la seguridad”, junto a los neumáticos y los
-                    frenos.
-                    <br />
-                    El correcto funcionamiento de un amortiguador depende de diversos factores, como el estado de la
-                    carretera, la carga del vehículo, el kilometraje y efectos de
-                    desgaste como el frío, el calor y la humedad. La acción de estos factores hace que el efecto del
-                    amortiguador se reduzca paulatinamente, hasta que deja de funcionar correctamente.
-                    Al no ser un desgaste muy perceptible para el conductor, se aconseja realizar revisiones periódicas
-                    cada 20.000 kilómetros.
-                </p>
-                <p class="parrafo">
-                    <b>Escobillas limpiaparabrisas: </b> En caso de lluvia, las escobillas limpiaparabrisas representan
-                    un papel fundamental.
-                    Si no barren bien y no evacuan correctamente el agua, (o granizo o nieve), impiden que llegue bien
+                El correcto funcionamiento de un amortiguador depende de diversos factores, como el estado de la
+                carretera, la carga del vehículo, el kilometraje y efectos de
+                desgaste como el frío, el calor y la humedad. La acción de estos factores hace que el efecto del
+                amortiguador se reduzca paulatinamente, hasta que deja de funcionar correctamente.
+                Al no ser un desgaste muy perceptible para el conductor, se aconseja realizar revisiones periódicas
+                cada 20.000 kilómetros.
+            </p>
+            <p>
+                <b>Escobillas limpiaparabrisas: </b> En caso de lluvia, las escobillas limpiaparabrisas representan
+                un papel fundamental.
+                Si no barren bien y no evacuan correctamente el agua, (o granizo o nieve), impiden que llegue bien
                     una información preciosa a nuestros ojos.
                     Unos segundos pueden resultar vitales.
                     <br />
@@ -265,9 +264,8 @@
     </section>
     <!-- Seccion Electricidad y electronica -->
     <section>
-            <h1 id="titPrincipal"><a name="mantenimiento"><a name="electricidad">Electricidad y electrónica</a></h1>
-            <br />
-            <div>
+    <h1><a name="electricidad">Electricidad y electrónica</a></h1>
+        <div>
                 <p class="parrafo">
                     La electricidad en los vehículos es fundamental para todo tipo de funciones. De hecho, sin
                     electricidad ni siquiera llegarían a arrancar.
