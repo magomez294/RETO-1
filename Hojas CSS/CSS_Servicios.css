@@ -20,7 +20,7 @@ h2{
   font-size: 20px;
   text-align: center;
   color:black;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 20px;
 }
 h3{
@@ -73,6 +73,27 @@ ul{
 }
 
 .div_mantenimiento{
+  background-color: lightgray;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.div_electricidad{
+  background-color: lightgray;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.div_aire{
+  background-color: lightgray;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.div_componentes{
   background-color: lightgray;
   width: 80%;
   text-align: center;
