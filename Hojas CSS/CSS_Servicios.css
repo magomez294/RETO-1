@@ -5,24 +5,24 @@
 }
 
 ul.paginado {
-    
-    list-style: none;
-    
-    font-family: 'Quicksand';
-    padding-top: 20%;
-  }
+  list-style: none;
+  font-family: 'Quicksand';
+  padding-top: 20%;
+}
   
-  ul.paginado li {display: inline;}
+ul.paginado li {
+  display: inline;
+}
   
-  ul.paginado li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
-  
-  ul.paginado li a {
-    color: green;
-  }
+ul.paginado li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.paginado li a {
+  color: green;
+}
 
 
 #texto {
