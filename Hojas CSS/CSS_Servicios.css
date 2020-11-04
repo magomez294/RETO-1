@@ -7,11 +7,13 @@
 ul.paginado {
   list-style: none;
   font-family: 'Quicksand';
-  padding-top: 20%;
+  padding-top: 5%;
+  background-color: white;
 }
   
 ul.paginado li {
   display: inline;
+  background-color: white;
 }
   
 ul.paginado li+li:before {
@@ -59,7 +61,7 @@ ul.paginado li a {
 #fondo{
   background-color:  #eee;
   line-height : 27px;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .imgTexto{

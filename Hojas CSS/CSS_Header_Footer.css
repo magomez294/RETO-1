@@ -20,6 +20,8 @@ ul, li {
     padding: 0;
     margin: 0;
     list-style: none;
+    background-color: lightgray;
+    
 }
 /*CSS Apartado Covid*/
 
@@ -143,8 +145,9 @@ ul {
     text-decoration: none;
 }
 .desplegable li a {
+    color: black;
     text-align: center;
-
+    list-style: none;
     text-decoration: none;
     display: block;
     background-color:lightgray;
