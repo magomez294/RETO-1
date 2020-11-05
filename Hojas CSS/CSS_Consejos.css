@@ -60,6 +60,7 @@ ul{
   text-align: center;
 }
 
+/* listas secciones */
 #lista_secciones{
   background-color: white;
 }
@@ -69,6 +70,9 @@ ul{
   margin-top: 15px;
   display:inline-block;
   text-align: center;
+  border-right: 2px solid black;
+  padding-right: 3px;
+  padding-left: 3px;
  
   
  

@@ -61,6 +61,42 @@ p{
     text-align: center;
     
 }
+/* seccion nosotros*/
+
+.nosotros{
+    background-color: black;
+    text-align: justify;
+    display:inline-flex;
+    width: 50%;
+
+}
+
+#div_nosotros{
+    color: white;
+    width: 60%;
+}
+
+/*CSS Section Opinion*/
+.opiniones{
+    text-align: justify;
+    display: inline-flex;
+    width: 40%;
+}
+
+.div_opi{
+    text-align: center;
+    font-family: 'Quicksand';
+    padding-top: 10px;
+    color: red;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.valoracion {
+    width: 140px;
+    height: 30px;
+}
+
 
 /* Wrapper */
 
