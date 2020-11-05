@@ -25,106 +25,35 @@
     height: 316px;
 }
 
- /* slider*/
- /*.container{
+/*CSS section Compañia*/
+
+.div_compania{
+    display: flex;
     background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    box-sizing: inherit;
-    display: block;
- }
+    
 
- #img {
-     display:block;
- }
-
- #img2, #img3, #img4 {
-    display:none;
-}*/
-
- /* Button Slider*/
-
-/*.w3-black, .w3-hover-black:hover{
-    color:black;
-    background-color: lightgrey;
 }
-.w3-display-left{
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translate(0%, -50%);
+.div_img{
+    padding: 50px;
+    float: left;
+
 }
-.w3-display-right {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translate(0%,-50%);
-}
-.w3-btn, .w3-button{
-    border: none;
-    border-top-color: currentcolor;
-    border-top-style: none;
-    border-top-width: medium;
-    border-right-color: currentcolor;
-    border-right-style: none;
-    border-right-width: medium;
-    border-bottom-color: currentcolor;
-    border-bottom-style: none;
-    border-bottom-width: medium;
-    border-left-color: currentcolor;
-    border-left-style: none;
-    border-left-width: medium;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
 
-    display: inline-block;
-
-    padding: 8px 16px;
-    padding-top: 8px;
-    padding-right: 16px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-
-    overflow: hidden;
-
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-decoration-color: currentcolor;
-
+.div_texto{
+    display: inline;
+    color: white;
     text-align: center;
+    
+}
 
-    cursor: pointer;
-
-    white-space: nowrap;  
-}
-button, [type="button"], [type="reset"], [type="submit"] {
-    -webkit-appearance: button;
-}
-button, select {
-    text-transform: none;
-}
-button, input, select, textarea, optgroup {
-    font: inherit;
-    margin: 0;
-}
-*, ::before, ::after {
-    box-sizing: inherit;
-}*/
-
-/* Banner */
-
-.div_banner{
-  
-    position: relative;
-}
-.img_banner´{
-    width: 80%;
-    height: 100%;
+#p_compania {
+    font-family: 'Quicksand';
+    text-align: justify;
+    display: block;
+    margin: auto;
+    width: 1200px;
+    height: 300px;
+    padding-top: 20px;
 }
 
 
