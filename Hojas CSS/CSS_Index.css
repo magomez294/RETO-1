@@ -6,8 +6,27 @@
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
 
+
+/* Wrapper */
+
+.wrapper {
+	padding: 6em 0em 4em 0em;
+}
+
+	.wrapper.style1 {
+		padding: 0em;
+		background: #222222 url(../Imagenes/ba_inicio.jpg) no-repeat;
+		background-size: cover;
+	}
+
+/* Banner */
+#banner{
+    width: 1903px;
+    height: 316px;
+}
+
  /* slider*/
- .container{
+ /*.container{
     background-color: black;
     margin-left: auto;
     margin-right: auto;
@@ -22,11 +41,11 @@
 
  #img2, #img3, #img4 {
     display:none;
-}
+}*/
 
  /* Button Slider*/
 
-.w3-black, .w3-hover-black:hover{
+/*.w3-black, .w3-hover-black:hover{
     color:black;
     background-color: lightgrey;
 }
@@ -95,7 +114,19 @@ button, input, select, textarea, optgroup {
 }
 *, ::before, ::after {
     box-sizing: inherit;
+}*/
+
+/* Banner */
+
+.div_banner{
+  
+    position: relative;
 }
+.img_banner´{
+    width: 80%;
+    height: 100%;
+}
+
 
 /*CSS Section Opinion*/
 
