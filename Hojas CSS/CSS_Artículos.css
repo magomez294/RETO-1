@@ -19,12 +19,47 @@
 
 /*CSS Artículos*/
 
+
+/*Botones*/
+
+#rec_articulos {
+    background-color: cadetblue;
+    border: 4px solid black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 2% 3% 0 25%;
+    font-family: 'Quicksand';
+    font-size: 40px;
+    padding-top: 1%;
+}
+
+#rec_radio {
+    background-color: cadetblue;
+    border: 4px solid black;
+    padding-top: 1%;
+    width: auto;
+    height: 69px;
+    margin: 2% 25% 0 3%;
+}
+
+#boton_art {
+    display: flex;
+    align-content: center;
+}
+
+#autofm {
+    object-fit: contain;
+}
+
+
+/*Blog*/
+
 #fondo_izq {
     background-color: lightgray;
-    width: 50%;
+    width: auto;
     height: auto;
-    float: left;
-    margin-left: 3%;
+    margin: 5% 3% 0 3%;
 }
 
 #fondo_derc {
@@ -39,8 +74,12 @@
 #Titulo_art {
     font-family: 'Titulo';
     font-size: 30px;
-    text-align: center;
-    padding: 8% 0 2% 0;
+    padding: 5% 0 0 0;
+}
+
+#barra {
+    border-bottom: 2px solid red;
+    margin-left: 5%;
 }
 
 .Fechas {
@@ -52,7 +91,7 @@
 
 .Subtítulos {
     font-family: 'Titulo';
-    font-size: 18px;
+    font-size: 25px;
     margin-left: 20px;
     padding-top: 2%;
 }
@@ -62,6 +101,7 @@
     font-size: 20px;
     text-align: justify;
     margin: 0 5% 0 5%;
+    padding-bottom: 1%;
 }
 
 #textos_lista {
@@ -77,11 +117,26 @@
     padding-right: 3%;
 }
 
+
+/*Recuadros Artículos*/
+
+#art_1 {
+    border-bottom: 2px solid black;
+    margin: 0 2% 0 2%;
+}
+
+
+/*Fotos Blog*/
+
 #aceite {
-    float: right;
-    width: 250px;
-    height: 200px;
-    margin: 2%;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin: 3% 3% 2% 2%;
+}
+
+#aceite:hover {
+    filter: opacity(.5);
 }
 
 #diesel {
@@ -110,34 +165,34 @@
 }
 
 #Programa1 {
-    width: 250px;
+    width: 270px;
     height: 150px;
-    float: left;
+    align-content: center;
 }
 
 #Programa2 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 150px;
 }
 
 #Programa3 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 150px;
 }
 
 #Programa4 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 150px;
 }
 
 #Programa5 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 150px;
 }
 
 #Programa6 {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 150px;
 }
 
 .div1 {
@@ -145,7 +200,8 @@
     float: left;
     padding: 2%;
     margin: 2% 0 2% 0;
-    align-content: center;
+    width: 50%;
+    height: auto;
 }
 
 .div2 {
@@ -153,11 +209,12 @@
     float: right;
     padding: 2%;
     margin: 2%;
+    width: 50%;
+    height: auto;
 }
 
-#podcast {
+.podcast {
     font-family: 'Titulo';
     padding-bottom: 3%;
     text-align: center;
-    float: right;
 }
