@@ -27,14 +27,20 @@ h2{
 h3{
     font-family: 'Quicksand';
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     color:red;
     padding-left: 10px;
+    padding-bottom: 20px;
+}
+h4{
+    margin-top: 20px;
 }
 
 p{
     font-family: 'Quicksand-bold';
     font-size: 20px;
+    
+    
     
      
 }
@@ -53,26 +59,31 @@ p{
 }
 #equipo{
     text-align: center;
+    margin-top: 30px;
 }
 
 .trabajadores{
     background-color: lightgray;
     width: 80%;
     text-align: center;
+    margin-top: 20px;
     
 }
 /* seccion nosotros*/
 
 .nosotros{
-    background-color: black;
     text-align: justify;
     display:inline-flex;
     width: 50%;
 
 }
 
+.p_nosotros{
+    font-family: 'Quicksand-bold'; 
+    margin-bottom: 20px;
+}
+
 #div_nosotros{
-    color: white;
     width: 60%;
 }
 
@@ -87,14 +98,16 @@ p{
     text-align: center;
     font-family: 'Quicksand';
     padding-top: 10px;
-    color: red;
+    color:black;
     padding-bottom: 3%;
-    text-align: center;
+    width: 500px;
 }
 
 .valoracion {
     width: 140px;
     height: 30px;
+   
+    
 }
 
 
@@ -165,6 +178,7 @@ p{
 .img2{
     width: 30%;
     overflow: hidden;
+    margin-bottom: 5%;
 }
 .img2:hover {
     -webkit-transform:scale(1.2);transform:scale(1.2);

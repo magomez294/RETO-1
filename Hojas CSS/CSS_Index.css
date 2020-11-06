@@ -36,13 +36,15 @@
 .div_img{
     padding: 50px;
     float: left;
+    
 
 }
 
 .div_texto{
-    display: inline;
+    display: inline-block;
     color: white;
     text-align: center;
+    
     
 }
 
@@ -51,66 +53,12 @@
     text-align: justify;
     display: block;
     margin: auto;
-    width: 1200px;
-    height: 300px;
+    width: 80%;
     padding-top: 20px;
 }
 
 
-/*CSS Section Opinion*/
-
-#encabezado {
-    text-align: center;
-    font-family: 'Quicksand';
-}
-
-#tit_Opinion {
-    padding-top: 100px;
-    color: red;
-    padding-bottom: 3%;
-}
-
-#comentarios {
-    padding-top: 3%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 4%;
-}
-
-#comentario1 {
-    font-family: 'Quicksand';
-    text-align: center;
-    display: block;
-    margin: auto;
-    width: 300px;
-    height: 200px;
-}
-
-#comentario2 {
-    font-family: 'Quicksand';
-    display: block;
-    margin: auto;
-    padding: 0 2% 0 2%;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-}
-
-#comentario3 {
-    font-family: 'Quicksand';
-    display: inline-block;
-    margin: auto;
-    padding: 0 2% 0 2%;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-}
-
-.valoracion {
-    width: 140px;
-    height: 30px;
-}
-
+/
 /*CSS Motivos para elegirnos*/
 
 #Titulo_Mot {
