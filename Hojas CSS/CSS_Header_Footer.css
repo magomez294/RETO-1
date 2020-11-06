@@ -37,7 +37,9 @@ ul, li {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    height: 190.033px;
+    height: 20%;
+    display: block;
+    
 }
 
 #Titulo {
