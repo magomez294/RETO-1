@@ -4,18 +4,16 @@
     font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
-
 }
 
 /* Elementos básicos*/
-
 h1{
     font-family: 'Quicksand';
     text-align: center;
     padding-top: 20px;
-    font-size: 30px;
-    
+    font-size: 30px;   
 }
+
 h2{
     font-family: 'Quicksand';
     font-size: 20px;
@@ -24,6 +22,7 @@ h2{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+
 h3{
     font-family: 'Quicksand';
     font-size: 20px;
@@ -31,88 +30,19 @@ h3{
     color:red;
     padding-left: 10px;
     padding-bottom: 20px;
+    margin-top: 20px;
 }
+
 h4{
     margin-top: 20px;
 }
 
 p{
     font-family: 'Quicksand-bold';
-    font-size: 20px;
-    
-    
-    
-     
+    font-size: 20px;       
 }
-.foto{
-    padding-left: 30px;
-}
-.foto1{
-    padding-right: 30px;
-}
-
-
-#cabecera{
-    background-color: lightgray;
-    width: 80%;
-   
-}
-#equipo{
-    text-align: center;
-    margin-top: 30px;
-}
-
-.trabajadores{
-    background-color: lightgray;
-    width: 80%;
-    text-align: center;
-    margin-top: 20px;
-    
-}
-/* seccion nosotros*/
-
-.nosotros{
-    text-align: justify;
-    display:inline-flex;
-    width: 50%;
-
-}
-
-.p_nosotros{
-    font-family: 'Quicksand-bold'; 
-    margin-bottom: 20px;
-}
-
-#div_nosotros{
-    width: 60%;
-}
-
-/*CSS Section Opinion*/
-.opiniones{
-    text-align: justify;
-    display: inline-flex;
-    width: 40%;
-}
-
-.div_opi{
-    text-align: center;
-    font-family: 'Quicksand';
-    padding-top: 10px;
-    color:black;
-    padding-bottom: 3%;
-    width: 500px;
-}
-
-.valoracion {
-    width: 140px;
-    height: 30px;
-   
-    
-}
-
 
 /* Wrapper */
-
 .wrapper {
     padding: 6em 0em 4em 0em;
     display: block;
@@ -130,22 +60,80 @@ p{
     height: 316px;
 }
 
-
-/* para hacer las imagenes de los trabajadores redondas*/
-
-.imgRedonda {
-    width:150px;
-    height:150px;
-    border-radius:100px;
-    border:10px solid #666; 
+/* seccion sobre nosotros*/
+.nosotros{
+    text-align: justify;
+    display:inline-flex;
+    width: 50%;
 }
 
-.nombre{
-    color: red;
+.p_nosotros{
+    font-family: 'Quicksand-bold'; 
+    margin-bottom: 20px;
 }
 
+#div_nosotros{
+    width: 60%;
+}
 
-  
+    /* opiniones clientes */
+    .opiniones{
+        text-align: justify;
+        display: inline-flex;
+        width: 40%;
+    }
+
+    .div_opi{
+        text-align: center;
+        font-family: 'Quicksand';
+        padding-top: 10px;
+        color:black;
+        padding-bottom: 3%;
+        width: 500px;
+    }
+
+    .valoracion {
+        width: 140px;
+        height: 30px;   
+    }
+
+/* Seccion nuestro equipo */
+#equipo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.trabajadores{
+    background-color: lightgray;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;  
+}
+
+.personal{
+    width: 100%;
+    height: 100%;
+}
+
+    /* para hacer las imagenes de los trabajadores redondas*/
+    .imgRedonda {
+        width:150px;
+        height:150px;
+        border-radius:100px;
+        border:10px solid #666; 
+    }
+
+    .nombre{
+        color: red;
+    }
+
+/* seccion calidad y garantia */
+#cabecera{
+    background-color: lightgray;
+    width: 80%;
+   
+}
+
 #comentarios {
     padding: 10px,0px,10px,0px;
     display: flex;
@@ -155,7 +143,7 @@ p{
 
 #comentario1 {
     font-family: 'Quicksand';
-    text-align: left;
+    text-align: justify;
     margin: auto;
     width: 500px;
     height: 200px;
@@ -164,25 +152,25 @@ p{
 #comentario2 {
     font-family: 'Quicksand';
     margin: auto;
-    text-align: left;
+    text-align: justify;
     width: 500px;
     height: 200px;
 }
-/* Resto de imagenes */
-#imagen{
-    padding-top: 10%;
-    display: block;
-    align-items: center;
-    width: 60%;
+    /* imagenes final pagina */
+    #imagen{
+        padding-top: 10%;
+        display: block;
+        align-items: center;
+        width: 60%;
     
-}
-.img2{
-    width: 30%;
-    overflow: hidden;
-    margin-bottom: 5%;
-}
-.img2:hover {
-    -webkit-transform:scale(1.2);transform:scale(1.2);
-    box-shadow: 0px 0px 15px 15px #ec731e;
-    transition: transform .3s;
-}
+    }
+    .img2{
+        width: 30%;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .img2:hover {
+        -webkit-transform:scale(1.2);transform:scale(1.2);
+        box-shadow: 0px 0px 15px 15px #ec731e;
+        transition: transform .3s;
+    }
