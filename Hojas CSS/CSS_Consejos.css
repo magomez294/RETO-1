@@ -41,9 +41,9 @@ h2{
   font-size: 20px;
   text-align: center;
   color:black;
-  padding-top: 15px;
   padding-bottom: 20px;
 }
+
 h3{
   font-family: 'Quicksand';
   font-size: 20px;
@@ -85,12 +85,19 @@ ul{
   text-decoration: none;
 }
 
+/* comun secciones */
+.p_margen{
+  margin-bottom: 20px;
+  
+}
+
 /* seccion mecanica */
 .div_mecanica{
   background-color: lightgray;
   width: 80%;
   text-align: center;
   margin-top: 10px;
+  padding: 2%;
 }
 
 /* seccion mantenimiento */
@@ -99,6 +106,7 @@ ul{
   width: 80%;
   text-align: center;
   margin-top: 10px;
+  padding: 2%;
 }
 
 /* seccion electricidad */
@@ -107,6 +115,7 @@ ul{
   width: 80%;
   text-align: center;
   margin-top: 10px;
+  padding: 2%;
 }
 
 /* seccion aire */
@@ -115,33 +124,38 @@ ul{
   width: 80%;
   text-align: center;
   margin-top: 10px;
+  padding: 2%;
 }
 
 /* seccion componentes */
+.parrafo{
+  margin: 1%;
+}
+
 .div_componentes{
   background-color: lightgray;
   width: 80%;
   text-align: center;
   margin-top: 10px;
+  padding: 2%;
 }
 
 .imgTexto{
   height: 40%;
   width: 40%;
-  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .tltTabla{
   font-size: 25px;
   color: darkred;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .imgTabla{
   width: 60%;
   display: block;
-  margin: auto;
+  margin-top: 20px;
   transition: transform .2s; 
 }
 
