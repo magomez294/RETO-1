@@ -2,11 +2,9 @@
 
 @font-face {
     font-family: 'Quicksand';
-    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
-
+	src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+	src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
-
-
 
 
 /* Wrapper */
