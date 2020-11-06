@@ -56,9 +56,10 @@ p{
   font-family: 'Quicksand-bold';
   font-size: 20px;
   text-align: justify;
-  margin: 0 20px 0 20px; 
-
+  margin: 1%;
 }
+
+
 
 ul{
   text-align: center;
@@ -136,7 +137,7 @@ ul{
 }
 
 #tabla{
-  margin: 0 20px 0 20px;
+  
 }
 .tltTabla{
   font-size: 25px;
