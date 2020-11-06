@@ -56,10 +56,7 @@ p{
   font-family: 'Quicksand-bold';
   font-size: 20px;
   text-align: justify;
-  margin: 1%;
 }
-
-
 
 ul{
   text-align: center;
@@ -78,19 +75,17 @@ ul{
   border-right: 2px solid black;
   padding-right: 3px;
   padding-left: 3px;
- 
-  
- 
 }
+
 .li_secciones a{
   font-family: 'Quicksand';
   background-color: white;
   margin-top: 100px;
   color:black;
   text-decoration: none;
-
 }
 
+/* seccion mecanica */
 .div_mecanica{
   background-color: lightgray;
   width: 80%;
@@ -98,6 +93,7 @@ ul{
   margin-top: 10px;
 }
 
+/* seccion mantenimiento */
 .div_mantenimiento{
   background-color: lightgray;
   width: 80%;
@@ -105,6 +101,7 @@ ul{
   margin-top: 10px;
 }
 
+/* seccion electricidad */
 .div_electricidad{
   background-color: lightgray;
   width: 80%;
@@ -112,6 +109,7 @@ ul{
   margin-top: 10px;
 }
 
+/* seccion aire */
 .div_aire{
   background-color: lightgray;
   width: 80%;
@@ -119,15 +117,12 @@ ul{
   margin-top: 10px;
 }
 
+/* seccion componentes */
 .div_componentes{
   background-color: lightgray;
   width: 80%;
   text-align: center;
   margin-top: 10px;
-}
-
-.titulo2{
-  color: darkred;
 }
 
 .imgTexto{
@@ -136,9 +131,6 @@ ul{
   margin: 0 auto;
 }
 
-#tabla{
-  
-}
 .tltTabla{
   font-size: 25px;
   color: darkred;
@@ -152,6 +144,7 @@ ul{
   margin: auto;
   transition: transform .2s; 
 }
+
 .imgTabla:hover {
   transform: scale(1.7); 
 }
@@ -165,7 +158,6 @@ ul{
 }
 
 /* Flecha */
-
 .to-top{
 	color: black;
 	display:inline-block;
@@ -180,6 +172,7 @@ ul{
   margin: 0;
   padding-top: 30px;
 }
+
 .to-top:before{
 	content:'▲';
 	font-size:.9em;
@@ -195,6 +188,7 @@ ul{
 	border-color:inherit;
 	transition:transform .5s ease-in;
 }
+
 .to-top:hover{
 	color:red;
 	border-color: red;
