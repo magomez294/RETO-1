@@ -41,11 +41,9 @@
 }
 
 .div_texto{
-    display: inline-block;
+    display: inline;
     color: white;
-    text-align: center;
-    
-    
+    text-align: center; 
 }
 
 #p_compania {
