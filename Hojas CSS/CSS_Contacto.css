@@ -15,6 +15,14 @@ h4 {
     padding-bottom: 50px;
 }
 
+h5 {
+    font-family: 'Quicksand-Bold';
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 1%;
+    margin-top:0px;
+}
+
 .center{
     text-align: center;
 }
@@ -46,31 +54,33 @@ input{
 
 /* seccion contacto */
 #contacto{
-    background-color: darkgray ;
+    background-color: #fbfbfb ;
     display: flex;
 }
 
 .div_datos{
-    background-color: red;
-    padding: 20px;
-    width: 40%; 
+    padding: 40px;
+    width: 50%; 
 } 
+
+.contacto{
+    margin-top: 10px;
+}
 
 /* seccion redes sociales*/ 
 
 .div_redes {
     display: inline-block;
-    background-color: pink;
     width: 40%;
 }
 
 .social{
-    margin-left: 60%;
+    margin-left: 55%;
 }
 
 .iconos{
     margin: 1%;
-    border-radius: 20%;
+    border-radius: 15px;
 }
 
 /* seccion mensaje */
@@ -78,18 +88,36 @@ input{
  .txt_mensaje{
     width: 550px;
     height: 220px;
-    margin: 2%;
+    margin: 5%;
+    overflow: hidden;
  }
     
 
 /* boton */
 
+.btn_enviar{
+    width: 87%;
+    height: 2.725rem;
+    margin: 1%;
+    display: inline-block;
+    transition: all 0.2s;
+    font-size: 20px;
+    border: 0.125rem solid #14bf98;
+    border-radius: 0.25rem;
+    background-color: #14bf98;
+    color: #fff;
+}
 
+.btn_enviar:hover {
+    background-color: transparent;
+    color: #14bf98;
+}
 
 /*Tamaño del mapa*/
 #mapa {
     height: 400px;
     width: 50%;
+    margin-top: 20px;
 }
 
 /*Para que el mapa se centre en el medio*/
