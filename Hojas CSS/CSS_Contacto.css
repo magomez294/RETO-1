@@ -1,6 +1,24 @@
+/*Importamos las fuentes que vamos a usar*/
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
+    src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
+}
+
+/* elementos bsicos */
+
+h4 {
+    font-size: 36px;
+    line-height: 41px;
+    font-family: 'Quicksand-Bold';
+}
+
+.center{
+    text-align: center;
+}
 
 /* Wrapper */
-
 .wrapper {
     padding: 6em 0em 4em 0em;
     display: block;
@@ -17,6 +35,33 @@
     width: 1903px;
     height: 316px;
 }
+
+/* seccion contacto */
+#contacto{
+    background-color: darkgray ;
+    display: flex;
+}
+
+.div_datos{
+    background-color: red;
+    padding: 50px;
+
+    
+} 
+
+.div_redes {
+    display: inline-block;
+}
+
+    
+
+.div_mensaje{
+
+}
+
+
+
+
 
 /*Tamaño del mapa*/
 #mapa {

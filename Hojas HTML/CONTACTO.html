@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <title>Contacto</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!--Creamos el favicon y cargamos css-->
   <link rel=stylesheet href="../Hojas CSS/CSS_Contacto.css" type="text/css" />
   <link rel=stylesheet href="../Hojas CSS/CSS_Header_Footer.css" type="text/css" />
-  <link rel="icon" href="../Imagenes/Favicon.ico" style="height: 5px; width: 5px;" type="image/ico">
+  <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico">
 </head>
 
 <body>
@@ -34,70 +37,63 @@
       </div>
     </a>
 <!-- Header Wrapper -->
-<div class="wrapper style1">
-
-            		
+<div class="wrapper style1">     		
   <!-- Banner -->
     <div id="banner">
-      <section class="container">
+      <!--<section class="container">
         <h2></h2>
         <p></p>
-      </section>
+      </section>-->
     </div>
 
-    </div>
-    
-     <!--Apartado barra navegación-->  
-     <nav>
-      <ul class="desplegable">
-          <li id="coche_boton">
-              <a href="INDEX.html"> <img id="Logo_coche" src="../Imagenes/Logo.png"></a>
-          </li>
-          <li class="botone"><a href="QUIENES_SOMOS.html">¿Quienes somos?</a></li>
-          <li class="botone"><a href="CONSEJOS.html">Consejos</a></li>
-          <li class="botone"><a href="COMPROMISO.html">Compromiso medioambiental</a></li>
-          <li class="botone"><a href="CONTACTO.html">Contacto</a></li>
-      </ul>
+</div>
+<!--Apartado barra navegación-->  
+  <nav>
+    <ul class="desplegable">
+      <li id="coche_boton">
+      <a href="INDEX.html"> <img id="Logo_coche" src="../Imagenes/Logo.png"></a>
+      </li>
+      <li class="botone"><a href="QUIENES_SOMOS.html">¿Quienes somos?</a></li>
+      <li class="botone"><a href="CONSEJOS.html">Consejos</a></li>
+      <li class="botone"><a href="COMPROMISO.html">Compromiso medioambiental</a></li>
+      <li class="botone"><a href="CONTACTO.html">Contacto</a></li>
+    </ul>
   </nav>
 </header>
+<!-- Contacto -->
+<section id="contacto">
+  <div class="div_datos">
+  <h4>Nos gusta escucharte</h4>
+    <form class="contacto">
+      <div><label>Tu Nombre:</label><input type='text' value=''></div>
+      <div><label>Tu Email:</label><input type='email' value=''></div>
+      <div><label>Teléfono:</label><input type='tel' value=''></div>
+    </form>
+  </div>
+  <div class="div_redes">
+  <h3>Síguenos en las redes</h3>
+    <div class="social">
+		  <a href="#"><img src="../icons/icon-facebook.png" alt="facebook"></a>
+		  <a href="#"><img src="../icons/icon-twitter.png" alt="twitter"></a>
+		  <a href="#"><img src="../icons/icon-vimeo.png" alt="vimeo"></a>
+	  </div>
   
+    <form class='mensaje'>
+      <div><label>Mensaje:</label><textarea rows='6'></textarea></div>
+      <div>
+        <button>Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
 
-  <section id="Inicio">
-    <div id="mapa2">
-      <iframe id="mapa"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.699182971157!2d-2.9049657842864005!3d43.25772598593063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fac87437727%3A0x364f27e82def0130!2sCIFP%20Txurdinaga%20LHII!5e0!3m2!1ses!2ses!4v1603715023254!5m2!1ses!2ses"
-        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-    <!-- Formulario prueba 1-->
-    <div class="form">
-      <form class="opcion" action="mailto:Rekord_Autoak@gmail.com" method="POST" enctype="text/plain">
-        <div>
-          <label>Nombre:</label>
-          <br>
-          <input size="20" maxlength="20" type="text" name="Nombre">
-        </div>
-
-        <div>
-          <label>Email:</label>
-          <br>
-          <input size="30" maxlength="30" type="text" name="Correo">
-        </div>
-
-        <div>
-          <label class="required">Mensaje:</label>
-          <br>
-          <textarea class="input" name="Mensaje" rows="3" cols="30"></textarea>
-          <br>
-        </div>
-
-        <div>
-          <button>
-            Enviar formulario
-          </button>
-        </div>
-      </form>
-    </div>
-  </section>
+<!-- Seccion mapa ubicacion-->
+<section id="Inicio">
+  <div id="mapa2">
+    <iframe id="mapa"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.699182971157!2d-2.9049657842864005!3d43.25772598593063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fac87437727%3A0x364f27e82def0130!2sCIFP%20Txurdinaga%20LHII!5e0!3m2!1ses!2ses!4v1603715023254!5m2!1ses!2ses"
+      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</section>
 </body>
-
 </html>
