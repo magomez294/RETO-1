@@ -6,6 +6,11 @@
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
 
+@font-face {
+    font-family: 'Cuerpo artículo';
+    src: url(../Fuentes/Josefin_Slab/JosefinSlab-Light.ttf);
+}
+
 
 /* Wrapper */
 
@@ -14,38 +19,37 @@
     display: block;
 }
 
-	.wrapper.style1 {
-		padding: 0em;
-		background: #222222 url(../Imagenes/ba_inicio.jpg) no-repeat;
-        background-size: cover;
-        
-	}
+.wrapper.style1 {
+    padding: 0em;
+    background: #222222 url(../Imagenes/ba_inicio.jpg) no-repeat;
+    background-size: cover;
+}
+
 
 /* Banner */
-#banner{
+
+#banner {
     width: 1903px;
     height: 316px;
 }
 
+
 /*CSS section Compañia*/
 
-.div_compania{
+.div_compania {
     display: flex;
     background-color: black;
-    
-
 }
-.div_img{
+
+.div_img {
     padding: 50px;
     float: left;
-    
-
 }
 
-.div_texto{
+.div_texto {
     display: inline;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
 
 #p_compania {
@@ -57,6 +61,153 @@
     padding-top: 20px;
 }
 
+
+/*CSS Artículos*/
+
+#rec_art {
+    margin: 1.5% 15% 1.5% 15%;
+    border: 5px double black;
+}
+
+#tit_artind {
+    font-family: 'Quicksand';
+    font-size: 30px;
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+
+
+/*FOTOS*/
+
+#foto_art1 {
+    width: 200px;
+    height: 120px;
+    padding: 4% 0 10% 6%;
+}
+
+#foto_art1:hover {
+    filter: opacity(.5);
+    transition: all .7s ease-in-out;
+}
+
+#foto_art2 {
+    width: 200px;
+    height: 120px;
+    padding: 4% 0 10% 6%;
+}
+
+#foto_art2:hover {
+    filter: opacity(.5);
+    transition: all .7s ease-in-out;
+}
+
+#foto_art3 {
+    width: 200px;
+    height: 120px;
+    padding: 10% 0 0 6%;
+}
+
+#foto_art3:hover {
+    filter: opacity(.5);
+    transition: all .7s ease-in-out;
+}
+
+#foto_art4 {
+    width: 200px;
+    height: 120px;
+    padding: 10% 0 0 6%;
+}
+
+#foto_art4:hover {
+    filter: opacity(.5);
+    transition: all .7s ease-in-out;
+}
+
+
+/*TABLAS*/
+
+#tabla_text1 {
+    vertical-align: top;
+    padding-top: 1.5%;
+}
+
+#tabla_text2 {
+    vertical-align: top;
+    padding-top: 1.5%;
+}
+
+#tabla_text3 {
+    vertical-align: top;
+    padding-top: 3%;
+}
+
+#tabla_text4 {
+    vertical-align: top;
+    padding-top: 3%;
+}
+
+
+/*TEXTOS*/
+
+#txt_art1 {
+    font-size: 15px;
+}
+
+#txt2_art1 {
+    font-family: 'Cuerpo artículo';
+    font-size: 14px;
+}
+
+#txt_art2 {
+    font-size: 15px;
+}
+
+#txt2_art2 {
+    font-family: 'Cuerpo artículo';
+    font-size: 14px;
+}
+
+#txt_art3 {
+    font-size: 15px;
+}
+
+#txt2_art3 {
+    font-family: 'Cuerpo artículo';
+    font-size: 14px;
+}
+
+#txt_art4 {
+    font-size: 15px;
+}
+
+#txt2_art4 {
+    font-family: 'Cuerpo artículo';
+    font-size: 14px;
+}
+
+
+/*Botón ver más*/
+
+#boton_ver {
+    border: 3px solid black;
+    background-color: lightgray;
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: auto;
+}
+
+#enlace_btn {
+    text-decoration: none;
+    color: black;
+}
+
+#ver_mas {
+    font-size: 30px;
+    text-align: center;
+}
+
+
 /*CSS Motivos para elegirnos*/
 
 #Titulo_Mot {
@@ -67,19 +218,19 @@
 
 #contenedor {
     background-color: lightgray;
-
 }
+
 #div_list {
     display: block;
     width: 50%;
-    margin-bottom: 3%;   
+    margin-bottom: 3%;
 }
 
 .List_Motiv {
     font-family: 'Quicksand';
     text-align: left;
     margin-left: 10%;
-    list-style: disc;  
+    list-style: disc;
 }
 
 #Residuos {
@@ -87,35 +238,36 @@
     color: black;
 }
 
+
 /* css video */
 
-* ,*::after, *::before{
-    box-sizing:border-box;
-   }
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
-   .div_video{
+.div_video {
     display: block;
     width: 40%;
-   }
+}
 
-   .caja-video  {
-    position:relative;
-    background-color:black;
+.caja-video {
+    position: relative;
+    background-color: black;
     width: 100%;
-    padding-bottom:56.25%;
-   }
+    padding-bottom: 56.25%;
+}
 
-   .caja-video::before {
+.caja-video::before {
     position: absolute;
-    content:'';
-    display:block;
-    padding-bottom:56.25%;
-   }
+    content: '';
+    display: block;
+    padding-bottom: 56.25%;
+}
 
-   .video{
-    position:absolute;
+.video {
+    position: absolute;
     width: 100%;
     height: 100%;
-   }
-    
- 
+}
