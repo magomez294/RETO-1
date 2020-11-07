@@ -12,11 +12,19 @@ h4 {
     font-size: 36px;
     line-height: 41px;
     font-family: 'Quicksand-Bold';
+    padding-bottom: 50px;
 }
 
 .center{
     text-align: center;
 }
+
+input{
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
 
 /* Wrapper */
 .wrapper {
@@ -44,22 +52,37 @@ h4 {
 
 .div_datos{
     background-color: red;
-    padding: 50px;
-
-    
+    padding: 20px;
+    width: 40%; 
 } 
+
+/* seccion redes sociales*/ 
 
 .div_redes {
     display: inline-block;
+    background-color: pink;
+    width: 40%;
 }
 
+.social{
+    margin-left: 60%;
+}
+
+.iconos{
+    margin: 1%;
+    border-radius: 20%;
+}
+
+/* seccion mensaje */
+
+ .txt_mensaje{
+    width: 550px;
+    height: 220px;
+    margin: 2%;
+ }
     
 
-.div_mensaje{
-
-}
-
-
+/* boton */
 
 
 
