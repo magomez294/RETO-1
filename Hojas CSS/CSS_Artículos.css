@@ -25,7 +25,7 @@
 #rec_articulos {
     background-color: cadetblue;
     border: 4px solid black;
-    width: auto;
+    width: 100px;
     height: auto;
     text-align: center;
     margin: 2% 3% 0 25%;
@@ -193,18 +193,108 @@
 /*Radio*/
 
 #fondo_derc {
-    border: 4px solid;
+    background-color: lightgray;
     width: auto;
     height: auto;
-    margin-right: 1%;
-    padding-left: 1%;
+    margin: 3% 3% 0 3%;
+}
+
+#txt_conj {
+    margin: 1% 20% 2% 20%;
+}
+
+.titulo_texto {
+    text-align: center;
+    padding-bottom: 0.5%;
 }
 
 #titulo_radio {
+    width: auto;
+    height: auto;
     text-align: center;
+    margin: 2%;
 }
 
-.audio {
+#Programa1 {
+    width: 400px;
+    height: 270px;
+}
+
+#Programa1:hover {
+    filter: grayscale(90%);
+}
+
+#Programa2 {
+    width: 400px;
+    height: 270px;
+}
+
+#Programa2:hover {
+    filter: grayscale(90%);
+}
+
+#Programa3 {
+    width: 400px;
+    height: 270px;
+}
+
+#Programa3:hover {
+    filter: grayscale(90%);
+}
+
+#Programa4 {
+    width: 400px;
+    height: 270px;
+}
+
+#Programa4:hover {
+    filter: grayscale(90%);
+}
+
+#Programa5 {
+    width: 400px;
+    height: 270px;
+}
+
+#Programa5:hover {
+    filter: grayscale(90%);
+}
+
+#Programa6 {
+    width: 400px;
+    height: 270px;
+}
+
+#Programa6:hover {
+    filter: grayscale(90%);
+}
+
+.podcast {
+    font-family: 'Titulo';
+    padding-bottom: 3%;
+    font-size: 30px;
+}
+
+.div_1 {
+    background-color: rgb(54, 201, 152);
+    margin: 2% 40% 3% 3%;
+    width: auto;
+    height: auto;
+}
+
+.div_2 {
+    background-color: rgb(119, 197, 112);
+    margin: 2% 3% 3% 40%;
+}
+
+.rec_radio {
+    border-bottom: 5px solid black;
+    border-radius: 4px;
+    margin: 0 2% 0 2%;
+}
+
+
+/*.audio {
     align-content: center;
 }
 
@@ -243,7 +333,7 @@
     background-color: rgb(54, 201, 152);
     float: left;
     padding: 2%;
-    margin: 2% 0 2% 0;
+    margin: 50% 0 2% 0;
     width: 50%;
     height: auto;
 }
@@ -261,4 +351,4 @@
     font-family: 'Titulo';
     padding-bottom: 3%;
     text-align: center;
-}
+}*/
