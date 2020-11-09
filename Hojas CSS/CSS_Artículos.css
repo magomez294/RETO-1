@@ -20,6 +20,28 @@
 /*CSS Artículos*/
 
 
+/*Imagen cabecera*/
+
+.wrapper {
+    padding: 6em 0em 4em 0em;
+    display: block;
+}
+
+.wrapper.style1 {
+    padding: 0em;
+    background: #222222 url(../Imagenes/Cabecera_Art.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* Banner */
+
+#banner {
+    width: 1903px;
+    height: 316px;
+}
+
+
 /*Botones*/
 
 #rec_articulos {
@@ -215,7 +237,43 @@
     margin: 2%;
 }
 
-#Programa1 {
+#fondo_rad {
+    background-color: blue;
+}
+
+.rec_post {
+    background-color: chartreuse;
+    width: 353px;
+    height: 450px;
+    border: 3px solid black;
+    float: left;
+    margin: 3% 2% 0 2%;
+}
+
+.img_prog {
+    width: 353px;
+    height: 200px;
+}
+
+.tit_prog {
+    margin: 2% 4% 0 4%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.parrafo {
+    margin: 3% 6% 0 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.audio {
+    margin: 2% 0 2% 0;
+    align-content: center;
+}
+
+
+/*#Programa1 {
     width: 400px;
     height: 270px;
 }
