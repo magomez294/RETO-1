@@ -95,27 +95,33 @@ p {
 .img_gestion{
 	float: left; /* hace que la imagen se mantenga a la izquierda */
 	padding-top: 2%;
-	padding-left:10%;
+	padding-left: 8%;
 	padding-bottom: 2%;
+	padding-right: 2%;
 }
 	.superpuesto{
 		float: left;
 		padding-top: 5%;
-		padding-left: 5%;
-		padding-bottom: 200px;
+		padding-left: 3%;
+		padding-bottom: 20px;
 	}
 
 	/* boton */
 
+.boton{
+	padding-left: 2%;
+}
+
 .btn_residuos{
-	width: 100%;
+	width: 20%;
     height: 2.725rem;
     transition: all 0.2s;
     font-size: 20px;
     border: 0.125rem solid #14bf98;
     border-radius: 0.25rem;
     background-color: #14bf98;
-    color: #fff;
+	color: #fff;
+	text-decoration: none;
 }
 
 .btn_residuos:hover {
