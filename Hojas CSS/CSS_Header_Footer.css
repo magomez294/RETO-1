@@ -64,15 +64,6 @@ ul, li {
     margin-right: 5px;
 }
 
-#Texto_Coche {
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: cursive;
-    padding: 10px;
-    border-right: 2px solid black;
-    color: black;
-}
 
 /*CSS del apartado de navegacion de todas las páginas*/
 
@@ -83,37 +74,25 @@ ul, li {
     text-align: center;
     list-style: none;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     width:100%;
 }
 
-ul {
-    list-style: none;
-    width: 100%; 
-      
-}
-
-.botones #coche_boton {
-    background: lightgray;
-    line-height: 50px;
-}
 
 .desplegable {
     text-align: center;    
     text-decoration: none;
-    background-color: red;
+    
 }
-/*.desplegable li a {
+.desplegable li a {
     color: black;
     text-align: center;
     list-style: none;
     text-decoration: none;
-    display: block;
-    background-color: red;
-
+    display: inline-block;
     background-color:lightgray;
-    /*width: 100%;
-}*/
+    width: 20%;
+}
 
 .desplegable li {
     border-style: outset;
