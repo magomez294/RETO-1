@@ -27,7 +27,7 @@
     display: block;
 }
 
-.wrapper.style1 {
+.cab_art {
     padding: 0em;
     background: #222222 url(../Imagenes/Cabecera_Art.jpg) no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@
 
 /* Banner */
 
-#banner {
+#banner_cab {
     width: 1903px;
     height: 316px;
 }
@@ -270,6 +270,11 @@
 .audio {
     margin: 2% 0 2% 0;
     align-content: center;
+}
+
+audio {
+    width: 353px;
+    height: 65px;
 }
 
 
