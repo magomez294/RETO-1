@@ -29,18 +29,67 @@
 .container {
 	text-align: center;
 	font-style: 'Quicksand';	
-}
+}	 
 
 	.tit_banner{
 		padding-top: 5%;
 		font-size: 40px;
 
 	}
+/* elementos básicos */ /* aqui le damos estilo a todos aquellos elementos 
+que se repiten a lo largo de nuestro CSS */
 
-	#p_banner{
+h1 {
+	text-align: center;
+	padding: 3%;
+	font-size: 36px;
+}
 
+h2{
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: "Quicksand-Bold" ;
+}
 
-	}
+li{
+	list-style-type: disc;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 6%;
+	padding:1%;
+}
+
+p{
+	font-size: 20px;
+	padding: 10px;
+}
+
+/* seccion gestion de residuos */
+
+/* imagen primer article */
+.filtrado{
+	float: right; /* esto es para que la imagen se mantenga a la derecha del texto*/
+	margin-right: 5%;
+	width: 40%;
+}
+
+/* imagen segundo article */
+.gestion{
+	background-image: url(../Imagenes/gestionR.png) no-repeat;
+	margin-top: 15%;
+	margin-left: 10%;
+	width: 100%;
+}
+
+.superpuesto{
+	background-color: lightgrey;
+	opacity: 50%;
+	width: 300px;
+}
+
 
 
 
