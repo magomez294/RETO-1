@@ -122,10 +122,9 @@ ul, li {
 /*CSS footer*/
 
 #Pie {
-    position: sticky;
+    
     background-color: black;
-    width: auto;
-    height: auto;
+    
     margin-top: 10px;
     padding: 1% 0 1% 0;
     font-family: 'Quicksand';

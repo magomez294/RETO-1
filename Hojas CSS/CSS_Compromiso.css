@@ -48,12 +48,29 @@ h1 {
 h2 {
 	text-align: left;
 	padding-left: 10%;
-	padding-bottom: 2%;
+	padding-bottom: 4%;
 	font-size: 30px;
-	font-family: "Quicksand-Bold" ;
+	font-family: "Quicksand-Bold";
 }
 
+h3{
+	text-align: left;
+	font-size: 20px;
+	font-family: "Quicksand-Bold";
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
 
+h5{
+	text-align: left;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+p {
+	padding-bottom: 2%;
+	font-size: 20px;
+}
 
 /* seccion gestion de residuos */
 
@@ -61,32 +78,68 @@ h2 {
 .filtrado{
 	float: right; /* esto es para que la imagen se mantenga a la derecha del texto*/
 	width: 40%;
+	padding-right: 5%;
+}
+
+	.div_filtrado{
+	padding-left: 4%;
+	}
+
+.li_res{
+		list-style: disc; /* esto espara que salga el punto negro */
+		font-size: 18px;
+		padding-bottom:30px;
 }
 
 /* imagen segundo article */
-.gestion{
-	
-}
-
-.li_res{
-	list-style: disc;
-	font-size: 18px;
-	padding-left: 6%;
+.img_gestion{
+	float: left; /* hace que la imagen se mantenga a la izquierda */
+	padding-top: 2%;
+	padding-left:10%;
 	padding-bottom: 2%;
-		
+}
+	.superpuesto{
+		float: left;
+		padding-top: 5%;
+		padding-left: 5%;
+		padding-bottom: 200px;
+	}
 
+	/* boton */
+
+.btn_residuos{
+	width: 100%;
+    height: 2.725rem;
+    transition: all 0.2s;
+    font-size: 20px;
+    border: 0.125rem solid #14bf98;
+    border-radius: 0.25rem;
+    background-color: #14bf98;
+    color: #fff;
 }
 
-#tipo_residuos{
-	width: 80%;
+.btn_residuos:hover {
+    background-color: transparent;
+    color: #14bf98;
 }
 
-.superpuesto{
+
+/* tercer article */
+.contenedor{
+	overflow: hidden;
+	width: 100%;
+}
+
+.iniciativas{
+	width: 400px;
 	float: left;
-	background-color: lightgrey;
-	opacity: 50%;
-	width: 300px;
+	padding-top: 2%;
+	padding-left: 9%;
+	padding-bottom: 2%;
+	
+
 }
+
 
 
 
