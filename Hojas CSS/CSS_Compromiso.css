@@ -45,46 +45,44 @@ h1 {
 	font-size: 36px;
 }
 
-h2{
+h2 {
 	text-align: left;
-	margin-top: 2%;
-	margin-left: 10%;
-	margin-bottom: 20px;
+	padding-left: 10%;
+	padding-bottom: 2%;
 	font-size: 30px;
 	font-family: "Quicksand-Bold" ;
 }
 
-li{
-	list-style-type: disc;
-	font-size: 18px;
-	margin-top: 10px;
-	margin-left: 6%;
-	padding:1%;
-}
 
-p{
-	font-size: 20px;
-	padding: 10px;
-}
 
 /* seccion gestion de residuos */
 
 /* imagen primer article */
 .filtrado{
 	float: right; /* esto es para que la imagen se mantenga a la derecha del texto*/
-	margin-right: 5%;
 	width: 40%;
 }
 
 /* imagen segundo article */
 .gestion{
-	background-image: url(../Imagenes/gestionR.png) no-repeat;
-	margin-top: 15%;
-	margin-left: 10%;
-	width: 100%;
+	
+}
+
+.li_res{
+	list-style: disc;
+	font-size: 18px;
+	padding-left: 6%;
+	padding-bottom: 2%;
+		
+
+}
+
+#tipo_residuos{
+	width: 80%;
 }
 
 .superpuesto{
+	float: left;
 	background-color: lightgrey;
 	opacity: 50%;
 	width: 300px;
