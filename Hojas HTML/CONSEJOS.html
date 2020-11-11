@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--Titulo que queremos que tenga la pagina en concreto-->
     <title>Consejos</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--añadimos palabras clave para el buscador-->
 	<meta name="description" content="Consejos para mantener tu coche." />
-    <meta name="keywords" content="mantenimiento; aceite; reparar" /> <!--añadimos palabras clave para el buscador-->
-    
+    <meta name="keywords" content="mantenimiento; aceite; reparar" /> 
     <!--Creamos el favicon-->
     <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico">
     <!-- Cargamos las hojas de estilo que vamos a utilizar-->
@@ -14,58 +15,60 @@
     <!-- Insertamos javascrip flecha-->
     <script src="../Scripts/arriba.js"></script> 
 </head>
+
 <body>
+    <!--Iniciamos la cabecera-->
     <header>
-        <!--APARTADO COVID--> <!--------------------COMENTAR POR JON------------------->
-        <a id="Enlace_Covid" href="COVID.html"> 
-            <div id="Covid">
-                <h2 class="Titulo_covid">INFORMACIÓN COVID</h2>
-                <table> 
-                    <tbody>
-                        <!-- Tabla de las imagenes y el texto sobre el covid-->
-                        <tr>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_distancia.svg"></td>
-                            <td class="Texto_covid">DISTANCIA >2M DE SEGURIDAD</td>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_lava_coche.svg"></td>
-                            <td class="Texto_covid">DESINFECCIÓN DE PUNTOS BÁSICOS DEL VEHÍCULO</td>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_tecnico.svg"></td>
-                            <td class="Texto_covid">NUESTROS TÉCNICOS PROTEGIDOS</td>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_mampara.svg"></td>
-                            <td class="Texto_covid">MAMPARAS DE PROTECCIÓN EN ATENCIÓN AL CLIENTE</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br>
-                <h2 class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</h2>
+        <!--APARTADO COVID-->
+        <!--Link que lleva a la pagina sobre como trabajamos teniendo en cuenta el covid-->
+        <a id="Enlace_Covid" href="COVID.html">
+            <p class="Titulo_covid">INFORMACIÓN COVID</p>
+            <!--Se crea una tabla para introducir las imagenes y los textos, haciendo un pequeño resumen-->
+            <table>
+                <tbody>
+                    <!-- Tabla de las imagenes y el texto sobre el covid-->
+                    <tr>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_distancia.svg"></td>
+                        <td class="Texto_covid">DISTANCIA >2M DE SEGURIDAD</td>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_lava_coche.svg"></td>
+                        <td class="Texto_covid">DESINFECCIÓN DE PUNTOS BÁSICOS DEL VEHÍCULO</td>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_tecnico.svg"></td>
+                        <td class="Texto_covid">NUESTROS TÉCNICOS PROTEGIDOS</td>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_mampara.svg"></td>
+                        <td class="Texto_covid">MAMPARAS DE PROTECCIÓN EN ATENCIÓN AL CLIENTE</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <p class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</p>
+        </a>
+        <!-- Header Wrapper -->
+        <div class="wrapper style1">
+            <!-- Banner -->
+            <div id="banner"> <!-- Dejamos esto aqui por si queremos poner texto
+                                    en la imagen-->
+                <!--<section class="container">
+                    <h2></h2>
+                    <p></p>
+                </section>-->
             </div>
-        </a> <!-----------------------FIN COMENTARIOS-------------------------------------->
-     <!-- Header Wrapper -->
-	<div class="wrapper style1">
-        <!-- Banner -->
-        <div id="banner"> <!-- Dejamos esto aqui por si queremos poner texto
-                                en la imagen-->
-			<!--<section class="container">
-				<h2></h2>
-				<p></p>
-			</section>-->
-		</div>
-    </div>
-    <!--Apartado barra navegación--> <!---------------------COMENTAR POR JON------------------------>
-    <nav>
-        <ul class="desplegable">
-            <li id="coche_boton">
-                <a href="INDEX.html"> <img id="Logo_coche" src="../Imagenes/Logo.png"></a>
-            </li>
-            <li class="botone"><a href="QUIENES_SOMOS.html">¿Quienes somos?</a></li>
-            <li class="botone"><a href="CONSEJOS.html">Consejos</a></li>
-            <li class="botone"><a href="COMPROMISO.html">Compromiso medioambiental</a></li>
-            <li class="botone"><a href="CONTACTO.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header> <!-------------------FIN COMENTARIOS----------------------------------->
+        </div>
+        <!--APARTADO BARRA DE NAVEGACIÓN-->
+        <nav>
+            <!--El logo esta fuera de la lista para que los recuadros no fuesen de distintos tamaños-->
+            <a href="INDEX.html" id="Logo_coche"><img src="../Imagenes/Logo.png"></a>
+            <!--Lista con todos los links a las distintas paginas creadas-->
+            <ul id="desplegable">
+                <a href="QUIENES_SOMOS.html"><li class="botones">¿Quienes somos?</li></a>
+                <a href="CONSEJOS.html"><li class="botones">Consejos</li></a>
+                <a href="COMPROMISO.html"><li class="botones">Compromiso Medioambiental</li></a>
+                <a href="CONTACTO.html"><li class="botones">Contacto</li></a>
+            </ul>
+        </nav>
+</header> 
     <!-- flecha ir arriba -->
-    <a href="#" class="to-top">subir</a> <!--Enlazamos la flecha para que suba
-                                            arriba de la pagina-->
+    <!--Enlazamos la flecha para que suba arriba de la pagina-->
+    <a href="#" class="to-top">subir</a> 
 
     <!-- Listado secciones-->
     <div id="lista_secciones">
@@ -80,7 +83,8 @@
  
 <!---------------------------------------------- Seccion Mecanica -------------------------------------------->
     <section>
-        <h1><a name="mecanica">Mecanica del automóvil</a></h1> <!--les damos nombre para poder redirigir a ese punto concreto-->
+        <!--les damos nombre para poder redirigir a ese punto concreto-->
+        <h1><a name="mecanica">Mecanica del automóvil</a></h1> 
         <div Class="div_mecanica">
             <p class="p_margen">
                 En Rekord Autoak, sabemos lo importante que es mantener un vehículo en buen estado para prolongar su
@@ -90,13 +94,13 @@
                 sencillas tareas de manutención, además de enseñaros a identificar que puede provocar las averías y
                 que coste medio podría significar la reparación de las mismas en el taller.
             </p>   
-        <h2 class="espacio">Saber diagnosticar bien una avería es la clave</h2>
+            <h2 class="espacio">Saber diagnosticar bien una avería es la clave</h2>
             <p class="p_margen">
                 En mi opinión, la base fundamental de un buen mecánico en la actualidad es saber diagnosticar bien. Esto
                 va a hacer que ahorre muchísimo tiempo y que la solución sea la correcta.
             </p>
             <img src="../Imagenes/reparacion-bajos-coche.jpg" class="imgTexto">   
-        <h2 class="espacio">Cómo debe ser un buen mecánico</h2>
+            <h2 class="espacio">Cómo debe ser un buen mecánico</h2>
             <p>
                 Un buen mecánico tiene que ser un tipo muy completo. No vale con ser hábil con las manos (que también es
                 importante), hay que tener una mente analítica y una formación muy especializada.
@@ -109,50 +113,43 @@
                 que te vas a comunicar con el coche es prioritario.
             </p>
             <p class="p_margen">
-                 <b>Saber interrogar:</b> Lo primero que debe hacer el mecánico es preguntar al cliente el motivo por
-                el que
-                trae el coche al taller.
-                Es importante concretar cómo sucedió el fallo, si lo hace más con el motor frío o en caliente, al
-                acelerar a fondo o suavemente, al girar a un lado o a otro... Para hacer la pregunta correcta hay
-                que saber mucho de mecánica y de electrónica.
-                Nada más decirnos lo que le ha sucedido debemos tener una idea de por dónde pueden ir los tiros y
-                hacer las preguntas que acoten al máximo el problema.
+                <b>Saber interrogar:</b> Lo primero que debe hacer el mecánico es preguntar al cliente el motivo por
+                el que trae el coche al taller. Es importante concretar cómo sucedió el fallo, si lo hace más con el 
+                motor frío o en caliente, al acelerar a fondo o suavemente, al girar a un lado o a otro... Para hacer 
+                la pregunta correcta hay que saber mucho de mecánica y de electrónica. Nada más decirnos lo que le ha 
+                sucedido debemos tener una idea de por dónde pueden ir los tiros y hacer las preguntas que acoten al 
+                máximo el problema.
             </p>
             <p class="p_margen">
                 <b>No tener miedo a estudiar:</b> Un mecánico en la actualidad tiene que estar dispuesto a invertir
-                muchas
-                horas en formarse y estar al día de las tecnologías que vayan surgiendo.
-                La realidad es que los coches han alcanzado un nivel de complejidad tan grande, que para entenderlos
-                —y así poder repararlos— hay que tener unos conocimientos casi al nivel de los del ingeniero que los
-                desarrolló. Afortunadamente,
-                para facilitar la tarea, los ingenieros hacen manuales de taller para identificar los fallos, pero
-                un manual es como un mapa: si no sabes leerlo no sirve de nada.
+                muchas horas en formarse y estar al día de las tecnologías que vayan surgiendo. La realidad es que 
+                los coches han alcanzado un nivel de complejidad tan grande, que para entenderlos —y así poder 
+                repararlos— hay que tener unos conocimientos casi al nivel de los del ingeniero que los desarrolló. 
+                Afortunadamente, para facilitar la tarea, los ingenieros hacen manuales de taller para identificar 
+                los fallos, pero un manual es como un mapa: si no sabes leerlo no sirve de nada.
             </p>
             <p class="p_margen">
                 <b>Tener conocimientos de electrónica:</b> Antiguamente, a un mecánico le bastaba con saber lo que
-                 era una
-                batería, una dinamo y un interruptor para dominar la mecánica y la electricidad de un coche. En la
-                actualidad es la electrónica la principal causa de averías en los coches y es prioritario dominarla.
-                Si no sabes utilizar un osciloscopio no tienes la menor oportunidad. Saber cómo comprobar un sensor
-                del ABS o un inyector empleando un osciloscopio es básico.
-                También es necesario tener conocimientos sobre redes multiplexadas y sistemas CAN-BUS. Incluso la
-                fibra óptica está siendo empleada con cierta frecuencia.
+                era una batería, una dinamo y un interruptor para dominar la mecánica y la electricidad de un coche. 
+                En la actualidad es la electrónica la principal causa de averías en los coches y es prioritario 
+                dominarla. Si no sabes utilizar un osciloscopio no tienes la menor oportunidad. Saber cómo comprobar 
+                un sensor del ABS o un inyector empleando un osciloscopio es básico. También es necesario tener 
+                conocimientos sobre redes multiplexadas y sistemas CAN-BUS. Incluso la fibra óptica está siendo
+                empleada con cierta frecuencia.
             </p>
             <p class="p_margen">
                 <b>Hacerse especialista:</b> A medida que los coches se están volviendo más complicados es más
-                difícil
-                poder cubrir todos los campos necesarios para repararlos. Debemos ser conscientes de que los coches
-                son diseñados por equipos de ingenieros especializados.
-                Llegar a comprender cómo funciona todo el coche y saber repararlo todo es inabarcable.
+                difícil poder cubrir todos los campos necesarios para repararlos. Debemos ser conscientes de que 
+                los coches son diseñados por equipos de ingenieros especializados. Llegar a comprender cómo funciona 
+                todo el coche y saber repararlo todo es inabarcable.
             </p>
             <p class="p_margen">
                 <b>Ser millonario:</b> no es necesario si vas a trabajar en un taller de otro, pero si quieres abrir
-                 tu
-                propio negocio deberás tener dinero suficiente como para no tener que trabajar. La herramienta es
+                tu propio negocio deberás tener dinero suficiente como para no tener que trabajar. La herramienta es
                 cara, y los modernos equipos de diagnosis lo son todavía más.
             </p>
             <img src="../Imagenes/maquinaria_taller.jpg" class="imgTexto">
-            </div>
+        </div>
     </section>
     <!-------------------------------------------- Seccion Mantenimiento--------------------------------------------->
     <section>
@@ -277,7 +274,7 @@
             </p>
         </div>       
     </section>
-    <!-- -----------------------Seccion Electricidad y electronica ----------------------------------------------->
+    <!--------------------------Seccion Electricidad y electronica ----------------------------------------------->
     <section>
     <h1><a name="electricidad">Electricidad y electrónica</a></h1>
         <div class="div_electricidad">
@@ -294,66 +291,55 @@
             <h2 class="espacio">Algunas nociones sobre el sistema eléctrico del vehículo</h2>
             <p class="p_margen">
                 En función del tipo de motorización que equipe tu vehículo, su sistema eléctrico tendrá unos componentes
-                u otros.
-                Es decir: ese apartado será diferente si monta un motor de combustión, uno híbrido, con sus distintas
-                variables, u otro eléctrico.
-                También si cuenta con funciones como Start/Stop o conducción a vela. Las posibilidades son muy variadas.
+                u otros. Es decir: ese apartado será diferente si monta un motor de combustión, uno híbrido, con sus
+                distintas variables, u otro eléctrico. También si cuenta con funciones como Start/Stop o conducción a vela. 
+                Las posibilidades son muy variadas.
             </p>
             <p class="p_margen">
                 En el caso de los vehículos convencionales, gasolina o diésel, su sistema eléctrico cuenta con algunos
-                elementos fundamentales como la batería, el motor de
-                arranque y el alternador. A estos los acompañan otros muchos como los relés, los fusibles, el cableado,
-                las lámparas e incluso las bujías y calentadores, por citar
-                solo algunos de los más importantes.
+                elementos fundamentales como la batería, el motor de arranque y el alternador. A estos los acompañan 
+                otros muchos como los relés, los fusibles, el cableado, las lámparas e incluso las bujías y calentadores,
+                por citar solo algunos de los más importantes.
             </p>
             <p class="p_margen">
                 El sistema eléctrico se subdivide, a su vez, en otra serie de subsistemas que seguro que te resultan
-                familiares: el sistema de generación y almacenamiento,
-                el sistema de encendido, el sistema de arranque, el sistema de inyección de gasolina, el sistema de
-                iluminación y los instrumentos de control.
+                familiares: el sistema de generación y almacenamiento, el sistema de encendido, el sistema de arranque, 
+                el sistema de inyección de gasolina, el sistema de iluminación y los instrumentos de control.
             </p>
             <p class="p_margen">
                 Cada uno de ellos se encarga de una función fundamental del vehículo. Por ejemplo, que no se quede sin
-                electricidad durante la marcha por muchos
-                kilómetros que recorras o de generar la chispa necesaria dentro de un cilindro para que el vehículo se
-                pueda mover, en el caso de los coches de gasolina.
+                electricidad durante la marcha por muchos kilómetros que recorras o de generar la chispa necesaria 
+                dentro de un cilindro para que el vehículo se pueda mover, en el caso de los coches de gasolina.
             </p>
             <h2 class="espacio">Cómo cuidar el sistema eléctrico de tu coche</h2>
             <p class="p_margen"> 
                 <b>Batería: </b>En el caso de la batería, la vida útil de la que equipan los vehículos más
-                modernos suele rondar los cuatro años.
-                Es muy importante comprobar su estado periódicamente en el taller, pero sobre todo ante la
-                llegada del invierno.
+                modernos suele rondar los cuatro años. Es muy importante comprobar su estado periódicamente en el taller, 
+                pero sobre todo ante la llegada del invierno.
                 <br />
-                Esto se debe a que la batería es un elemento cuyo rendimiento se ve afectado por las
-                temperaturas extremas, de tal manera que podría quedarse sin amperaje
-                suficiente para arrancar tras una noche de helada. Así que revisar su estado y aparcar el coche
-                en un garaje durante los meses más fríos es una buena estrategia.
+                Esto se debe a que la batería es un elemento cuyo rendimiento se ve afectado por las temperaturas extremas, 
+                de tal manera que podría quedarse sin amperaje suficiente para arrancar tras una noche de helada.
+                Así que revisar su estado y aparcar el coche en un garaje durante los meses más fríos es una buena estrategia.
                 <br />
                 Si sabes que no vas a utilizar el vehículo durante bastante tiempo, conviene que desconectes la
-                batería.
-                Esto se debe a que, aunque esté parado, consume igualmente electricidad, por lo que el
-                acumulador podría perder su carga poco a poco.
-                Solo hay que liberar los bornes: primero el negativo (cable negro) y después el positivo (cable
-                rojo).
+                batería. Esto se debe a que, aunque esté parado, consume igualmente electricidad, por lo que el
+                acumulador podría perder su carga poco a poco. Solo hay que liberar los bornes: primero el negativo (cable negro) 
+                y después el positivo (cable rojo).
             </p>
             <p class="p_margen">
                 <b>Bujías: </b>En el caso de las bujías, también se trata de elementos que deben sustituirse cada
-                cierto tiempo. Su función consiste en encender la mezcla en el interior del vehículo.
-                El libro de mantenimiento del vehículo indicará cuándo exactamente, pero el intervalo suele situarse
-                entre los 40.000 km y los 60.000 km. Unas bujías en mal estado pueden perjudicar al rendimiento del
-                motor.
+                cierto tiempo. Su función consiste en encender la mezcla en el interior del vehículo. El libro de mantenimiento 
+                del vehículo indicará cuándo exactamente, pero el intervalo suele situarse entre los 40.000 km y los 60.000 km. 
+                Unas bujías en mal estado pueden perjudicar al rendimiento del motor.
                 <br />
                 En cuanto a los motores diésel, si sus calentadores se encuentran en mal estado pueden causar
                 problemas para arrancar en frío. En este caso, es importante controlar su estado al acudir a
-                revisión en el taller,
-                ya que normalmente solo se cambian si no funcionan bien.
+                revisión en el taller, ya que normalmente solo se cambian si no funcionan bien.
                 <br />
                 También en el taller cuentan con equipos adecuados para comprobar el funcionamiento del sistema
-                electrónico del vehículo y corregir cualquier anomalía que pudiera presentar.
-                De hecho, la creciente complejidad de los sistemas eléctricos y electrónicos de los vehículos hace
-                más aconsejable que nunca acudir a un profesional para realizar
-                cualquier actuación sobre ellos, desde un cambio de batería hasta la sustitución de unas bujías.
+                electrónico del vehículo y corregir cualquier anomalía que pudiera presentar. De hecho, la creciente complejidad 
+                de los sistemas eléctricos y electrónicos de los vehículos hace más aconsejable que nunca acudir a un profesional
+                para realizar cualquier actuación sobre ellos, desde un cambio de batería hasta la sustitución de unas bujías.
             </p>
             <img src="../Imagenes/coche_electricidad_2.jpg" class="imgTexto">
         </div>  
@@ -364,29 +350,25 @@
         <div class="div_aire">
             <p>
                 El sistema de aire acondicionado del coche es el aparato de aire acondicionado permite enfriar y
-                purificar el aire en el interior del coche,
-                además de eliminar malos olores y exceso de humedad.
+                purificar el aire en el interior del coche, además de eliminar malos olores y exceso de humedad.
                 <br />
                 Forma parte integral del sistema de ventilación y calefacción en todos los vehículos modernos,
-                permitiendo ajustar la temperatura interior según la época del año.
-                Con ello se consigue mantener un ambiente cómodo y agradable durante la conducción tanto para el
-                conductor como para los pasajeros.
+                permitiendo ajustar la temperatura interior según la época del año. Con ello se consigue mantener 
+                un ambiente cómodo y agradable durante la conducción tanto para el conductor como para los pasajeros.
             </p>
-        <h2 class="espacio">Los componentes del aire acondicionado</h2>
+            <h2 class="espacio">Los componentes del aire acondicionado</h2>
             <p class="p_margen">
                 El funcionamiento del aire acondicionado del coche se asemeja al de un frigorífico y consiste en un
-                circuito cerrado que incluye varios elementos básicos:
-                un compresor accionado por el motor a través del embrague electromagnético, un condensador, un
-                filtro secador, una válvula de expansión hacia la cual bombea el
-                compresor, un evaporador, un ventilador, un sensor de temperatura del evaporador y un gas
+                circuito cerrado que incluye varios elementos básicos: un compresor accionado por el motor a través
+                del embrague electromagnético, un condensador, un filtro secador, una válvula de expansión hacia la 
+                cual bombea el compresor, un evaporador, un ventilador, un sensor de temperatura del evaporador y un gas
                 refrigerante, en este caso, freón.
             </p>
-        <h2 class="espacio">Funcionamiento del aire acondicionado del coche</h2>
+            <h2 class="espacio">Funcionamiento del aire acondicionado del coche</h2>
             <p class="p_margen">
                 La peculiaridad de este tipo de aparato desde un punto de vista técnico es que, para
-                funcionar, su
-                mecanismo no utiliza la energía eléctrica, sino la potencia del motor de combustión interna. Todo el
-                proceso se basa en la sucesiva compresión y descompresión de freón por parte del compresor que,
+                funcionar, su mecanismo no utiliza la energía eléctrica, sino la potencia del motor de combustión interna. 
+                Todo el proceso se basa en la sucesiva compresión y descompresión de freón por parte del compresor que,
                 impulsado por el motor, hace circular el gas refrigerante a través del circuito. Una vez comprimido,
                 el freón se calienta y antes de salir del compresor hacia la válvula de expansión pasa por el
                 condensador donde se enfría de nuevo y se convierte en líquido. A continuación, el refrigerante en
@@ -396,18 +378,15 @@
                 secador, el freón líquido se dirige hacia la válvula de expansión y, al cruzarla, entra en el
                 evaporador donde vuelve a estado gaseoso y se enfría de nuevo. Saliendo del evaporador, el gas
                 refrigerante ya está listo para volver a entrar en el compresor y repetir el ciclo.</p>
-        <h2 class="espacio">Cómo hacer que enfríe más el aire acondicionado: consejos útiles</h2>
+            <h2 class="espacio">Cómo hacer que enfríe más el aire acondicionado: consejos útiles</h2>
             <p class="p_margen">
-                El primer consejo es que, de vez en cuando y solo por unos minutos, se encienda el aire
-                acondicionado también en invierno.
-                Con ello se evita que sus conductos se oxiden o se resequen por falta de uso. En segundo lugar, hay
-                que prestar la debida atención a su limpieza,
-                lo que significa mantener limpio sobre todo el condensador. También es muy recomendable comprobar de
-                vez en cuando la integridad de las mangueras,
+                El primer consejo es que, de vez en cuando y solo por unos minutos, se encienda el aire acondicionado 
+                también en invierno. Con ello se evita que sus conductos se oxiden o se resequen por falta de uso. 
+                En segundo lugar, hay que prestar la debida atención a su limpieza, lo que significa mantener limpio sobre 
+                todo el condensador. También es muy recomendable comprobar de vez en cuando la integridad de las mangueras,
                 ya que en caso de microroturas habrá fugas de gas refrigerante con la consiguiente pérdida de la
-                eficiencia de todo el aparato. Si no hay roturas, pero el
-                aire acondicionado no enfría bien esto significa que el nivel de gas es bajo y hay que recargarlo.
-                También es necesario cambiar los filtros de forma periódica y
+                eficiencia de todo el aparato. Si no hay roturas, pero el aire acondicionado no enfría bien esto significa 
+                que el nivel de gas es bajo y hay que recargarlo. También es necesario cambiar los filtros de forma periódica y
                 evitar que el aparato trabaje a máxima potencia: la temperatura ideal dentro del coche es de 22
                 grados. Además, a temperaturas inferiores el consumo de combustible aumenta hasta un 20 %.
             </p>
@@ -417,24 +396,29 @@
     <!-- Seccion Componentes basicos -->
     <section>
         <h1><a name="componenetes"><a name="componentes">Componentes básicos de automóvil</a></h1>
-            <div class="div_componentes">
-                <p>
-                    El coche utiliza distintos sistemas que funcionan de manera simultánea. Conocer estas partes básicas
-                    facilita la detección de problemas, ayuda a realizar reparaciones básicas y a conducir más
-                    responsablemente.
-                </p>
-            <table id="tabla"> <!--Utilizamos una tabla para alinear todos los elementos-->
+        <div class="div_componentes">
+            <p>
+                El coche utiliza distintos sistemas que funcionan de manera simultánea. Conocer estas partes básicas
+                facilita la detección de problemas, ayuda a realizar reparaciones básicas y a conducir más
+                responsablemente.
+            </p>
+
+            <!--Utilizamos una tabla para alinear todos los elementos-->
+            <table id="tabla"> 
                 <tr>
                     <th class="tltTabla">
                         Motor
                     </th>
+
                     <th class="tltTabla">
                         Caja de cambios
                     </th>
+
                     <th class="tltTabla">
                         Transmisión
                     </th>
                 </tr>
+
                 <tr>
                     <td class="tdTabla">
                         <p class="parrafo">
@@ -446,9 +430,9 @@
                             combustión. La energía total depende del tamaño del motor y de factores como el tiempo de
                             combustión y el tipo de transmisión utilizada.
                         </p>
-                        
                         <img src="../Imagenes/motor_coche.jpg" class="imgTabla">
                     </td>
+
                     <td class="tdTabla">
                         <p class="parrafo">
                             Transforma la energía del motor y se acciona con la palanca de cambios que determina el
@@ -458,9 +442,9 @@
                             del automóvil; produciéndose un menor consumo de combustible y desgastes al utilizar la 5ª o 6ª
                             marcha.
                         </p>
-                        
                         <img src="../Imagenes/caja_cambio_coche.jpg" class="imgTabla">
                     </td>
+
                     <td class="tdTabla">
                         <p class="parrafo">
                             La transmisión directa es una serie de componentes que conectan el movimiento producido por
@@ -471,77 +455,107 @@
                             cambios metálicos para igualar la velocidad del motor con los requerimientos de energía del coche,
                             que depende en la velocidad del vehículo, la pendiente de la superficie de la calle y del peso.
                         </p>
-                        
                         <img src="../Imagenes/transmision_coche.jpg" class="imgTabla">
                     </td>
                 </tr>
+
                 <tr>
                     <th class="tltTabla">
                         Embrague
                     </th>
+
                     <th class="tltTabla">
                         La dirección
                     </th>
+
                     <th class="tltTabla">
                         El sistema eléctrico
                     </th>
                 </tr>
+
                 <tr>
                     <td class="tdTabla">
                         <p class="parrafo">
-                            Es, digamos el enchufe entre el motor y las ruedas a través de los demás elementos de transmisión. Se ejecuta a través del pedal; suelto está embragado y hay conexión entre el motor y las ruedas, pisado está desembragado y las ruedas quedan desconectadas del motor.
+                            Es, digamos el enchufe entre el motor y las ruedas a través de los demás elementos de transmisión. 
+                            Se ejecuta a través del pedal; suelto está embragado y hay conexión entre el motor y las ruedas, pisado 
+                            está desembragado y las ruedas quedan desconectadas del motor.
                         </p>
-                        
                         <img src="../Imagenes/embrague_coche.jpg" class="imgTabla">
                     </td>
+
                     <td class="tdTabla">
                         <p class="parrafo">
-                            La dirección funciona mediante el giro de las ruedas delanteras, que se determina el rumbo que sigue el automóvil. El volante es su sistema de accionamiento. Este es, quizá, el concepto más sencillo e intuitivo de las partes del coche.
+                            La dirección funciona mediante el giro de las ruedas delanteras, que se determina el rumbo que sigue el automóvil. 
+                            El volante es su sistema de accionamiento. Este es, quizá, el concepto más sencillo e intuitivo de las partes del coche.
                         </p>
-                        
                         <img src="../Imagenes/direccion_coche.jpg" class="imgTabla">
                     </td>
+
                     <td class="tdTabla">
                         <p class="parrafo">
-                            El sistema eléctrico se sirve de una batería que toma su energía del motor mismo, que funciona como un generador. La batería se usa para encender el coche, aportando el movimiento inicial del motor y encendiendo componentes como la bomba y el encendedor de gasolina. La batería también se usa para encender las luces, la radio, los indicadores del salpicadero, las ventanas automáticas y una gran cantidad de sensores de seguridad. Todos estos dispositivos electrónicos están conectados a la batería con una serie de fusibles, que aseguran que el sistema eléctrico pueda continuar la función aunque una parte falle.
+                            El sistema eléctrico se sirve de una batería que toma su energía del motor mismo, que funciona como un generador. 
+                            La batería se usa para encender el coche, aportando el movimiento inicial del motor y encendiendo componentes como la bomba y 
+                            el encendedor de gasolina. La batería también se usa para encender las luces, la radio, los indicadores del salpicadero, 
+                            las ventanas automáticas y una gran cantidad de sensores de seguridad. Todos estos dispositivos electrónicos están conectados 
+                            a la batería con una serie de fusibles, que aseguran que el sistema eléctrico pueda continuar la función aunque una parte falle.
                         </p>
-                        
                         <img src="../Imagenes/sistema_electrico_coche.jpg" class="imgTabla">
                     </td>
                 </tr>
+
                 <tr>
                     <th class="tltTabla">
                         Frenos y ruedas
                     </th>
+
                     <th class="tltTabla">
                         Suspensión
                     </th>
+
                     <th class="tltTabla">
                         Luminosos del salpicadero
                     </th>
                 </tr>
+
                 <tr>
                     <td class="tdTabla">
                         <p>
-                            Como ya sabrás, existen distintos tipos de ruedas y de neumáticos, cada tipo útil para manejar bajo condiciones específicas. Por ejemplo, los neumáticos de un coche todoterreno tienen la versatilidad para usarse durante todo el año, incluso en condiciones severas. Los frenos de un coche son una de las partes de seguridad más importantes y suele haber uno o dos tipos: de disco o de tambor. Los frenos de disco usan un disco giratorio, que se encuentra entre las pastillas de los frenos montadas sobre calibres para reducir el movimiento del coche. Los frenos de tambor usan zapatas que empujan para afuera para contactar la parte inferior de un cilindro giratorio o tambor. Algunos coches contienen los dos tipos de frenos (un tipo para las ruedas delanteras y otro para las traseras) para aprovechar lo mejor de cada uno de ellos.                        <br />
-                        <img src="../Imagenes/frenos_coche.png" class="imgTabla">
+                            Como ya sabrás, existen distintos tipos de ruedas y de neumáticos, cada tipo útil para manejar bajo condiciones específicas. 
+                            Por ejemplo, los neumáticos de un coche todoterreno tienen la versatilidad para usarse durante todo el año, incluso en condiciones severas. 
+                            Los frenos de un coche son una de las partes de seguridad más importantes y suele haber uno o dos tipos: de disco o de tambor. Los frenos de 
+                            disco usan un disco giratorio, que se encuentra entre las pastillas de los frenos montadas sobre calibres para reducir el movimiento del coche. 
+                            Los frenos de tambor usan zapatas que empujan para afuera para contactar la parte inferior de un cilindro giratorio o tambor. Algunos coches 
+                            contienen los dos tipos de frenos (un tipo para las ruedas delanteras y otro para las traseras) para aprovechar lo mejor de cada uno de ellos.                        
+                            <br />
+                            <img src="../Imagenes/frenos_coche.png" class="imgTabla">
+                        </p>
                     </td>
+
                     <td class="tdTabla">
                         <p>
-                            Está formada por los componentes que permiten los desplazamientos entre las ruedas y carrocería, elementos de unión y los que hacen de función flexible o “colchón”, elementos elásticos (muelle). El elemento básico de la suspensión es el amortiguador, cuya función es amortiguar el impacto de los saltos en el camino y mantener el peso del vehículo, absorbiendo las oscilaciones del vehículo y manteniéndolo estable en el menor tiempo posible.                        <br />
-                        <img src="../Imagenes/suspension_coche.jpg" class="imgTabla">
+                            Está formada por los componentes que permiten los desplazamientos entre las ruedas y carrocería, elementos de unión y los que hacen de función flexible 
+                            o “colchón”, elementos elásticos (muelle). El elemento básico de la suspensión es el amortiguador, cuya función es amortiguar el impacto de los saltos en 
+                            el camino y mantener el peso del vehículo, absorbiendo las oscilaciones del vehículo y manteniéndolo estable en el menor tiempo posible.                        
+                            <br />
+                            <img src="../Imagenes/suspension_coche.jpg" class="imgTabla">
                     </td>
+
                     <td class="tdTabla">
                         <p>
-                            Una de las partes más visibles del coche es el panel de luminosos del salpicadero. La mayoría de los conductores son conscientes del velocímetro y del medidor de gasolina, pero hay otros elementos que tienen igual o más importancia. El tacómetro, que indica la velocidad del motor en rotaciones por minuto (RPM). El medidor del aceite o el de la temperatura del motor pueden ser útiles para diagnosticar problemas comunes, como pérdidas de aceite o del líquido refrigerante respectivamente. Detener el coche cuando la presión del aceite empieza a bajar o cuando la temperatura empieza a elevarse puede evitar una falla del motor catastrófica. Al igual que el luminoso de “check engine”, que te indica que algo está mal y deberías revisar.                        </p>
-                        
-                        <a href="../Imagenes/luminosos_coche.jpg"><img src="../Imagenes/luminosos_coche.jpg" class="imgTabla"></a> <!--Hacemos que la ultima imagen se pueda
-                                                                                                                                    abrir a tamaño real-->
+                            Una de las partes más visibles del coche es el panel de luminosos del salpicadero. La mayoría de los conductores son conscientes del velocímetro y del 
+                            medidor de gasolina, pero hay otros elementos que tienen igual o más importancia. El tacómetro, que indica la velocidad del motor en rotaciones por minuto (RPM). 
+                            El medidor del aceite o el de la temperatura del motor pueden ser útiles para diagnosticar problemas comunes, como pérdidas de aceite o del líquido refrigerante 
+                            respectivamente. Detener el coche cuando la presión del aceite empieza a bajar o cuando la temperatura empieza a elevarse puede evitar una falla del motor catastrófica. 
+                            Al igual que el luminoso de “check engine”, que te indica que algo está mal y deberías revisar.                        
+                        </p>
+                        <!--Hacemos que la ultima imagen se pueda abrir a tamaño real-->
+                        <a href="../Imagenes/luminosos_coche.jpg"><img src="../Imagenes/luminosos_coche.jpg" class="imgTabla"></a> 
                     </td>
                 </tr>
             </table>
         </div>
     </section>
+
     <!-- Footer-->
     <footer id="Pie">
         <p id="Copyright">Todos los derechos reservados ©2020</p>
@@ -551,5 +565,4 @@
         </p>
     </footer>
 </body>
-
 </html>
