@@ -14,7 +14,17 @@ h1{
     font-size: 30px;   
 }
 
+
 h3{
+    font-family: 'Quicksand';
+    font-size: 25x;
+    text-align: center;;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4{
     font-family: 'Quicksand';
     font-size: 20px;
     text-align: center;
@@ -24,7 +34,7 @@ h3{
     margin-top: 20px;
 }
 
-h4{
+h5{
     margin-top: 20px;
 }
 
@@ -106,6 +116,7 @@ p{
     width: 80%;
     text-align: center;
     margin-top: 20px;  
+    
 }
 
 .personal{

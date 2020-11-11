@@ -45,14 +45,6 @@ h1 {
 	font-size: 36px;
 }
 
-h2 {
-	text-align: left;
-	padding-left: 10%;
-	padding-bottom: 4%;
-	font-size: 30px;
-	font-family: "Quicksand-Bold";
-}
-
 h3{
 	text-align: left;
 	font-size: 20px;
@@ -85,6 +77,14 @@ p {
 	float: right; /* esto es para que la imagen se mantenga a la derecha del texto*/
 	width: 40%;
 	padding-right: 5%;
+}
+
+.txt_filtrado {
+	text-align: left;
+	padding-left: 10%;
+	padding-bottom: 4%;
+	font-size: 30px;
+	font-family: "Quicksand-Bold";
 }
 
 	.div_filtrado{

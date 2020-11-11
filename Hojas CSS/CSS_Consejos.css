@@ -36,13 +36,6 @@ h1{
   color: red;
   
 }
-h2{
-  font-family: 'Quicksand';
-  font-size: 20px;
-  text-align: center;
-  color:black;
-  padding-bottom: 20px;
-}
 
 h3{
   font-family: 'Quicksand';
@@ -60,6 +53,14 @@ p{
 
 ul{
   text-align: center;
+}
+
+.espacio{
+  font-family: 'Quicksand';
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  padding-bottom: 20px;
 }
 
 /* listas secciones */
