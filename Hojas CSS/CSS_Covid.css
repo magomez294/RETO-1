@@ -63,7 +63,6 @@ h1 {
     display: flex;
     align-items: center;
     margin-bottom: 1.5%;
-
 }
 
 /*Segunda imagen y texto de cada grupo */
@@ -87,11 +86,17 @@ h1 {
     padding: 1.5% 2% 1.5% 2%;
 }
 
-/* Para que las fotos del coche aparezcan todas seguidas*/
+/*Para que las fotos del coche aparezcan todas seguidas y centradas */
 .foto {
-    display: inline;
-    margin: auto;
-    padding: 1.5%;
+    display: inline-block;
+    align-items: center;
+}
+
+/*Para que las dos imagenes tengan un pequeño espacio entre ellas, para que no esten tan juntas*/
+.foto img {
+    height: auto;
+    padding: 5% 15% 5% 15%;
+    width: auto;
 }
 
 /* Para poner la letra en negrita*/

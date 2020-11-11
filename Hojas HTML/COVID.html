@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 
 <head>
+    <!--Titulo que queremos que tenga la pagina en concreto-->
     <title>COVID-19</title>
+    <!--Elementos clave para cuando se quiera buscar en internet esta pagina-->
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS">
     <meta name="description" content="Manera de trabajar debido al COVID-19">
     <meta name="author" content="María, Urko, Sonia, John & Jon">
-    <meta>
     <!--Creamos el favicon-->
     <link rel="icon" href="../Imagenes/Favicon.ico" style="height: 5px; width: 5px;" type="image/ico">
+    <!--Llamamos a las paginas de CSS correspondientes, para que la pagina tenga estilos distintos-->
     <link rel="stylesheet" href="../Hojas CSS/CSS_Covid.css">
     <link rel="stylesheet" href="../Hojas CSS/CSS_Header_Footer.css">
 </head>
@@ -17,44 +19,46 @@
     <!--Iniciamos la cabecera-->
     <header>
         <!--APARTADO COVID-->
+        <!--Link que lleva a la pagina sobre como trabajamos teniendo en cuenta el covid-->
         <a id="Enlace_Covid" href="COVID.html">
-            <div id="Covid">
-                <p class="Titulo_covid">INFORMACIÓN COVID</p>
-                <table>
-                    <tbody>
-                        <!-- Tabla de las imagenes y el texto sobre el covid-->
-                        <tr>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_distancia.svg"></td>
-                            <td class="Texto_covid">DISTANCIA >2M DE SEGURIDAD</td>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_lava_coche.svg"></td>
-                            <td class="Texto_covid">DESINFECCIÓN DE PUNTOS BÁSICOS DEL VEHÍCULO</td>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_tecnico.svg"></td>
-                            <td class="Texto_covid">NUESTROS TÉCNICOS PROTEGIDOS</td>
-                            <td><img class="Imagenes_covid" src="../Imagenes/icon_mampara.svg"></td>
-                            <td class="Texto_covid">MAMPARAS DE PROTECCIÓN EN ATENCIÓN AL CLIENTE</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br>
-                <p class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</p>
-            </div>
+            <p class="Titulo_covid">INFORMACIÓN COVID</p>
+            <!--Se crea una tabla para introducir las imagenes y los textos, haciendo un pequeño resumen-->
+            <table>
+                <tbody>
+                    <!-- Tabla de las imagenes y el texto sobre el covid-->
+                    <tr>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_distancia.svg"></td>
+                        <td class="Texto_covid">DISTANCIA >2M DE SEGURIDAD</td>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_lava_coche.svg"></td>
+                        <td class="Texto_covid">DESINFECCIÓN DE PUNTOS BÁSICOS DEL VEHÍCULO</td>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_tecnico.svg"></td>
+                        <td class="Texto_covid">NUESTROS TÉCNICOS PROTEGIDOS</td>
+                        <td><img class="Imagenes_covid" src="../Imagenes/icon_mampara.svg"></td>
+                        <td class="Texto_covid">MAMPARAS DE PROTECCIÓN EN ATENCIÓN AL CLIENTE</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <p class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</p>
         </a>
 
-           <!--Apartado barra navegación-->
-        <nav class="desplegable">
-            <ul>
-                <li class="botones" id="coche_boton">
-                    <a href="INDEX.html"> <img id="Logo_coche" src="../Imagenes/Logo.png"></a>
-                </li>
-                <li class="botones"><a href="QUIENES_SOMOS.html">¿Quienes somos?</a></li>
-                <li class="botones"><a href="CONSEJOS.html">Consejos</a></li>
-                <li class="botones"><a href="COMPROMISO.html">Compromiso Medioambiental</a></li>
-                <li class="botones"><a href="CONTACTO.html">Contacto</a></li>
+        <!--APARTADO BARRA DE NAVEGACIÓN-->
+        <nav>
+            <!--El logo esta fuera de la lista para que los recuadros no fuesen de distintos tamaños-->
+            <a href="INDEX.html" id="Logo_coche"><img src="../Imagenes/Logo.png"></a>
+            <!--Lista con todos los links a las distintas paginas creadas-->
+            <ul id="desplegable">
+                <a href="QUIENES_SOMOS.html"><li class="botones">¿Quienes somos?</li></a>
+                <a href="CONSEJOS.html"><li class="botones">Consejos</li></a>
+                <a href="COMPROMISO.html"><li class="botones">Compromiso Medioambiental</li></a>
+                <a href="CONTACTO.html"><li class="botones">Contacto</li></a>
             </ul>
         </nav>
     </header>
-    <!-- Primera imagen con sus textos-->
+
+    <!--Primer grupo sobre como tratamos la proteccion respecto al cliente-->
     <div id="Fondo_titulo">
+        <!--Parte superior con la imagen de detener el covid, un pequeño texto y el titulo de ese apartado-->
         <section id="Inicio">
             <div>
                 <img id="Stop" src="../Imagenes/icon_stop_covid.svg">
@@ -72,10 +76,10 @@
             </div>
         </section>
 
-        <!-- Todos los elementos sobre como se trabaja respecto al covid-->
-        <!-- Primeras dos imagenes-->
+        <!--Especificaciones de como trabajamos y como protejemos a los clientes-->
+        <!--Primera fila de imagenes y textos de proteccion cliente-->
         <div class="Cliente">
-            <!--Distancia-->
+            <!--Seccion de mantener la distancia-->
             <div class="Apartados2">
                 <div>
                     <p>
@@ -92,7 +96,7 @@
                 </div>
             </div>
 
-            <!--Contacto-->
+            <!--Seccion sobre las zonas de contacto-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -100,16 +104,16 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Contacto" src="../Imagenes/icon_contacto.svg"> </div>
+                    <img src="../Imagenes/icon_contacto.svg"> </div>
                 <div>
                     Limpieza en <span>las zonas compartidas</span> con el cliente.
                 </div>
             </div>
         </div>
 
-        <!--Segundo grupo de imagenes-->
+        <!--Segunda fila de imagenes y textos de proteccion cliente-->
         <div class="Cliente">
-            <!-- Gel-->
+            <!--Seccion sobre el gel-->
             <div class="Apartados2">
                 <div>
                     <br>
@@ -118,7 +122,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Gel" src="../Imagenes/icon_gel.svg">
+                    <img src="../Imagenes/icon_gel.svg">
                 </div>
                 <br>
                 <div>
@@ -128,7 +132,7 @@
                 </div>
             </div>
 
-            <!--Zonas comunes-->
+            <!--Seccion sobre inhabilitacion de las zonas comunes-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -136,7 +140,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Silla" src="../Imagenes/icon_silla.svg">
+                    <img src="../Imagenes/icon_silla.svg">
                 </div>
                 <div>
                     <p>
@@ -146,9 +150,9 @@
             </div>
         </div>
 
-        <!-- Tercer grupo de imagenes-->
+        <!--Tercera fila de imagenes y textos de proteccion cliente-->
         <div class="Cliente">
-            <!--Mamparas-->
+            <!--Seccion sobre las mamparas protectoras-->
             <div class="Apartados2">
                 <div>
                     <p>
@@ -156,7 +160,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Gel" src="../Imagenes/icon_mampara.svg">
+                    <img src="../Imagenes/icon_mampara.svg">
                 </div>
                 <div>
                     <p>
@@ -168,7 +172,7 @@
     </div>
     <br>
 
-    <!-- Texto-->
+    <!--Titulo sobre la proteccion del vehiculo-->
     <div class="Cliente">
         <div class="Apartados_titulo">
             <h3 class="Titulo">
@@ -179,18 +183,19 @@
             </div>
         </div>
     </div>
-
+    <!--Primer grupo sobre como protejemos el vehiculo antes y despues de cada trabajo-->
     <div id="Proteccion_vehiculo">
-        <!-- Desinfección de los coches-->
+        <!--Primera fila de imagenes y textos de proteccion del vehiculo-->
         <div class="Cliente">
-            <div class="foto">
+                <!--Seccion sobre desinfeccion del vehiculo-->
+            <div class="Apartados">
                 <div>
                     <p>
                         DESINFECCIÓN DE PUNTOS BÁSICOS
                     </p>
                 </div>
                 <div>
-                    <img id="Lavar" src="../Imagenes/icon_lava_coche.svg">
+                    <img src="../Imagenes/icon_lava_coche.svg">
                 </div>
                 <div>
                     <p>
@@ -199,14 +204,14 @@
                 </div>
             </div>
             <div>
-                <img src="../Imagenes/img_coche.png">
-                <img src="../Imagenes/img_coche_interior.png">
+                <div class="foto"><img  src="../Imagenes/img_coche.png"></div>
+                <div class="foto"><img  src="../Imagenes/img_coche_interior.png"></div>
             </div>
         </div>
 
-        <!-- Primer grupo de tres imagenes-->
+        <!--Segunda fila de imagenes y textos de proteccion del vehiculo-->
         <div class="Cliente">
-            <!-- Llave-->
+            <!--Seccion sobre desinfeccion de las llaves-->
             <div class="Apartados2">
                 <div>
                     <p>
@@ -214,7 +219,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Llaves" src="../Imagenes/icon_llaves.svg">
+                    <img src="../Imagenes/icon_llaves.svg">
                 </div>
                 <div>
                     <p>
@@ -223,7 +228,7 @@
                 </div>
             </div>
 
-            <!-- Ventilación-->
+            <!--Seccion sobre la ventilacion-->
             <div class="Apartados2">
                 <div>
                     <p>
@@ -231,7 +236,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Ventilacion" src="../Imagenes/icon_ventilacion.svg">
+                    <img src="../Imagenes/icon_ventilacion.svg">
                 </div>
                 <div>
                     <p>
@@ -240,7 +245,7 @@
                 </div>
             </div>
 
-            <!-- Fundas-->
+            <!--Seccion sobre las fundas protectoras-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -248,7 +253,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Volante" src="../Imagenes/icon_volante.svg">
+                    <img src="../Imagenes/icon_volante.svg">
                 </div>
                 <div>
                     <p>
@@ -259,7 +264,7 @@
         </div>
     </div>
 
-    <!-- Texto-->
+    <!--Titulo sobre la proteccion de tecnicos/higiene instalaciones-->
     <div class="Cliente">
         <div class="Apartados_titulo">
             <h3 class="Titulo">
@@ -267,10 +272,11 @@
             </h3>
         </div>
     </div>
+    <!--Grupo con las caracteristicas de proteccion de tecnicos/higiene de las instalaciones-->
     <div id="Proteccion_tecnicos">
-        <!--Segundo grupo de tres imagenes-->
+        <!--Primera fila de imagenes y texto sobre la proteccion tecnicos/higiene instalaciones-->
         <div class="Cliente">
-            <!-- Guantes-->
+            <!--Seccion sobre el uso de guantes de nitrilo-->
             <div class="Apartados2">
                 <div>
                     <p>
@@ -278,7 +284,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Gel" src="../Imagenes/icon_guantes.svg">
+                    <img src="../Imagenes/icon_guantes.svg">
                 </div>
                 <div>
                     <p>
@@ -287,7 +293,7 @@
                 </div>
             </div>
 
-            <!-- Gafas-->
+            <!--Seccion sobre el uso de gafas protectoras-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -295,7 +301,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Gafas" src="../Imagenes/icon_gafas.svg">
+                    <img src="../Imagenes/icon_gafas.svg">
                 </div>
                 <div>
                     <p>
@@ -304,7 +310,7 @@
                 </div>
             </div>
 
-            <!-- Lavamanos-->
+            <!--Seccion sobre el continuo lavado de manos-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -312,7 +318,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Lavamanos" src="../Imagenes/icon_lavamanos.svg">
+                    <img src="../Imagenes/icon_lavamanos.svg">
                 </div>
                 <div>
                     <p>
@@ -322,9 +328,9 @@
             </div>
         </div>
 
-        <!--Tercer grupo de tres imagenes-->
+        <!--Segunda fila de imagenes y texto sobre la proteccion tecnicos/higiene instalaciones-->
         <div class="Cliente">
-            <!-- Gorros-->
+            <!--Seccion sobre el uso de gorros protectores-->
             <div class="Apartados2">
                 <div>
                     <p>
@@ -332,7 +338,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Gorro" src="../Imagenes/icon_gorro.svg">
+                    <img src="../Imagenes/icon_gorro.svg">
                 </div>
                 <div>
                     <p>
@@ -341,7 +347,7 @@
                 </div>
             </div>
 
-            <!-- Mascarilla-->
+            <!--Seccion sobre el uso de mascarilla-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -349,7 +355,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Mascararilla" src="../Imagenes/icon_mascara.svg">
+                    <img src="../Imagenes/icon_mascara.svg">
                 </div>
                 <div>
                     <p>
@@ -358,7 +364,7 @@
                 </div>
             </div>
 
-            <!-- Fregona-->
+            <!--Seccion sobre el refuerzo de las medidas de limpieza-->
             <div class="Apartados">
                 <div>
                     <p>
@@ -366,7 +372,7 @@
                     </p>
                 </div>
                 <div>
-                    <img id="Cubo" src="../Imagenes/icon_cubo.svg">
+                    <img src="../Imagenes/icon_cubo.svg">
                 </div>
                 <div>
                     <p>
@@ -376,7 +382,10 @@
             </div>
         </div>
     </div>
+
+    <!--Footer-->
     <footer id="Pie">
+        <!--Textp del cppyright y del aviso legal-->
         <p id="Copyright">Todos los derechos reservados ©2020</p>
         <p id="Aviso"> Aviso legal - Designed by <b><i>Turborepair</i></b>. Diseño y mantenimiento de sitios web corporativos, gestores de contenidos y blogs. Planes SEO continuos.
             <br>Web Marketing. Diseño gráfico, identidad corporativa, logos.
