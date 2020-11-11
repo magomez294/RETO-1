@@ -5,10 +5,12 @@
   <title>Contacto</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-  <!--Creamos el favicon y cargamos css-->
+  <!--Insertamos el favicon-->
+  <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico">
+  <!-- Cargamos las páginas de eltilo con las que vamos a trabajar-->
   <link rel=stylesheet href="../Hojas CSS/CSS_Contacto.css" type="text/css" />
   <link rel=stylesheet href="../Hojas CSS/CSS_Header_Footer.css" type="text/css" />
-  <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico">
+  
 </head>
 
 <body>
@@ -40,7 +42,7 @@
 <!-- Header Wrapper -->
 <div class="wrapper style1">     		
   <!-- Banner -->
-    <div id="banner">
+    <div id="banner"> <!-- dejamos esto para poner titulo en un futuro-->
       <!--<section class="container">
         <h2></h2>
         <p></p>
@@ -65,14 +67,17 @@
 <section id="contacto">
   <div class="div_datos">
   <h4 class="center">Nos gusta escucharte</h4>
-    <form class="contacto">
-      <div><label>Tu Nombre:</label><input type='text' value=''></div>
+    <form class="contacto"> <!--Creamos un formulario de contacto-->
+      <div><label>Tu Nombre:</label><input type='text' value=''></div> <!--ponemos etiquetas para el formulario
+                                                                          cada una sera de un tipo y tendrá unas 
+                                                                        propiedades distintas-->
       <div><label>Tu Email:</label><input type='email' value=''></div>
       <div><label>Teléfono:</label><input type='tel' value=''></div>
     </form>
   </div>
-  <div class="div_redes">
-  <h5>Síguenos en las redes</h5>
+  <div class="div_redes"> <!--Creamos un contenedor que va a tener los enlaces a las redes
+                              y el formulario del mensaje-->
+    <h5>Síguenos en las redes</h5>
     <div class="social">
 		  <a href="https://es-es.facebook.com/"><img class="iconos" src="../icons/facebook.png" alt="facebook"></a>
 		  <a href="https://twitter.com/?logout=1604833095859"><img class="iconos" src="../icons/Twitter.png" alt="twitter"></a>
@@ -81,14 +86,14 @@
   
     <form class="mensaje">
       <div><label class="lbl_mensaje">Mensaje:</label>
-      <textarea class="txt_mensaje" rows="20" style="width: 80%; height: 40%;"></textarea></div>
+      <textarea class="txt_mensaje" rows="20" style="width: 80%; height: 40%;"></textarea></div> <!--Le damos un tamaño-->
       <div>
-        <button class="btn_enviar">Enviar</button>
+        <button class="btn_enviar">Enviar</button> <!--Insertamos un boton al que posteriormente le daremos instrucciones-->
       </div>
     </form>
   </div>
 </section>
-
+<!-------------------------------COMENTAR POR JON---------------------------------------------------->
 <!-- Seccion mapa ubicacion-->
 <section id="Inicio">
   <div id="mapa2">
