@@ -6,6 +6,7 @@
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
 
+/* elementos comunes en toda la página */
 h1{
     font-size: 36px;
     text-align: center;
@@ -26,11 +27,17 @@ p{
     font-size: 21px;
 }
 
+/* elementos con clase */
+.p_final{
+    padding-top: 2%;
+}
+
 .contenedor{
     width: 60%;
     font-family: 'Quicksand';
 }
 
+/* imagen introduccion */
 .img_intro{
     display: block; /* añadimos un display block para hacer
                      que el comportamiento del elemento sea como un bloque. */
@@ -40,12 +47,23 @@ p{
     padding-bottom: 3%;
 }
 
+/* imagenes de tipos de residuos*/
+.img_residuos{
+    display: block; /* añadimos un display block para hacer
+                     que el comportamiento del elemento sea como un bloque. */
+    align-items: center; /* lo alineamos en el centro */
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* hacemos bloque el contenedor de las listas */
 .ul_left{
     display: block;
     padding-left: 5%;
     
 }
 
+/* ponemos estilo a la lista */
 .li_re{
     font-family: "Quicksand-Bold" ;
     font-size: 20px;
@@ -53,9 +71,8 @@ p{
     padding-top: 1%;
     padding-top: 1%;
 }
-
-.a_color{
+ /* CSS enlaces */
+.a_color{ /*le damos color a los enlaces */
     text-decoration: none;
-    color:#14bf98;
-    
+    color: rgb(11, 214, 194);  
 }
