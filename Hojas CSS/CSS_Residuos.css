@@ -5,3 +5,57 @@
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: red;
+}
+
+p{
+    font-family: "Quicksand-Bold" ;
+    font-size: 21px;
+}
+
+.contenedor{
+    width: 60%;
+    font-family: 'Quicksand';
+}
+
+.img_intro{
+    display: block; /* añadimos un display block para hacer
+                     que el comportamiento del elemento sea como un bloque. */
+    align-items: center; /* lo alineamos en el centro */
+    width: 500px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.ul_left{
+    display: block;
+    padding-left: 5%;
+    
+}
+
+.li_re{
+    font-family: "Quicksand-Bold" ;
+    font-size: 20px;
+    list-style: disc;
+    padding-top: 1%;
+    padding-top: 1%;
+}
+
+.a_color{
+    text-decoration: none;
+    color:#14bf98;
+    
+}
