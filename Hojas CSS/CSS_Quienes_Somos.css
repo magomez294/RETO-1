@@ -6,7 +6,7 @@
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf)
 }
 
-/* Elementos básicos*/
+/* Elementos básicos comunes en toda la página*/
 h1{
     font-family: 'Quicksand';
     text-align: center;
@@ -14,9 +14,8 @@ h1{
     font-size: 30px;   
 }
 
-
 h3{
-    font-family: 'Quicksand';
+    font-family: 'Quicksand-bold';
     font-size: 25x;
     text-align: center;;
     padding-left: 10px;
@@ -45,7 +44,7 @@ p{
 }
 
 
-/* Wrapper */
+/* Wrapper , aqui definimos el contenedor que va a tener el fondo de pantalla*/
 .wrapper {
     padding: 6em 0em 4em 0em;
     display: block;
@@ -54,7 +53,7 @@ p{
 	.wrapper.style1 {
 		padding: 0em;
 		background: #222222 url(../Imagenes/ba_equipo.jpg) no-repeat;
-		background-size: cover;
+		background-size: cover;/* con esto coge todo lo largo de la página */
 	}
 
 /* Banner */
@@ -64,30 +63,33 @@ p{
 }
 
 /* seccion sobre nosotros*/
-.nosotros{
+.nosotros{ 
     text-align: justify;
-    display:inline-flex;
+    display:inline-flex; /* El valor inline-flex hace que el contenedor flexible 
+                         sea un elemento "en línea" dentro del elemento "padre" al que pertenezca.
+                        Nota: Cuando utilices un prefijo para el tipo de navegador, ponlo en la 
+                        propiedad "display" no en el atributo "display". */
     width: 50%;
 }
     #div_nosotros{
-        width: 60%;
+        width: 60%; /* Le damos tamaño al div para centrarlo */
     }
 
-  
 /* caracteristicas lista dentro del div */
-    .ul_centrada{
+    .ul_centrada{ /*lista desordenada */
         padding-left: 20%;
     }
     
     .li_estilo{
-        list-style: disc;
+        list-style: disc; /* esto hace que haya un punto negro delante */
         padding-bottom: 2%;
     }
 
-    /* opiniones clientes */
+    /* Secciçon opiniones clientes */
     .opiniones{
         text-align: justify;
-        display: inline-flex;
+        display: inline-flex; /* volvemos a utilizar el inline flex para tener los
+                                elementos en linea */
         width: 40%;
     }
 
@@ -100,7 +102,7 @@ p{
         width: 500px;
     }
 
-    .valoracion {
+    .valoracion { /* le damos un tamaño a las imagenes */
         width: 140px;
         height: 30px;   
     }
@@ -115,59 +117,55 @@ p{
     background-color: lightgray;
     width: 80%;
     text-align: center;
-    margin-top: 20px;  
-    
+    margin-top: 20px;   
 }
 
-.personal{
-    width: 100%;
-    height: 100%;
-}
+    .personal{
+        width: 100%;
+        height: 100%;
+    }
 
     /* para hacer las imagenes de los trabajadores redondas*/
     .imgRedonda {
         width:150px;
         height:150px;
-        border-radius:100px;
-        border:10px solid #666; 
+        border-radius:100px; /* muestra solamente lo que hay dentro del circulo */
+        border:10px solid #666; /* Le hago un borde para que se vea mejor */
     }
 
     .nombre{
-        color: red;
+        color: red; 
     }
 
 /* seccion calidad y garantia */
 #cabecera{
     background-color: lightgray;
     width: 80%;
-   
 }
 
-#comentarios {
-    padding: 10px,0px,10px,0px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 4%;
+.contenedor{
+    width: 80%;
+    height: 400px;
 }
+   .tltTabla{
+       color: red;
+       font-size: 20px;
+       padding-top: 50px;
+       padding-bottom: 2%;
+       text-align: center;
+   }
 
-#comentario1 {
-    font-family: 'Quicksand';
-    text-align: justify;
-    margin: auto;
-    width: 500px;
-    height: 200px;
-}
+   .p_tabla{
+       width: 80%;
+       padding-left: 30px;
+       padding-right: 30px;
+       text-align: justify;
+   }
 
-#comentario2 {
-    font-family: 'Quicksand';
-    margin: auto;
-    text-align: justify;
-    width: 500px;
-    height: 200px;
-}
+
     /* imagenes final pagina */
     #imagen{
-        padding-top: 10%;
+        padding-top: 5%;
         display: block;
         align-items: center;
         width: 60%;
