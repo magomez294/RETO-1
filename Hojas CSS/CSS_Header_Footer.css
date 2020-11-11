@@ -4,7 +4,7 @@
  *
  */
 
-@font-face {
+ @font-face {
     font-family: 'Quicksand';
     src: url(../Fuentes/Quicksand/Quicksand-SemiBold.ttf);
 }
@@ -23,7 +23,7 @@ ul, li {
     padding: 0;
     margin: 0;
     list-style: none;
-}*/
+}
 
 /*
  *
@@ -31,18 +31,13 @@ ul, li {
  *
  */
 
+
+
 /*Link que sirve para ir a la pagina sobre Covid*/
 #Enlace_Covid {
     text-decoration: none;
+    display: block;
     background-color: rgb(209, 204, 204);
-    border-top: 3px solid rgb(209, 204, 204);
-    border-width: 5px solid rgb(209, 204, 204);
-    border-bottom: 6px solid black;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    height: 190.033;
-    display: block;  
 }
 
 /*Texto que aparece al principio y al final del del link*/
@@ -50,6 +45,8 @@ ul, li {
     text-align: center;
     font-family: 'Quicksand';
     font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: black;
 }
 
@@ -62,6 +59,10 @@ ul, li {
     padding: 10px;
     border-right: 2px solid black;
     color: black;
+}
+
+#ultimo {
+    border-right: none;
 }
 
 /*Todas las imagenes que aparecen en el link de Informacion Covid*/
@@ -83,7 +84,7 @@ ul, li {
 }
 
 /*Para hacer que los links esten centrados y de color negro*/
-a {
+#desplegable a {
     color: black;
     text-align: center;
     list-style: none;
