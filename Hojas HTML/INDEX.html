@@ -5,22 +5,24 @@
     <title>Inicio</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Somos una empresa eficiente." />
-    <meta name="keywords" content="taller; neumáticos; piezas; coche" />
+    <meta name="keywords" content="taller; neumáticos; piezas; coche" /> <!-- Damos palabras claves para los buscadores-->
 
-    <!--Creamos el favicon-->
-    <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico">
+    <!--Cargamo es Favicon el favicon-->
+    <link rel="icon" href="../Imagenes/Favicon.ico" type="image/ico"> 
+    <!-- Cargamos las hojas de estilo que va a utilizar la página-->
     <link rel="stylesheet" href="../Hojas CSS/CSS_Header_Footer.css">
     <link rel="stylesheet" href="../Hojas CSS/CSS_Index.css">
 
    </head>
 
 <body>
-    <header>
-        <!--APARTADO COVID-->
-        <a id="Enlace_Covid" href="COVID.html">
+    <header> <!-- Añadimos un header para separar la cabecera del resto de la página,
+                va a ser común en todas las páginas -->
+        <!--APARTADO COVID--> <!--------------------COMENTAR POR JON------------------->
+        <a id="Enlace_Covid" href="COVID.html"> 
             <div id="Covid">
                 <p class="Titulo_covid">INFORMACIÓN COVID</p>
-                <table>
+                <table> 
                     <tbody>
                         <!-- Tabla de las imagenes y el texto sobre el covid-->
                         <tr>
@@ -38,18 +40,21 @@
                 <br>
                 <p class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</p>
             </div>
-        </a>
-        <!-- Header Wrapper -->
+        </a> <!-----------------------FIN COMENTARIOS-------------------------------------->
+        <!-- Header Wrapper --> <!-- Creamos un contenedor para poder meter 
+                                        la imagen de fondo distinta en todas
+                                        la cabeceras y poder añadirle texto-->
         <div class="wrapper style1">
             <!-- Banner -->
             <div id="banner">
-                <!--<section class="container">
+            <!-- <section class="container">  Dejamos este contenedor para
+                                                poder meter el texto, o titulo de pagina
                 <h2></h2>
                 <p></p>
-            </section>-->
+            </section> -->
             </div>
         </div>
-        <!--Apartado barra navegación-->
+        <!--Apartado barra navegación--> <!---------------------COMENTAR POR JON------------------------>
         <nav>
             <ul class="desplegable">
                 <li id="coche_boton">
@@ -61,10 +66,12 @@
                 <li class="botone"><a href="CONTACTO.html">Contacto</a></li>
             </ul>
         </nav>
-    </header>
-    <!-- Seccion nuestra compañia-->
+    </header> <!-------------------FIN COMENTARIOS----------------------------------->
+    <!-- Dividimos la página en varias secciones, cada una con un tipo de información para que esté organizado-->
+    <!-- Sección nuestra compañia-->
     <section>
-        <div class="div_compania">
+        <div class="div_compania">  <!-- Creamos un contenedor que va a incluir imagenes y texto en linea,
+                                        para ello necesitamos un div padre, del que saldran los div hijos-->
             <div class="div_img">
                 <img src="../Imagenes/compañia1.jpg">
             </div>
@@ -85,7 +92,7 @@
             </div>
         </div>
     </section>
-    <!--Seccion articulos-->
+    <!--Seccion articulos--> <!-------------------COMENTAR POR MARIA----------------------->
     <section>
         <div id="rec_art">
             <p id="tit_artind">Artículos a tener en cuenta</p>
@@ -104,8 +111,7 @@
                     </td>
                     <td id="tabla_text2">
                         <p id="txt_art2">La importancia de la bomba de combustible</p>
-                        <
-                            p id="txt2_art2">05 SEPTIEMBRE, 2020</p>
+                        <p id="txt2_art2">05 SEPTIEMBRE, 2020</p>
                     </td>
                 </tr>
                 <tr id="grupo_2">
@@ -130,13 +136,11 @@
                     <p id="ver_mas">Ver más</p>
                 </a>
             </div>
-
         </div>
-
-    </section>
+    </section> <!-------------------------FIN COMENTARIOS------------------------------>
     <!-- Seccion motivos para elegirnos-->
-    <section id="rec_motiv">
-        <h3 id="Titulo_Mot">¿POR QUÉ ELEGIR REKORD AUTOAK?</h3>
+    <section>
+        <h3>¿POR QUÉ ELEGIR REKORD AUTOAK?</h3>
         <div id="contenedor">
             <div class="div_list">
                 <ul id="motivos">
@@ -151,10 +155,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="div_video" id="right">
-                <div class="caja-video">
-                    <video class="video" src="../Videos/Video Section-1.m4v" controls></video>
-                </div>
+            <div class="div_video">
+                <video class="video" src="../Videos/Video Section-1.m4v" controls></video>
             </div>
         </div>
     </section>
