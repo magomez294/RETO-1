@@ -26,7 +26,7 @@
     height: 316px;
 }
 
-.container {
+.container { /*alineamos el texto y le damos margenes */
 	text-align: center;
 	font-style: 'Quicksand';	
 }	 
@@ -71,8 +71,6 @@ p {
 }
 
 /* seccion gestion de residuos */
-
-/* imagen primer article */
 .filtrado{
 	float: right; /* esto es para que la imagen se mantenga a la derecha del texto*/
 	width: 40%;
@@ -97,7 +95,7 @@ p {
 		padding-bottom:30px;
 }
 
-/* imagen segundo article */
+/* seccion tipos de residuos */
 .img_gestion{
 	float: left; /* hace que la imagen se mantenga a la izquierda */
 	padding-top: 2%;
@@ -113,7 +111,7 @@ p {
 	}
 
 
-	/* Enlace a la página de gestion de residuos*/
+/* Enlace a la página de gestion de residuos*/
 
 .btn_residuos{
 	width: 20%;
@@ -133,20 +131,27 @@ p {
 }
 
 
-/* tercer article */
-.contenedor{
+/* sección iniciativas que apoyamos */
+.contenedor{ 
 	overflow: hidden;
 	width: 100%;
 }
 
 .iniciativas{
 	width: 400px;
-	float: left;
+	float: left; /* con esto hacemos que los div esten alineados */
 	padding-top: 2%;
 	padding-left: 9%;
 	padding-bottom: 2%;
-	
+}
 
+/* imagenes del final de la página */
+.img_in{
+	transition: transform .2s; /* le damos un tiempo para la trasformación */
+}
+
+.img_in:hover { /* cuando se pasa por encima crece la imagen */
+	transform: scale(1.5); 
 }
 
 
