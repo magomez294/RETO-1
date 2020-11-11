@@ -1,4 +1,8 @@
-/*Importamos las fuentes que vamos a usar*/
+/*
+ *
+ *Importamos las fuentes que vamos a usar
+ *
+ */
 
 @font-face {
     font-family: 'Quicksand';
@@ -10,26 +14,26 @@
     src: url(../Fuentes/Quicksand/Quicksand-Bold.ttf);
 }
 
+/*Tipo de letra que se le va a dar al cuerpo entero*/
 body {
     margin: auto;
     font-family: 'Quicksand';
 }
-
-  
 ul, li {
     padding: 0;
     margin: 0;
     list-style: none;
-    
-    
-}
-/*CSS Apartado Covid*/
+}*/
 
+/*
+ *
+ *CSS Apartado Covid
+ *
+ */
+
+/*Link que sirve para ir a la pagina sobre Covid*/
 #Enlace_Covid {
     text-decoration: none;
-}
-
-#Covid {
     background-color: rgb(209, 204, 204);
     border-top: 3px solid rgb(209, 204, 204);
     border-width: 5px solid rgb(209, 204, 204);
@@ -41,35 +45,16 @@ ul, li {
     display: block;  
 }
 
-#Titulo {
+/*Texto que aparece al principio y al final del del link*/
+.Titulo_covid {
     text-align: center;
     font-family: 'Quicksand';
     font-size: 20px;
     color: black;
 }
 
-#Distancia {
-    float: left;
-    margin-left: 30px;
-}
-
-#Texto_Distancia {
-    float: left;
-    margin-left: 35px;
-    margin-right: 5px;
-    font-family: cursive;
-    padding: 10px;
-    border-right: 2px solid black;
-    color: black;
-}
-
-#Coche {
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#Texto_Coche {
+/*Textos de dentro de las tablas*/
+.Texto_covid {
     float: left;
     margin-left: 5px;
     margin-right: 5px;
@@ -79,104 +64,61 @@ ul, li {
     color: black;
 }
 
-#Tecnico {
+/*Todas las imagenes que aparecen en el link de Informacion Covid*/
+.Imagenes_covid {
     float: left;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#Texto_Tecnico {
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: cursive;
-    padding: 10px;
-    border-right: 2px solid black;
-    color: black;
-}
 
-#Mampara {
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#Texto_Mampara {
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: cursive;
-    padding: 10px;
-    color: black;
-}
-
-#Final {
-    text-align: center;
-    font-family: 'Quicksand';
-    font-size: 20px;
-    color: black;
-}
-
-
-
-
-/*CSS del apartado de navegacion de todas las páginas*/
+/*
+ *
+ *CSS del apartado de navegacion de todas las páginas
+ *
+ */
 
 * {
-   
     margin: auto;
 }
-.botone{
-    text-align: center;
-}
 
-ul {
-    list-style: none;
-    width: 100%; 
-      
-}
-
-#coche_boton {
-    background: lightgray;
-    outline: none;
-    line-height: 50px;
-}
-
-.desplegable {
-    align-content: flex-start;
-    text-align: center;
-    display: flex;
-    text-decoration: none;
-}
-.desplegable li a {
+/*Para hacer que los links esten centrados y de color negro*/
+a {
     color: black;
     text-align: center;
     list-style: none;
     text-decoration: none;
-    display: block;
-    background-color:lightgray;
+}
+
+/*Para colocar todos los botones de la barra de navegacion de manera ordenada y en una misma fila*/
+#desplegable {
+    list-style-type: none;
+    margin: 0;
     width: 100%;
-    height: 100%;
+    padding: 0;
+    overflow: hidden;
 }
 
-.desplegable li {
-    width:20%;
-    border-style: outset;
+/*Para colocar los botones centrados*/
+.botones {
+    float: left;
+    width: 25%;
+    vertical-align: top;
+    text-align: center;
+    background-color: #c2c2c2;
+    transition: background-color 1s; /*el tiempo que tarda en cambiar de color al pasar el raton por encima del link*/
 }
 
-.desplegable li a:hover {
-    border-style: inset;
-    background-color: darkgray;
+/*Cambia el color de los links de la barra de navegacion al pasar el raton por encima*/
+.botones:hover{
+    background-color: black;
+    color: white;
 }
 
+/*Tamaño del logo del coche, que lleva a la página principal*/
 #Logo_coche {
-    margin-left: 0%;
-    vertical-align: middle;
-    object-fit: contain;
-    background-size: cover;
-    background-color:white;
-    border-radius: 150%;
-    padding-block-end: 0%;
+    height: 10%;
+    width: 10%;
 }
 
 .submenu {
@@ -184,24 +126,28 @@ ul {
 }
 
 
-/*CSS footer*/
+/*
+ *
+ *CSS footer
+ *
+ */
 
+ /*Caracteristicas del footer completo*/
 #Pie {
-    position: sticky;
     background-color: black;
-    width: auto;
-    height: auto;
     margin-top: 10px;
     padding: 1% 0 1% 0;
     font-family: 'Quicksand';
 }
 
+/*Texto de Copyright*/
 #Copyright {
     color:white;
     text-align: center;
     padding-bottom: 1%;
 }
 
+/*Texto sobre el aviso legal de uso*/
 #Aviso {
     text-align: center;
     color:white;
