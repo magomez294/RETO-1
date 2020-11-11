@@ -40,7 +40,7 @@ h5{
 p{
     font-family: 'Quicksand-bold';
     font-size: 20px;
-    margin-bottom: 20px;       
+           
 }
 
 
@@ -78,6 +78,7 @@ p{
 /* caracteristicas lista dentro del div */
     .ul_centrada{ /*lista desordenada */
         padding-left: 20%;
+        padding-top: 5%;
     }
     
     .li_estilo{
@@ -143,9 +144,10 @@ p{
     width: 80%;
 }
 
-.contenedor{
-    width: 80%;
+.contenedor{ /*hacemos un contenedor para la tabla*/
+    width: 90%;
     height: 400px;
+    padding-right: 1%;
 }
    .tltTabla{
        color: red;
@@ -156,15 +158,13 @@ p{
    }
 
    .p_tabla{
-       width: 80%;
-       padding-left: 30px;
-       padding-right: 30px;
+       width: 78%;
        text-align: justify;
    }
     
 /* imagenes final pagina */
     #imagen{
-        padding-top: 5%;
+        padding-top: 2%;
         display: block;
         align-items: center;
         width: 60%;
