@@ -217,8 +217,9 @@
 #fondo_derc {
     background-color: lightgray;
     width: auto;
-    height: auto;
+    height: 1200px;
     margin: 3% 3% 0 3%;
+    padding-bottom: 3%;
 }
 
 #txt_conj {
@@ -234,15 +235,11 @@
     width: auto;
     height: auto;
     text-align: center;
-    margin: 2%;
-}
-
-#fondo_rad {
-    background-color: blue;
+    margin-top: 2%;
+    padding-top: 2%;
 }
 
 .rec_post {
-    background-color: chartreuse;
     width: 353px;
     height: 450px;
     border: 3px solid black;
@@ -262,7 +259,7 @@
 }
 
 .parrafo {
-    margin: 3% 6% 0 7%;
+    margin: 3% 6% 6% 7%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
@@ -274,144 +271,9 @@
 
 audio {
     width: 353px;
-    height: 65px;
-}
-
-
-/*#Programa1 {
-    width: 400px;
-    height: 270px;
-}
-
-#Programa1:hover {
-    filter: grayscale(90%);
-}
-
-#Programa2 {
-    width: 400px;
-    height: 270px;
-}
-
-#Programa2:hover {
-    filter: grayscale(90%);
-}
-
-#Programa3 {
-    width: 400px;
-    height: 270px;
-}
-
-#Programa3:hover {
-    filter: grayscale(90%);
-}
-
-#Programa4 {
-    width: 400px;
-    height: 270px;
-}
-
-#Programa4:hover {
-    filter: grayscale(90%);
-}
-
-#Programa5 {
-    width: 400px;
-    height: 270px;
-}
-
-#Programa5:hover {
-    filter: grayscale(90%);
-}
-
-#Programa6 {
-    width: 400px;
-    height: 270px;
-}
-
-#Programa6:hover {
-    filter: grayscale(90%);
-}
-
-.podcast {
-    font-family: 'Titulo';
-    padding-bottom: 3%;
-    font-size: 30px;
-}
-
-.div_1 {
-    background-color: rgb(54, 201, 152);
-    margin: 2% 40% 3% 3%;
-    width: auto;
     height: auto;
 }
 
-.div_2 {
-    background-color: rgb(119, 197, 112);
-    margin: 2% 3% 3% 40%;
+#Podcast3 {
+    clear: right;
 }
-
-.rec_radio {
-    border-bottom: 5px solid black;
-    border-radius: 4px;
-    margin: 0 2% 0 2%;
-}
-
-
-/*.audio {
-    align-content: center;
-}
-
-#Programa1 {
-    width: 270px;
-    height: 150px;
-    align-content: center;
-}
-
-#Programa2 {
-    width: 270px;
-    height: 150px;
-}
-
-#Programa3 {
-    width: 270px;
-    height: 150px;
-}
-
-#Programa4 {
-    width: 270px;
-    height: 150px;
-}
-
-#Programa5 {
-    width: 270px;
-    height: 150px;
-}
-
-#Programa6 {
-    width: 270px;
-    height: 150px;
-}
-
-.div1 {
-    background-color: rgb(54, 201, 152);
-    float: left;
-    padding: 2%;
-    margin: 50% 0 2% 0;
-    width: 50%;
-    height: auto;
-}
-
-.div2 {
-    background-color: rgb(119, 197, 112);
-    float: right;
-    padding: 2%;
-    margin: 2%;
-    width: 50%;
-    height: auto;
-}
-
-.podcast {
-    font-family: 'Titulo';
-    padding-bottom: 3%;
-    text-align: center;
-}*/
