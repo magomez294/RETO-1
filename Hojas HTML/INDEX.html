@@ -185,8 +185,14 @@
                 </ul>
             </div>
 
-            <div class="div_video">
-                <video class="video" src="../Videos/Video Section-1.m4v" controls></video>
+            <div class="div_video"> <!--Hemor cargado diferentes tipos de video por si no funcionase en algun navegador-->
+                <video class="video" src="../Videos/Video Section-1.m4v" controls poster="../Imagenes/Portada.jpg"> <!--El atributo poster es para darle una imagen de portada al video-->
+                    <source src="../Videos/Video Section-2.avi" type="video/avi">
+                        <source src="../Videos/Video Section-3.mov"  type="video/mov">
+                            <source src="../Videos/Video Section-4.mp4" type="video/mp4">
+                                Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+                                <!--Introducimos un mensaje por si no funcionaran-->
+                              </video>
             </div>
         </div>
     </section>
