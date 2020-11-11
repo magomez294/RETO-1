@@ -14,55 +14,54 @@
 </head>
 
 <body>
-  <!--Iniciamos la cabecera-->
-  <header>
-     <!--APARTADO COVID--> <!--------------------COMENTAR POR JON------------------->
-     <a id="Enlace_Covid" href="COVID.html"> 
-      <div id="Covid">
-          <h2 class="Titulo_covid">INFORMACIÓN COVID</h2>
-          <table> 
-              <tbody>
-                  <!-- Tabla de las imagenes y el texto sobre el covid-->
-                  <tr>
-                      <td><img class="Imagenes_covid" src="../Imagenes/icon_distancia.svg"></td>
-                      <td class="Texto_covid">DISTANCIA >2M DE SEGURIDAD</td>
-                      <td><img class="Imagenes_covid" src="../Imagenes/icon_lava_coche.svg"></td>
-                      <td class="Texto_covid">DESINFECCIÓN DE PUNTOS BÁSICOS DEL VEHÍCULO</td>
-                      <td><img class="Imagenes_covid" src="../Imagenes/icon_tecnico.svg"></td>
-                      <td class="Texto_covid">NUESTROS TÉCNICOS PROTEGIDOS</td>
-                      <td><img class="Imagenes_covid" src="../Imagenes/icon_mampara.svg"></td>
-                      <td class="Texto_covid">MAMPARAS DE PROTECCIÓN EN ATENCIÓN AL CLIENTE</td>
-                  </tr>
-              </tbody>
-          </table>
-          <br>
-          <h2 class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</h2>
-      </div>
-  </a> <!-----------------------FIN COMENTARIOS-------------------------------------->
-<!-- Header Wrapper -->
-<div class="wrapper style1">     		
-  <!-- Banner -->
-    <div id="banner"> <!-- dejamos esto para poner titulo en un futuro-->
-      <!--<section class="container">
-        <h2></h2>
-        <p></p>
-      </section>-->
+   <!-- Añadimos un header para separar la cabecera del resto de la página, va a ser común en todas las páginas -->
+   <header> 
+    <!--APARTADO COVID-->
+    <!--Link que lleva a la pagina sobre como trabajamos teniendo en cuenta el covid-->
+    <a id="Enlace_Covid" href="COVID.html">
+        <p class="Titulo_covid">INFORMACIÓN COVID</p>
+        <!--Se crea una tabla para introducir las imagenes y los textos, haciendo un pequeño resumen-->
+        <table>
+            <tbody>
+                <!-- Tabla de las imagenes y el texto sobre el covid-->
+                <tr>
+                    <td><img class="Imagenes_covid" src="../Imagenes/icon_distancia.svg"></td>
+                    <td class="Texto_covid">DISTANCIA >2M DE SEGURIDAD</td>
+                    <td><img class="Imagenes_covid" src="../Imagenes/icon_lava_coche.svg"></td>
+                    <td class="Texto_covid">DESINFECCIÓN DE PUNTOS BÁSICOS DEL VEHÍCULO</td>
+                    <td><img class="Imagenes_covid" src="../Imagenes/icon_tecnico.svg"></td>
+                    <td class="Texto_covid">NUESTROS TÉCNICOS PROTEGIDOS</td>
+                    <td><img class="Imagenes_covid" src="../Imagenes/icon_mampara.svg"></td>
+                    <td class="Texto_covid">MAMPARAS DE PROTECCIÓN EN ATENCIÓN AL CLIENTE</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <p class="Titulo_covid">Cuidamos de tu vehículo y de tí. Consulta nuestro protocolo de seguridad COVID-19</p>
+    </a>
+    <!-- Header Wrapper --> <!-- Creamos un contenedor para poder meter la imagen de fondo distinta en todas la cabeceras y poder añadirle texto-->
+    <div class="wrapper style1">
+        <!-- Banner -->
+        <div id="banner">
+        <!-- <section class="container">  Dejamos este contenedor para poder meter el texto, o titulo de pagina
+            <h2></h2>
+            <p></p>
+        </section> -->
+        </div>
     </div>
-
-</div>
- <!--Apartado barra navegación--> <!---------------------COMENTAR POR JON------------------------>
- <nav>
-  <ul class="desplegable">
-      <li id="coche_boton">
-          <a href="INDEX.html"> <img id="Logo_coche" src="../Imagenes/Logo.png"></a>
-      </li>
-      <li class="botone"><a href="QUIENES_SOMOS.html">¿Quienes somos?</a></li>
-      <li class="botone"><a href="CONSEJOS.html">Consejos</a></li>
-      <li class="botone"><a href="COMPROMISO.html">Compromiso medioambiental</a></li>
-      <li class="botone"><a href="CONTACTO.html">Contacto</a></li>
-  </ul>
-</nav>
-</header> <!-------------------FIN COMENTARIOS----------------------------------->
+   <!--APARTADO BARRA DE NAVEGACIÓN-->
+   <nav>
+        <!--El logo esta fuera de la lista para que los recuadros no fuesen de distintos tamaños-->
+        <a href="INDEX.html" id="Logo_coche"><img src="../Imagenes/Logo.png"></a>
+        <!--Lista con todos los links a las distintas paginas creadas-->
+        <ul id="desplegable">
+            <a href="QUIENES_SOMOS.html"><li class="botones">¿Quienes somos?</li></a>
+            <a href="CONSEJOS.html"><li class="botones">Consejos</li></a>
+            <a href="COMPROMISO.html"><li class="botones">Compromiso Medioambiental</li></a>
+            <a href="CONTACTO.html"><li class="botones">Contacto</li></a>
+        </ul>
+    </nav>
+</header> 
 <!-- Contacto -->
 <section id="contacto">
   <div class="div_datos">
