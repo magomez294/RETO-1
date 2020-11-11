@@ -34,7 +34,6 @@ h1{
   padding-top: 20px;
   font-size: 30px;
   color: red;
-  
 }
 
 h3{
@@ -64,14 +63,10 @@ ul{
 }
 
 /* listas secciones */
-#lista_secciones{
-  background-color: white;
-}
 
 .li_secciones{
-  background-color: white;
   margin-top: 15px;
-  display:inline-block;
+  display:inline-block; /*coloca los enlaces en linea */
   text-align: center;
   border-right: 2px solid black;
   padding-right: 3px;
@@ -79,17 +74,22 @@ ul{
 }
 
 .li_secciones a{
-  font-family: 'Quicksand';
-  background-color: white;
-  margin-top: 100px;
+  font-size: 20px;
   color:black;
-  text-decoration: none;
+  text-decoration: none; /* Quitamos el subrayado */
+  margin-top: 5%px;
 }
+
 
 /* comun secciones */
 .p_margen{
   margin-bottom: 20px;
-  
+}
+
+.imgTexto{
+  height: 40%;
+  width: 40%;
+  margin-bottom: 10px;
 }
 
 /* seccion mecanica */
@@ -129,7 +129,7 @@ ul{
 }
 
 /* seccion componentes */
-.parrafo{
+.parrafo{  /* creamos otra clase distinta de parrafo */
   margin: 1%;
 }
 
@@ -141,18 +141,12 @@ ul{
   padding: 2%;
 }
 
-.imgTexto{
-  height: 40%;
-  width: 40%;
-  margin-bottom: 10px;
-}
-
-.tltTabla{
+.tltTabla{ /*titulos de las celdas */
   font-size: 25px;
   color: darkred;
   padding-top: 20px;
 }
-
+/* le damos propiedades a las imagenes de dentro de la tabla */
 .imgTabla{
   width: 60%;
   display: block;
@@ -160,10 +154,11 @@ ul{
   transition: transform .2s; 
 }
 
-.imgTabla:hover {
+.imgTabla:hover { /* cuando se pasa por encima crece la imagen */
   transform: scale(1.7); 
 }
 
+/* las propiedades de los textos de la tabla */
 .tdTabla{
   width: 30%;
   margin: 0 auto;
@@ -172,7 +167,7 @@ ul{
   vertical-align: top;
 }
 
-/* Flecha */
+/* Flecha */ /* es un enlace que nos manda a varias secciones de la página */
 .to-top{
 	color: red;
 	display:inline-block;
@@ -188,7 +183,7 @@ ul{
   padding-top: 30px;
 }
 
-.to-top:before{
+.to-top:before{ 
 	content:'▲';
 	font-size:.9em;
 	position:absolute;
@@ -204,7 +199,7 @@ ul{
 	transition:transform .5s ease-in;
 }
 
-.to-top:hover{
+.to-top:hover{ /* al pasar por encima cambia de color */
 	color: blueviolet;
 	border-color:blueviolet;
 }
