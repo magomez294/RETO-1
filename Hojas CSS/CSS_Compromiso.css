@@ -67,7 +67,12 @@ p {
 	.tit_banner{
 		padding-top: 5%;
 		font-size: 40px;
+	}
 
+	#p_banner{
+		background-color: lightgray;
+		opacity: 70%;
+		width: 70%;
 	}
 
 
