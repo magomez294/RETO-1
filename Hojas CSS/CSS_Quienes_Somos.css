@@ -132,6 +132,15 @@ p{
         height:150px;
         border-radius:100px; /* muestra solamente lo que hay dentro del circulo */
         border:10px solid #666; /* Le hago un borde para que se vea mejor */
+        transform: .2s;
+    }
+
+    .imgRedonda:hover{
+        border-radius: 0px;
+        border: none;
+        transform: scale(1.7);
+      
+
     }
 
     .nombre{

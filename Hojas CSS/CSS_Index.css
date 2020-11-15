@@ -284,6 +284,9 @@ h3 {
     /* le quitamos el subrayado por defecto */
     color: black;
 }
+#Residuos:hover{
+    color: red;
+}
 
 
 /* css video motivos para elegirnos*/
