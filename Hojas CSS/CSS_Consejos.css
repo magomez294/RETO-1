@@ -154,8 +154,9 @@ ul{
   transition: transform .2s; 
 }
 
-.imgTabla:hover { /* cuando se pasa por encima crece la imagen */
-  transform: scale(1.7); 
+.imgTabla:hover { /* chacemos que cuando el raton pase por encima 
+                  la escala de la imagen sea el doble de su tamaño */
+  transform: scale(2); 
 }
 
 /* las propiedades de los textos de la tabla */
@@ -167,7 +168,7 @@ ul{
   vertical-align: top;
 }
 
-/* Flecha */ /* es un enlace que nos manda a varias secciones de la página */
+/* Flecha */ /* al pulsarla nos devuelve al inicio dela página */
 .to-top{
 	color: red;
 	display:inline-block;
